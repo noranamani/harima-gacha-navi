@@ -2,10 +2,7 @@
 (function(){
 const button=document.getElementById("show-board"),board=document.getElementById("timeline-board");
 if(!button||!board)return;
-const accounts=[
-{name:"#C-pla ピオレ姫路店",url:"https://x.com/cpla_piolehime"},
-{name:"TSUTAYA姫路広峰店",url:"https://x.com/GBO_t_hiromine"}
-];
+const accounts=(window.HARIMA_STORES||[]).filter(store=>store.x).map(store=>({name:store.name,url:store.x}));
 button.addEventListener("click",function(){
 const expanded=button.getAttribute("aria-expanded")==="true";
 if(expanded){board.replaceChildren();board.hidden=true;button.setAttribute("aria-expanded","false");button.textContent="公式Xをまとめて表示";return}
