@@ -1,0 +1,29 @@
+name: Generate city pages
+on:
+  push:
+    branches: [main]
+    paths:
+      - stores.js
+      - scripts/generate-city-pages.cjs
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Generate pages and sitemap
+        run: node scripts/generate-city-pages.cjs
+      - name: Commit generated pages
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add city sitemap.xml
+          if ! git diff --cached --quiet; then
+            git commit -m "build: regenerate city landing pages"
+            git push
+          fi

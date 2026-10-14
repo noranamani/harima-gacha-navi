@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://noranamani.github.io/harima-gacha-navi/sitemap.xml
