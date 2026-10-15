@@ -20,7 +20,7 @@ async function inspect(url) {
       headers: {"User-Agent": "HarimaGachaNavi-MetadataCheck/1.0"}});
     if (!response.ok) return null;
     const html = (await response.text()).slice(0, 500000);
-    const match = html.match(/最終更新日[：:\\s\\u00a0]*(\\d{4})[.\\/-](\\d{1,2})[.\\/-](\\d{1,2})\\s+(\\d{1,2}):(\\d{2})/);
+    const match = html.match(/最終更新日[：:\s\u00a0]*(\d{4})[.\/-](\d{1,2})[.\/-](\d{1,2})\s+(\d{1,2}):(\d{2})/);
     const publishedUpdate = match ? [match[1], match[2].padStart(2,"0"), match[3].padStart(2,"0")].join("-") + " " + match[4].padStart(2,"0") + ":" + match[5] : null;
     const lastModified = response.headers.get("last-modified");
     const etag = response.headers.get("etag");
