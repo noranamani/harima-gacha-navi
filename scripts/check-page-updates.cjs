@@ -2,6 +2,7 @@
 "use strict";
 const fs = require("node:fs");
 const vm = require("node:vm");
+const crypto = require("node:crypto");
 const source = fs.readFileSync("stores.js", "utf8");
 const sandbox = {window: {}};
 vm.runInNewContext(source, sandbox, {timeout: 1000});
@@ -12,7 +13,17 @@ try { previous = JSON.parse(fs.readFileSync(file, "utf8")); } catch (e) { if (e.
 const pages = {};
 const now = new Date().toISOString();
 const pause = ms => new Promise(resolve => setTimeout(resolve, ms));
-async function inspect(url) {
+function extractText(html) {
+  // Strip volatile scripts, styles, comments and markup. Avoid tracking counters, tokens and query strings.
+  const main = html.match(/<main\b[^>]*>([\s\S]*?)<\/main>/i)?.[1] ||
+    html.match(/<article\b[^>]*>([\s\S]*?)<\/article>/i)?.[1] ||
+    html.match(/<body\b[^>]*>([\s\S]*?)<\/body>/i)?.[1] || html;
+  return main.replace(/<!--[\s\S]*?-->/g, " ")
+    .replace(/<(script|style|noscript|svg|iframe|form)\b[^>]*>[\s\S]*?<\/\1>/gi, " ")
+    .replace(/<[^>]+>/g, " ").replace(/&nbsp;|&#160;/gi, " ")
+    .replace(/\s+/g, " ").trim().slice(0, 150000);
+}
+async function inspect(url, monitorContent) {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), 12000);
   try {
@@ -24,37 +35,47 @@ async function inspect(url) {
     const publishedUpdate = match ? [match[1], match[2].padStart(2,"0"), match[3].padStart(2,"0")].join("-") + " " + match[4].padStart(2,"0") + ":" + match[5] : null;
     const lastModified = response.headers.get("last-modified");
     const etag = response.headers.get("etag");
-    // Only use an explicit server-supplied metadata value; no guessing from check time.
-    return {etag: etag || null, lastModified: lastModified && !Number.isNaN(Date.parse(lastModified)) ? lastModified : null, publishedUpdate};
+    const content = monitorContent ? extractText(html) : "";
+    const contentHash = content.length >= 80 ? crypto.createHash("sha256").update(content).digest("hex") : null;
+    return {etag: etag || null, lastModified: lastModified && !Number.isNaN(Date.parse(lastModified)) ? lastModified : null, publishedUpdate, contentHash};
   } catch { return null; } finally { clearTimeout(timer); }
 }
 (async () => {
+  const targets = new Map();
   for (const store of stores) {
-    if (!store.inventory) continue;
-    const url = store.inventory;
+    const url = store.inventory || store.official;
+    if (!url || !/^https:\/\//.test(url)) continue;
+    // Shared chain directory pages are not store-specific: their changes cannot be attributed to a store.
+    if (!store.inventory && /\/shoplist\/?(?:\?.*)?$/.test(url)) continue;
+    if (!targets.has(url)) targets.set(url, {names: [], monitorContent: !store.inventory});
+    targets.get(url).names.push(store.name);
+  }
+  for (const [url, target] of targets) {
     const old = previous.pages?.[url] || {};
-    const metadata = await inspect(url);
-    const entry = {...old, name: store.name};
-    if (metadata && (metadata.publishedUpdate || metadata.etag || metadata.lastModified)) {
-      // Keep last successful observation when nothing meaningful changed to avoid commits every 15 minutes.
+    const metadata = await inspect(url, target.monitorContent);
+    const entry = {...old, name: target.names.join(" / ")};
+    if (metadata && (metadata.publishedUpdate || metadata.etag || metadata.lastModified || metadata.contentHash)) {
       const nextPublished = metadata.publishedUpdate || null;
+      const {contentHash, ...headers} = metadata;
+      const changed = !!(target.monitorContent && old.contentHash && contentHash && old.contentHash !== contentHash);
       const newObservation = old.status !== "OBSERVED" || old.publishedUpdate !== nextPublished ||
-        ["etag", "lastModified"].some(key => (old.metadata?.[key] || null) !== (metadata[key] || null));
+        ["etag", "lastModified"].some(key => (old.metadata?.[key] || null) !== (headers[key] || null)) ||
+        (!!target.monitorContent && old.contentHash !== contentHash);
       if (newObservation) {
         entry.checkedAt = now;
-        entry.metadata = metadata;
+        entry.metadata = headers;
         entry.publishedUpdate = nextPublished;
+        if (target.monitorContent) {
+          entry.contentHash = contentHash;
+          if (changed) entry.contentChangedAt = now;
+        }
       }
-      const oldMeta = old.metadata;
-      if (oldMeta) {
-        // Compare only fields available in both observations.
-        const changed = ["etag", "lastModified"].some(key => oldMeta[key] && metadata[key] && oldMeta[key] !== metadata[key]);
-        if (changed) entry.metadataChangedAt = now;
+      if (!target.monitorContent && old.metadata && ["etag", "lastModified"].some(key => old.metadata[key] && headers[key] && old.metadata[key] !== headers[key])) {
+        entry.metadataChangedAt = now;
       }
       entry.status = "OBSERVED";
     } else {
       entry.status = "UNAVAILABLE";
-      // Retain historical metadata but do not claim a fresh check.
     }
     pages[url] = entry;
     console.log(entry.status + " " + url);
