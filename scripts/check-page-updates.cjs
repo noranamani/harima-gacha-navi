@@ -82,5 +82,5 @@ async function inspect(url, monitorContent) {
     await pause(400);
   }
   fs.mkdirSync("data", {recursive: true});
-  fs.writeFileSync(file, JSON.stringify({schemaVersion: 1, pages}, null, 2) + "\n");
+  fs.writeFileSync(file, JSON.stringify({schemaVersion: 1, lastCheckedAt: now, pages}, null, 2) + "\n");
 })().catch(error => {console.error(error); process.exitCode = 1;});
