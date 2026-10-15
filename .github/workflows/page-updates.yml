@@ -1,7 +1,7 @@
 name: Check official page metadata
 on:
   schedule:
-    - cron: '*/15 * * * *' # Every 15 minutes (UTC); GitHub may delay scheduled runs
+    - cron: '7,22,37,52 * * * *' # Every 15 minutes, offset from the hour (UTC); GitHub may delay scheduled runs
   workflow_dispatch:
 permissions:
   contents: write
