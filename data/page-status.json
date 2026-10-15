@@ -101,7 +101,7 @@
       },
       "publishedUpdate": null,
       "contentHash": "b95c4264335ee6f223820c81b13ce4c21dce1a20c1917de7ea110c72180896ec",
-      "status": "OBSERVED"
+      "status": "UNAVAILABLE"
     },
     "https://bandainamco-am.co.jp/others/capsule-toy-store/store/iyakashi/item/": {
       "name": "ガシャポンのデパート イトーヨーカドー明石店",
@@ -211,27 +211,29 @@
     },
     "https://www.himeji-festa.com/shop/detail/34": {
       "name": "CAPSULEPOP mini 1号店",
-      "checkedAt": "2026-10-15T07:12:49.102Z",
+      "checkedAt": "2026-10-15T07:39:35.242Z",
       "metadata": {
         "etag": null,
         "lastModified": null,
         "publishedUpdate": null
       },
       "publishedUpdate": null,
-      "contentHash": "08ffb3470157f279d880be6de4930b25e9b126fdf48b74b7871a53fa5a4179b6",
-      "status": "OBSERVED"
+      "contentHash": "6e92d7eae16e3607d7c02d8dbfd477cfd704e8952b1f13a24fe1342579f3a766",
+      "status": "OBSERVED",
+      "contentChangedAt": "2026-10-15T07:39:35.242Z"
     },
     "https://himeji-festa.com/shop/detail/29": {
       "name": "CAPSULEPOP mini 2号店",
-      "checkedAt": "2026-10-15T07:12:49.102Z",
+      "checkedAt": "2026-10-15T07:39:35.242Z",
       "metadata": {
         "etag": null,
         "lastModified": null,
         "publishedUpdate": null
       },
       "publishedUpdate": null,
-      "contentHash": "4b618240ed4df232ad88854c83e5df00b175f33c0eb1c1efe9b7f1b83ba86151",
-      "status": "OBSERVED"
+      "contentHash": "8c5c3d276ab843aef27d5130dd2c382ff8b820857685e1991e4dd80b0481ef93",
+      "status": "OBSERVED",
+      "contentChangedAt": "2026-10-15T07:39:35.242Z"
     }
   }
 }
