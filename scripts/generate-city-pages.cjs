@@ -8,7 +8,9 @@ const stores=Array.from(sandbox.window.HARIMA_STORES||[]);
 const slugs={"姫路市":"himeji","加古川市":"kakogawa","明石市":"akashi","高砂市":"takasago","太子町":"taishi","三木市":"miki","宍粟市":"shiso"};
 const base="https://noranamani.github.io/harima-gacha-navi/";
 const esc=s=>String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,'&quot;');
-const cities=[...new Set(stores.map(s=>s.city))].filter(city=>slugs[city]).sort();
+const missing=[...new Set(stores.map(s=>s.city))].filter(city=>!slugs[city]);
+if(missing.length)throw new Error("City slug not configured: "+missing.join(", "));
+const cities=[...new Set(stores.map(s=>s.city))].sort();
 for(const city of cities){
  const slug=slugs[city],items=stores.filter(s=>s.city===city),url=base+"city/"+slug+"/";
  const cards=items.map(s=>'<article class="card"><span class="city">'+esc(city)+'</span><h3>'+esc(s.name)+'</h3>'+(s.category?'<p>'+esc(s.category)+'</p>':'')+(s.capacity?'<p>設置規模: '+esc(s.capacity+' '+s.capacityUnit)+'</p>':'')+(s.exchange?'<p>両替機: '+esc(s.exchange)+'</p>':'')+(s.access?'<p>アクセス: '+esc(s.access)+'</p>':'')+(s.facility?'<p>'+esc(s.facility)+'</p>':'')+(s.address?'<p>'+esc(s.address)+'</p>':'')+(s.hours?'<p>営業時間目安: '+esc(s.hours)+'</p>':'')+'<div class="links">'+(s.address?'<a href="https://www.google.com/maps/search/?api=1&amp;query='+encodeURIComponent(s.address+' '+s.name)+'" target="_blank" rel="noopener noreferrer">地図で見る</a>':'')+(s.x?'<a href="'+esc(s.x)+'" target="_blank" rel="noopener noreferrer">公式X</a>':'')+(s.official?'<a href="'+esc(s.official)+'" target="_blank" rel="noopener noreferrer">公式サイト</a>':'')+(s.inventory?'<a href="'+esc(s.inventory)+'" target="_blank" rel="noopener noreferrer">公式商品情報</a>':'')+'</div></article>').join("");
