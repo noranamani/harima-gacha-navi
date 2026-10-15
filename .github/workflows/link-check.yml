@@ -1,0 +1,26 @@
+name: Weekly official link check
+on:
+  schedule:
+    - cron: '15 22 * * 6' # Sunday 07:15 JST
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check store links and write report
+        run: node scripts/check-links.cjs
+      - name: Upload link-check report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: official-link-check
+          path: reports/link-check-latest.md
+          if-no-files-found: warn
+          retention-days: 90
