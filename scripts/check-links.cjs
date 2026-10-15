@@ -56,12 +56,16 @@ function escapeCell(value) {
 (async () => {
   const results = [];
   for (const [url, refs] of urls) {
-    const result = await probe(url);
+    const parsed = new URL(url);
+    const isX = ["x.com", "www.x.com", "twitter.com", "www.twitter.com"].includes(parsed.hostname);
+    const result = isX
+      ? {status: "SKIPPED", detail: "X: HTTPS URL format only; automated HTTP check omitted"}
+      : await probe(url);
     results.push({url, refs, ...result});
     console.log(result.status + " " + result.detail + " " + url);
-    await sleep(250);
+    if (!isX) await sleep(250);
   }
-  const counts = Object.fromEntries(["OK", "REVIEW", "BROKEN_CANDIDATE"].map(s => [s, results.filter(r => r.status === s).length]));
+  const counts = Object.fromEntries(["OK", "REVIEW", "BROKEN_CANDIDATE", "SKIPPED"].map(s => [s, results.filter(r => r.status === s).length]));
   const date = new Date().toISOString().slice(0, 10);
   const lines = [
     "# Weekly official link check — " + date,
@@ -71,6 +75,7 @@ function escapeCell(value) {
     "- OK: " + counts.OK,
     "- Needs manual review (bot blocking, network issues, etc.): " + counts.REVIEW,
     "- Repeated 404/410 (candidate for manual review): " + counts.BROKEN_CANDIDATE,
+    "- X links skipped (HTTPS format only): " + counts.SKIPPED,
     "",
     "| Status | Link | Used by | Detail |",
     "|---|---|---|---|"
