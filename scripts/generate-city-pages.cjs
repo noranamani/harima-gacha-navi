@@ -5,7 +5,7 @@ const root=path.resolve(__dirname,"..");
 const sandbox={window:{}};
 vm.runInNewContext(fs.readFileSync(path.join(root,"stores.js"),"utf8"),sandbox,{timeout:1000});
 const stores=Array.from(sandbox.window.HARIMA_STORES||[]);
-const slugs={"姫路市":"himeji","加古川市":"kakogawa","明石市":"akashi","高砂市":"takasago"};
+const slugs={"姫路市":"himeji","加古川市":"kakogawa","明石市":"akashi","高砂市":"takasago","太子町":"taishi","三木市":"miki"};
 const base="https://noranamani.github.io/harima-gacha-navi/";
 const esc=s=>String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,'&quot;');
 const cities=[...new Set(stores.map(s=>s.city))].filter(city=>slugs[city]).sort();
