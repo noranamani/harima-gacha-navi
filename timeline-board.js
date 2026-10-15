@@ -13,11 +13,10 @@ if(!matches.length){const empty=document.createElement("p");empty.textContent="�
 for(const account of matches){
 const item=document.createElement("article");item.className="timeline-item";
 const heading=document.createElement("h3");heading.textContent=account.name;
-const link=document.createElement("a");link.className="twitter-timeline";link.href=account.x;link.textContent="公式Xで投稿を確認";link.setAttribute("data-height","430");
-item.append(heading,link);board.append(item)
+const holder=document.createElement("div");holder.className="embed-holder";
+item.append(heading,holder);board.append(item);
+window.HARIMA_X_EMBED.mount(holder,account.x,430);
 }
-if(window.twttr?.widgets?.load){window.twttr.widgets.load(board)}
-else if(!document.querySelector('script[data-x-widgets]')){const script=document.createElement("script");script.src="https://platform.twitter.com/widgets.js";script.async=true;script.dataset.xWidgets="true";document.head.append(script)}
 }
 button.addEventListener("click",()=>{const open=button.getAttribute("aria-expanded")==="true";button.setAttribute("aria-expanded",String(!open));button.textContent=open?"公式Xをまとめて表示":"まとめ表示を閉じる";board.hidden=open;if(open)board.replaceChildren();else render()});
 city.addEventListener("change",render);onlyFavorites.addEventListener("change",render);document.addEventListener("harima:favorites",render);render();
