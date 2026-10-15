@@ -36,9 +36,15 @@ async function inspect(url) {
     const metadata = await inspect(url);
     const entry = {...old, name: store.name};
     if (metadata && (metadata.publishedUpdate || metadata.etag || metadata.lastModified)) {
-      entry.checkedAt = now;
-      entry.metadata = metadata;
-      entry.publishedUpdate = metadata.publishedUpdate || null;
+      // Keep last successful observation when nothing meaningful changed to avoid commits every 15 minutes.
+      const nextPublished = metadata.publishedUpdate || null;
+      const newObservation = old.status !== "OBSERVED" || old.publishedUpdate !== nextPublished ||
+        ["etag", "lastModified"].some(key => (old.metadata?.[key] || null) !== (metadata[key] || null));
+      if (newObservation) {
+        entry.checkedAt = now;
+        entry.metadata = metadata;
+        entry.publishedUpdate = nextPublished;
+      }
       const oldMeta = old.metadata;
       if (oldMeta) {
         // Compare only fields available in both observations.
