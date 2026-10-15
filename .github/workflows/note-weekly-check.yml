@@ -1,0 +1,27 @@
+name: Check weekly note draft
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/build-note-weekly.cjs'
+      - 'note/COMMON_CONTRACT.md'
+      - '.github/workflows/note-weekly-check.yml'
+permissions:
+  contents: read
+jobs:
+  dry-run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Build note bundle offline
+        run: node scripts/build-note-weekly.cjs
+      - name: Assert initial run is skipped
+        run: node -e "if(require('./note/latest/manifest.json').status!=='skip')process.exit(1)"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: gacha-note-dry-run
+          path: note/latest/manifest.json
+          retention-days: 7
