@@ -3,27 +3,69 @@
   "pages": {
     "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_hiromine/item/": {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
-      "status": "UNAVAILABLE"
+      "status": "OBSERVED",
+      "checkedAt": "2026-10-15T01:16:18.902Z",
+      "metadata": {
+        "etag": null,
+        "lastModified": null,
+        "publishedUpdate": "2026-10-15 10:03"
+      },
+      "publishedUpdate": "2026-10-15 10:03"
     },
     "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_kakogawa/item/": {
       "name": "ガシャポンバンダイオフィシャルショップ 未来屋書店加古川店",
-      "status": "UNAVAILABLE"
+      "status": "OBSERVED",
+      "checkedAt": "2026-10-15T01:16:18.902Z",
+      "metadata": {
+        "etag": null,
+        "lastModified": null,
+        "publishedUpdate": "2026-10-15 10:03"
+      },
+      "publishedUpdate": "2026-10-15 10:03"
     },
     "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/akashi/item/": {
       "name": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
-      "status": "UNAVAILABLE"
+      "status": "OBSERVED",
+      "checkedAt": "2026-10-15T01:16:18.902Z",
+      "metadata": {
+        "etag": null,
+        "lastModified": null,
+        "publishedUpdate": "2026-10-15 10:03"
+      },
+      "publishedUpdate": "2026-10-15 10:03"
     },
     "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_shikama/item/": {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路飾磨店",
-      "status": "UNAVAILABLE"
+      "status": "OBSERVED",
+      "checkedAt": "2026-10-15T01:16:18.902Z",
+      "metadata": {
+        "etag": null,
+        "lastModified": null,
+        "publishedUpdate": "2026-10-15 10:03"
+      },
+      "publishedUpdate": "2026-10-15 10:03"
     },
     "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_taishi/item/": {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA太子店",
-      "status": "UNAVAILABLE"
+      "status": "OBSERVED",
+      "checkedAt": "2026-10-15T01:16:18.902Z",
+      "metadata": {
+        "etag": null,
+        "lastModified": null,
+        "publishedUpdate": "2026-10-15 10:03"
+      },
+      "publishedUpdate": "2026-10-15 10:03"
     },
     "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/miki_sa/item/": {
       "name": "ガシャポンバンダイオフィシャルショップ 三木サービスエリア下り線店",
-      "status": "UNAVAILABLE"
+      "status": "OBSERVED",
+      "checkedAt": "2026-10-15T01:16:18.902Z",
+      "metadata": {
+        "etag": null,
+        "lastModified": null,
+        "publishedUpdate": "2026-10-15 10:03"
+      },
+      "publishedUpdate": "2026-10-15 10:03"
     }
   }
 }
