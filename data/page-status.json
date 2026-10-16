@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastCheckedAt": "2026-10-16T18:27:05.422Z",
+  "lastCheckedAt": "2026-10-16T21:39:01.241Z",
   "pages": {
     "https://toshin.jpn.com/shop/ピオレ姫路店/": {
       "name": "#C-pla ピオレ姫路店",
@@ -17,24 +17,24 @@
     "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_hiromine/item/": {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
       "status": "OBSERVED",
-      "checkedAt": "2026-10-16T18:27:05.422Z",
+      "checkedAt": "2026-10-16T21:39:01.241Z",
       "metadata": {
         "etag": null,
         "lastModified": null,
-        "publishedUpdate": "2026-10-17 03:03"
+        "publishedUpdate": "2026-10-17 06:03"
       },
-      "publishedUpdate": "2026-10-17 03:03"
+      "publishedUpdate": "2026-10-17 06:03"
     },
     "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_kakogawa/item/": {
       "name": "ガシャポンバンダイオフィシャルショップ 未来屋書店加古川店",
       "status": "OBSERVED",
-      "checkedAt": "2026-10-16T18:27:05.422Z",
+      "checkedAt": "2026-10-16T21:39:01.241Z",
       "metadata": {
         "etag": null,
         "lastModified": null,
-        "publishedUpdate": "2026-10-17 03:03"
+        "publishedUpdate": "2026-10-17 06:03"
       },
-      "publishedUpdate": "2026-10-17 03:03"
+      "publishedUpdate": "2026-10-17 06:03"
     },
     "https://toshin.jpn.com/shop/姫路駅前みゆき通り店/": {
       "name": "#C-pla 姫路みゆき通り店",
@@ -51,69 +51,69 @@
     "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/akashi/item/": {
       "name": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
       "status": "OBSERVED",
-      "checkedAt": "2026-10-16T18:27:05.422Z",
+      "checkedAt": "2026-10-16T21:39:01.241Z",
       "metadata": {
         "etag": null,
         "lastModified": null,
-        "publishedUpdate": "2026-10-17 03:03"
+        "publishedUpdate": "2026-10-17 06:03"
       },
-      "publishedUpdate": "2026-10-17 03:03"
+      "publishedUpdate": "2026-10-17 06:03"
     },
     "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_shikama/item/": {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路飾磨店",
       "status": "OBSERVED",
-      "checkedAt": "2026-10-16T18:27:05.422Z",
+      "checkedAt": "2026-10-16T21:39:01.241Z",
       "metadata": {
         "etag": null,
         "lastModified": null,
-        "publishedUpdate": "2026-10-17 03:03"
+        "publishedUpdate": "2026-10-17 06:03"
       },
-      "publishedUpdate": "2026-10-17 03:03"
+      "publishedUpdate": "2026-10-17 06:03"
     },
     "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_taishi/item/": {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA太子店",
       "status": "OBSERVED",
-      "checkedAt": "2026-10-16T18:27:05.422Z",
+      "checkedAt": "2026-10-16T21:39:01.241Z",
       "metadata": {
         "etag": null,
         "lastModified": null,
-        "publishedUpdate": "2026-10-17 03:03"
+        "publishedUpdate": "2026-10-17 06:03"
       },
-      "publishedUpdate": "2026-10-17 03:03"
+      "publishedUpdate": "2026-10-17 06:03"
     },
     "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/miki_sa/item/": {
       "name": "ガシャポンバンダイオフィシャルショップ 三木サービスエリア下り線店",
       "status": "OBSERVED",
-      "checkedAt": "2026-10-16T18:27:05.422Z",
+      "checkedAt": "2026-10-16T21:39:01.241Z",
       "metadata": {
         "etag": null,
         "lastModified": null,
-        "publishedUpdate": "2026-10-17 03:03"
+        "publishedUpdate": "2026-10-17 06:03"
       },
-      "publishedUpdate": "2026-10-17 03:03"
+      "publishedUpdate": "2026-10-17 06:03"
     },
     "https://www.fantasy.co.jp/shoplist/page/42/": {
       "name": "TOYS SPOT PALO 高砂店",
-      "checkedAt": "2026-10-16T14:46:33.652Z",
+      "checkedAt": "2026-10-16T21:39:01.241Z",
       "metadata": {
         "etag": null,
         "lastModified": null,
         "publishedUpdate": null
       },
       "publishedUpdate": null,
-      "contentHash": "a3f172a6bd4972d1d7ecb2453e280393dd33f1a32da852350c781b818d3f2e32",
+      "contentHash": "7a95058948aa2a713d8099d66c7a88c7d7b6e7fbc8cc6f359abd3caba8cd1bc0",
       "status": "OBSERVED",
-      "contentChangedAt": "2026-10-16T14:46:33.652Z"
+      "contentChangedAt": "2026-10-16T21:39:01.241Z"
     },
     "https://bandainamco-am.co.jp/others/capsule-toy-store/store/iyakashi/item/": {
       "name": "ガシャポンのデパート イトーヨーカドー明石店",
-      "checkedAt": "2026-10-16T18:27:05.422Z",
+      "checkedAt": "2026-10-16T21:39:01.241Z",
       "metadata": {
         "etag": null,
         "lastModified": null,
-        "publishedUpdate": "2026-10-17 03:03"
+        "publishedUpdate": "2026-10-17 06:03"
       },
-      "publishedUpdate": "2026-10-17 03:03",
+      "publishedUpdate": "2026-10-17 06:03",
       "status": "OBSERVED"
     },
     "https://toshin.jpn.com/shop/姫路駅前みゆき通り2号店/": {
@@ -154,13 +154,13 @@
     },
     "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_yamazaki/item/": {
       "name": "ガシャポンバンダイオフィシャルショップ 未来屋書店山崎店",
-      "checkedAt": "2026-10-16T18:27:05.422Z",
+      "checkedAt": "2026-10-16T21:39:01.241Z",
       "metadata": {
         "etag": null,
         "lastModified": null,
-        "publishedUpdate": "2026-10-17 03:03"
+        "publishedUpdate": "2026-10-17 06:03"
       },
-      "publishedUpdate": "2026-10-17 03:03",
+      "publishedUpdate": "2026-10-17 06:03",
       "status": "OBSERVED"
     },
     "https://kakogawa.ario.jp/shop/3200000078/": {
@@ -215,29 +215,29 @@
     },
     "https://www.himeji-festa.com/shop/detail/34": {
       "name": "CAPSULEPOP mini 1号店",
-      "checkedAt": "2026-10-16T18:27:05.422Z",
+      "checkedAt": "2026-10-16T21:39:01.241Z",
       "metadata": {
         "etag": null,
         "lastModified": null,
         "publishedUpdate": null
       },
       "publishedUpdate": null,
-      "contentHash": "4b1b8c8dbb47a107b0ae37feedbdc00753b83c36b770abafec5283193ba7f12c",
+      "contentHash": "83e360a0267bcfa039ffd857245dfa0e0cdb2ebe8d512f667237ffdcff0ebb9d",
       "status": "OBSERVED",
-      "contentChangedAt": "2026-10-16T18:27:05.422Z"
+      "contentChangedAt": "2026-10-16T21:39:01.241Z"
     },
     "https://himeji-festa.com/shop/detail/29": {
       "name": "CAPSULEPOP mini 2号店",
-      "checkedAt": "2026-10-16T18:27:05.422Z",
+      "checkedAt": "2026-10-16T21:39:01.241Z",
       "metadata": {
         "etag": null,
         "lastModified": null,
         "publishedUpdate": null
       },
       "publishedUpdate": null,
-      "contentHash": "634012637a7d1b3eb606ecbc55aab661e28b150cbf7cea8aa96fdeddeb06ceca",
+      "contentHash": "18789af8f25645689b44c1df20340e6c774fc58a6b100a7348a1b268e8873d26",
       "status": "OBSERVED",
-      "contentChangedAt": "2026-10-16T18:27:05.422Z"
+      "contentChangedAt": "2026-10-16T21:39:01.241Z"
     }
   }
 }
