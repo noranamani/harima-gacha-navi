@@ -1,0 +1,49 @@
+name: Validate store catalog
+on:
+  pull_request:
+    paths:
+      - 'stores.js'
+      - 'scripts/generate-city-pages.cjs'
+      - '.github/workflows/validate-stores.yml'
+  push:
+    branches:
+      - 'auto/**'
+    paths:
+      - 'stores.js'
+      - 'scripts/generate-city-pages.cjs'
+      - '.github/workflows/validate-stores.yml'
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate source syntax and catalog
+        run: |
+          node --check stores.js
+          node --check scripts/generate-city-pages.cjs
+          node - <<'NODE'
+          const fs=require('node:fs'),vm=require('node:vm');
+          const ctx={window:{}};
+          vm.runInNewContext(fs.readFileSync('stores.js','utf8'),ctx);
+          const arr=Array.from(ctx.window.HARIMA_STORES||[]);
+          if(!arr.length)throw Error('Empty store catalog');
+          const names=new Set();
+          for(const s of arr){
+            if(!s.name||!s.city||!s.address||!s.official)throw Error('Missing required fields for '+s.name);
+            if(names.has(s.name))throw Error('Duplicate name: '+s.name);
+            names.add(s.name);
+            if(!/^https:\/\//.test(s.official))throw Error('Invalid URL: '+s.name);
+          }
+          console.log('Validated',arr.length,'stores');
+          NODE
+      - name: Generate and verify location pages
+        run: |
+          node scripts/generate-city-pages.cjs
+          test -f city/akashi/index.html
+          grep -q 'TOYS SPOT PALO 2' city/akashi/index.html
+          grep -q 'city/akashi/' sitemap.xml
