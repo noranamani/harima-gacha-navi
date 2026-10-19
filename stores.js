@@ -24,5 +24,6 @@ window.HARIMA_STORES=[
 {"name":"CAPSULEPOP mini 2号店","city":"姫路市","description":"グランフェスタ4番街のカプセルトイ専門店。","address":"兵庫県姫路市駅前町188-1","facility":"グランフェスタ4番街","hours":"10:00～22:00","category":"カプセルトイ専門店","official":"https://himeji-festa.com/shop/detail/29"},
 {"name":"TOYS SPOT PALO 明石店","city":"明石市","description":"イオン明石ショッピングセンター3階のカプセルトイ専門店。","address":"兵庫県明石市大久保町ゆりのき通り3-3-1","facility":"イオン明石ショッピングセンター3F","category":"カプセルトイ専門店","official":"https://www.fantasy.co.jp/molly-fantasy/shoplist/shop29281/"},
 {"name":"TOYS SPOT PALO 姫路大津2号店","city":"姫路市","description":"イオンモール姫路大津1階のカプセルトイ専門店。","address":"兵庫県姫路市大津区大津町2-5","facility":"イオンモール姫路大津1F","category":"カプセルトイ専門店","official":"https://www.fantasy.co.jp/molly-fantasy/shoplist/shop39951/"},
-{"name":"TOYS SPOT PALO 2","city":"明石市","description":"イオン明石ショッピングセンター3番街4階のカプセルトイ専門店。","address":"兵庫県明石市大久保町ゆりのき通3-3-1","facility":"イオン明石ショッピングセンター3番街4F","category":"カプセルトイ専門店","official":"https://www.aeon.jp/sc/akashi/shop/store/service-248.html"}
+{"name":"TOYS SPOT PALO 2","city":"明石市","description":"イオン明石ショッピングセンター3番街4階のカプセルトイ専門店。","address":"兵庫県明石市大久保町ゆりのき通3-3-1","facility":"イオン明石ショッピングセンター3番街4F","category":"カプセルトイ専門店","official":"https://www.aeon.jp/sc/akashi/shop/store/service-248.html"},
+{"name":"ライズ(旧ネクサス)","city":"姫路市","description":"ゆめタウン姫路4階のガチャガチャ取扱店。","address":"兵庫県姫路市神子岡前3丁目12-17","facility":"ゆめタウン姫路4F","category":"カプセルトイ取扱店","official":"https://www.izumi.jp/tenpo/himeji/shop/life/nexus"}
 ];
