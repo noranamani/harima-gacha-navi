@@ -1,5 +1,6 @@
 name: Validate store catalog
 on:
+  workflow_dispatch:
   pull_request:
     paths:
       - 'stores.js'

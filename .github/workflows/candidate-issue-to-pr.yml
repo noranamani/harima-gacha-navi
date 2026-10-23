@@ -12,6 +12,7 @@ permissions:
   contents: write
   issues: read
   pull-requests: write
+  actions: write
 concurrency:
   group: store-candidate-intake
   cancel-in-progress: false
@@ -63,3 +64,5 @@ jobs:
           git push origin "$BRANCH"
           printf 'Official primary-source evidence and submitted details: issue #%s\nIntake validation passed. Manual/independent CI review required before merge.\n' "$ISSUE_NUMBER" > /tmp/pr-body.txt
           gh pr create --base main --head "$BRANCH" --title "候補店舗の追加（Issue #$ISSUE_NUMBER）" --body-file /tmp/pr-body.txt
+          gh workflow run validate-stores.yml --ref "$BRANCH"
+          echo "Requested independent Validate store catalog workflow on candidate branch"
