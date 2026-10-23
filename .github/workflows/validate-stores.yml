@@ -5,6 +5,8 @@ on:
       - 'stores.js'
       - 'scripts/generate-city-pages.cjs'
       - '.github/workflows/validate-stores.yml'
+      - 'scripts/process-store-candidate.cjs'
+      - '.github/workflows/candidate-issue-to-pr.yml'
   push:
     branches:
       - 'auto/**'
@@ -12,6 +14,8 @@ on:
       - 'stores.js'
       - 'scripts/generate-city-pages.cjs'
       - '.github/workflows/validate-stores.yml'
+      - 'scripts/process-store-candidate.cjs'
+      - '.github/workflows/candidate-issue-to-pr.yml'
 permissions:
   contents: read
 jobs:
@@ -26,6 +30,7 @@ jobs:
         run: |
           node --check stores.js
           node --check scripts/generate-city-pages.cjs
+          node --check scripts/process-store-candidate.cjs
           node - <<'NODE'
           const fs=require('node:fs'),vm=require('node:vm');
           const ctx={window:{}};
