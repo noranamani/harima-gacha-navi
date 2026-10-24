@@ -1,0 +1,55 @@
+name: Merge validated store candidate
+on:
+  workflow_run:
+    workflows: ["Validate store catalog"]
+    types: [completed]
+permissions:
+  contents: write
+  pull-requests: write
+  issues: read
+  actions: read
+concurrency:
+  group: store-candidate-merge
+  cancel-in-progress: false
+jobs:
+  merge:
+    if: ${{ github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.event == 'workflow_dispatch' && startsWith(github.event.workflow_run.head_branch, 'auto/candidate-issue-') }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Match successful independent CI to candidate PR and review change
+        id: guard
+        env:
+          GH_TOKEN: ${{ github.token }}
+          CI_BRANCH: ${{ github.event.workflow_run.head_branch }}
+          CI_SHA: ${{ github.event.workflow_run.head_sha }}
+          CI_RUN: ${{ github.event.workflow_run.id }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          node scripts/guard-candidate-merge.cjs
+      - name: Merge only the tested head SHA
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_NUMBER: ${{ steps.guard.outputs.pr_number }}
+          EXPECTED_SHA: ${{ steps.guard.outputs.head_sha }}
+        run: |
+          set -euo pipefail
+          gh api -X PUT "repos/$GITHUB_REPOSITORY/pulls/$PR_NUMBER/merge" \
+            -f merge_method=squash -f sha="$EXPECTED_SHA"
+      - name: Report result
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_RESULT: ${{ job.status }}
+          CI_RUN: ${{ github.event.workflow_run.id }}
+          BRANCH: ${{ github.event.workflow_run.head_branch }}
+        run: |
+          echo "CI run: https://github.com/$GITHUB_REPOSITORY/actions/runs/$CI_RUN"
+          echo "Candidate: $BRANCH; outcome: $RUN_RESULT"
