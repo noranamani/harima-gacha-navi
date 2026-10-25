@@ -27,5 +27,6 @@ window.HARIMA_STORES=[
 {"name":"TOYS SPOT PALO 2","city":"明石市","description":"イオン明石ショッピングセンター3番街4階のカプセルトイ専門店。","address":"兵庫県明石市大久保町ゆりのき通3-3-1","facility":"イオン明石ショッピングセンター3番街4F","category":"カプセルトイ専門店","official":"https://www.aeon.jp/sc/akashi/shop/store/service-248.html"},
 {"name":"ライズ(旧ネクサス)","city":"姫路市","description":"ゆめタウン姫路4階のガチャガチャ取扱店。","address":"兵庫県姫路市神子岡前3丁目12-17","facility":"ゆめタウン姫路4F","category":"カプセルトイ取扱店","official":"https://www.izumi.jp/tenpo/himeji/shop/life/nexus"},
 {"name":"OTAICHI!! POP!! WORLD!! 東加古川店","city":"加古川市","description":"クレーンゲームとカプセルトイを扱う専門アミューズメント店。","address":"兵庫県加古川市平岡町新在家716-10","category":"クレーンゲーム・カプセルトイ専門店","official":"https://otaichi-pop-world.com/top/kakogawa_east/"},
-{"name":"GiGOイオンモール姫路リバーシティー","city":"姫路市","address":"兵庫県姫路市飾磨区細江2560番地","official":"https://www.aeon.jp/sc/himeji-rivercity/shop/store/service-334.html","category":"カプセルトイ取扱アミューズメント施設","description":"施設公式ショップガイドでカプセルトイ自販機の設置を確認。","facility":"イオンモール姫路リバーシティー2F"}
+{"name":"GiGOイオンモール姫路リバーシティー","city":"姫路市","address":"兵庫県姫路市飾磨区細江2560番地","official":"https://www.aeon.jp/sc/himeji-rivercity/shop/store/service-334.html","category":"カプセルトイ取扱アミューズメント施設","description":"施設公式ショップガイドでカプセルトイ自販機の設置を確認。","facility":"イオンモール姫路リバーシティー2F"},
+{"name":"ふぇすたらんど土山店","city":"明石市","address":"兵庫県明石市魚住町清水字舞々2208-1","official":"https://www.luluarq.co.jp/festaweb/land-tsuchiyama.html","category":"ガチャガチャ取扱アミューズメント施設","description":"運営会社の店舗案内と店舗公式LINEでガチャガチャコーナーの設置を確認。","facility":"イオン土山店内"}
 ];
