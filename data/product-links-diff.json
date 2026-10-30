@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-30T06:59:59.044Z",
+  "notice": "新規掲載は入荷・再入荷を保証しません。",
+  "stores": [
+    {
+      "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_hiromine/item/",
+      "initialBaseline": true,
+      "added": [],
+      "removedCount": 0
+    },
+    {
+      "name": "ガシャポンバンダイオフィシャルショップ 未来屋書店加古川店",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_kakogawa/item/",
+      "initialBaseline": true,
+      "added": [],
+      "removedCount": 0
+    },
+    {
+      "name": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/akashi/item/",
+      "initialBaseline": true,
+      "added": [],
+      "removedCount": 0
+    },
+    {
+      "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路飾磨店",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_shikama/item/",
+      "initialBaseline": true,
+      "added": [],
+      "removedCount": 0
+    },
+    {
+      "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA太子店",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_taishi/item/",
+      "initialBaseline": true,
+      "added": [],
+      "removedCount": 0
+    },
+    {
+      "name": "ガシャポンバンダイオフィシャルショップ 三木サービスエリア下り線店",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/miki_sa/item/",
+      "initialBaseline": true,
+      "added": [],
+      "removedCount": 0
+    },
+    {
+      "name": "ガシャポンのデパート イトーヨーカドー明石店",
+      "inventory": "https://bandainamco-am.co.jp/others/capsule-toy-store/store/iyakashi/item/",
+      "initialBaseline": true,
+      "added": [],
+      "removedCount": 0
+    },
+    {
+      "name": "ガシャポンバンダイオフィシャルショップ 未来屋書店山崎店",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_yamazaki/item/",
+      "initialBaseline": true,
+      "added": [],
+      "removedCount": 0
+    }
+  ]
+}

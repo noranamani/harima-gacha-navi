@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastCheckedAt": "2026-10-30T06:36:40.183Z",
+  "lastCheckedAt": "2026-10-30T06:59:12.426Z",
   "pages": {
     "https://toshin.jpn.com/shop/ピオレ姫路店/": {
       "name": "#C-pla ピオレ姫路店",
@@ -215,29 +215,29 @@
     },
     "https://www.himeji-festa.com/shop/detail/34": {
       "name": "CAPSULEPOP mini 1号店",
-      "checkedAt": "2026-10-30T06:36:40.183Z",
+      "checkedAt": "2026-10-30T06:59:12.426Z",
       "metadata": {
         "etag": null,
         "lastModified": null,
         "publishedUpdate": null
       },
       "publishedUpdate": null,
-      "contentHash": "b8b5bf4932c38f74da10726218e6d60acb84cc4eeb78f206f66e1a0ca1f6d36a",
+      "contentHash": "aa80824d5a0067f1f0c34569927844ecbda4d71ca03cd1b1054b094f9101c584",
       "status": "OBSERVED",
-      "contentChangedAt": "2026-10-30T06:36:40.183Z"
+      "contentChangedAt": "2026-10-30T06:59:12.426Z"
     },
     "https://himeji-festa.com/shop/detail/29": {
       "name": "CAPSULEPOP mini 2号店",
-      "checkedAt": "2026-10-30T06:36:40.183Z",
+      "checkedAt": "2026-10-30T06:59:12.426Z",
       "metadata": {
         "etag": null,
         "lastModified": null,
         "publishedUpdate": null
       },
       "publishedUpdate": null,
-      "contentHash": "5258b44e8066b29ab4e9332fd6ed703b43c31226338e33b7ddf38cade627ed6c",
+      "contentHash": "3d7e1051d8d9173fe818f794f4f50350016084b84c4b2bb829455cd011577335",
       "status": "OBSERVED",
-      "contentChangedAt": "2026-10-30T06:36:40.183Z"
+      "contentChangedAt": "2026-10-30T06:59:12.426Z"
     },
     "https://www.fantasy.co.jp/molly-fantasy/shoplist/shop29281/": {
       "name": "TOYS SPOT PALO 明石店",
@@ -269,10 +269,10 @@
     },
     "https://www.izumi.jp/tenpo/himeji/shop/life/nexus": {
       "name": "ライズ(旧ネクサス)",
-      "checkedAt": "2026-10-30T06:36:40.183Z",
+      "checkedAt": "2026-10-30T06:59:12.426Z",
       "metadata": {
-        "etag": "\"1793342229\"",
-        "lastModified": "Fri, 30 Oct 2026 06:37:09 GMT",
+        "etag": "\"1793343580\"",
+        "lastModified": "Fri, 30 Oct 2026 06:59:40 GMT",
         "publishedUpdate": null
       },
       "publishedUpdate": null,
