@@ -1,8 +1,6 @@
-name: Build approved product link changes
+name: Manual approved product link changes
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '35 0 * * *'
 permissions:
   contents: write
 concurrency:

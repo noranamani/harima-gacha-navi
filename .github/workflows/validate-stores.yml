@@ -9,6 +9,7 @@ on:
       - 'scripts/process-store-candidate.cjs'
       - 'scripts/build-product-link-diff.cjs'
       - '.github/workflows/product-link-diff.yml'
+      - '.github/workflows/page-updates.yml'
       - 'product-updates.html'
       - 'scripts/guard-candidate-merge.cjs'
       - '.github/workflows/merge-validated-store-candidate.yml'
@@ -23,6 +24,7 @@ on:
       - 'scripts/process-store-candidate.cjs'
       - 'scripts/build-product-link-diff.cjs'
       - '.github/workflows/product-link-diff.yml'
+      - '.github/workflows/page-updates.yml'
       - 'product-updates.html'
       - '.github/workflows/candidate-issue-to-pr.yml'
 permissions:
