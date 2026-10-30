@@ -8,6 +8,9 @@ on:
       - '.github/workflows/validate-stores.yml'
       - 'scripts/process-store-candidate.cjs'
       - 'scripts/build-product-link-diff.cjs'
+      - 'scripts/collect-official-product-links.cjs'
+      - 'data/product-links-input.json'
+      - '.github/workflows/page-updates.yml'
       - '.github/workflows/product-link-diff.yml'
       - '.github/workflows/page-updates.yml'
       - 'product-updates.html'
@@ -23,6 +26,9 @@ on:
       - '.github/workflows/validate-stores.yml'
       - 'scripts/process-store-candidate.cjs'
       - 'scripts/build-product-link-diff.cjs'
+      - 'scripts/collect-official-product-links.cjs'
+      - 'data/product-links-input.json'
+      - '.github/workflows/page-updates.yml'
       - '.github/workflows/product-link-diff.yml'
       - '.github/workflows/page-updates.yml'
       - 'product-updates.html'
@@ -43,6 +49,7 @@ jobs:
           node --check scripts/generate-city-pages.cjs
           node --check scripts/process-store-candidate.cjs
           node --check scripts/build-product-link-diff.cjs
+          node --check scripts/collect-official-product-links.cjs
           node scripts/build-product-link-diff.cjs
           node --check scripts/guard-candidate-merge.cjs
           node - <<'NODE'

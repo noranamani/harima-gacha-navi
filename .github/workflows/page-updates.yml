@@ -17,6 +17,11 @@ jobs:
           node-version: '22'
       - name: Inspect metadata
         run: node scripts/check-page-updates.cjs
+      - name: Collect official product names and links hourly
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '7 * * * *'
+        run: |
+          node --check scripts/collect-official-product-links.cjs
+          node scripts/collect-official-product-links.cjs
       - name: Compare approved product links hourly
         if: github.event_name == 'workflow_dispatch' || github.event.schedule == '7 * * * *'
         run: |
@@ -26,7 +31,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/page-status.json
+          git add data/page-status.json data/product-links-input.json
           for file in data/product-links-snapshot.json data/product-links-diff.json; do
             if test -f "$file"; then git add "$file"; fi
           done
