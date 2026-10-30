@@ -1,0 +1,33 @@
+name: Build approved product link changes
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '35 0 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: approved-product-links
+  cancel-in-progress: false
+jobs:
+  product-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Compare approved product links only
+        run: |
+          node --check scripts/build-product-link-diff.cjs
+          node scripts/build-product-link-diff.cjs
+      - name: Save changed snapshots
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for file in data/product-links-snapshot.json data/product-links-diff.json; do
+            if test -f "$file"; then git add "$file"; fi
+          done
+          if ! git diff --cached --quiet; then
+            git commit -m "data: refresh approved product link differences"
+            git push
+          fi

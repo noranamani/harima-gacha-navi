@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>公式商品リンクの新規掲載 | 播磨ガチャ入荷ナビ</title><link rel="stylesheet" href="style.css"></head>
+<body><header><div class="wrap"><h1>公式商品リンクの新規掲載</h1><p>前回の取得結果との差分（入荷・再入荷の確定情報ではありません）</p></div></header>
+<main class="wrap"><p><a href="./">← トップへ戻る</a></p><p>公式サイトからの自動収集・掲載は利用条件確認後に有効化します。画像・説明文・在庫は掲載しません。</p><div id="product-diff" aria-live="polite">情報を確認しています。</div></main>
+<script>
+(async()=>{
+ const root=document.getElementById("product-diff");
+ try{
+   const r=await fetch("data/product-links-diff.json",{cache:"no-store"});if(!r.ok)throw Error("data unavailable");
+   const data=await r.json();if(!Array.isArray(data.stores))throw Error("bad data");
+   root.replaceChildren();
+   let total=0;
+   for(const store of data.stores){
+     const section=document.createElement("section");section.className="notice";
+     const h=document.createElement("h2");h.textContent=store.name;section.append(h);
+     const p=document.createElement("p");p.textContent=store.initialBaseline?"初回基準データを登録しました。次回から差分を表示します。":"新規掲載："+store.added.length+"件";section.append(p);
+     const ul=document.createElement("ul");
+     for(const item of store.added||[]){const li=document.createElement("li"),a=document.createElement("a");a.textContent=item.name;a.href=item.url;a.target="_blank";a.rel="noopener noreferrer";li.append(a);ul.append(li);total++;}
+     section.append(ul);const official=document.createElement("a");official.textContent="店舗の公式商品一覧";official.href=store.inventory;official.target="_blank";official.rel="noopener noreferrer";section.append(official);root.append(section);
+   }
+   if(!data.stores.length)root.textContent="表示できる商品差分はまだありません。";
+ }catch{root.textContent="現在、商品差分の公開データはありません。公式商品一覧へのリンクは店舗ページで確認できます。";}
+})();
+</script></body></html>
