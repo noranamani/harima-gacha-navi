@@ -38,6 +38,8 @@ for(const entry of input.stores){
   diff.push({name:entry.name,inventory:storeMap.get(entry.name).inventory,initialBaseline:!before,added,removedCount:removed.length});
 }
 if(!snap.length) {console.log("No approved product records; no publication.");process.exit(0);}
+const unchanged=JSON.stringify((previous?.stores||[]).map(s=>({name:s.name,items:s.items})))===JSON.stringify(snap);
+if(unchanged) {console.log("No changes in product links.");process.exit(0);}
 fs.writeFileSync(snapshotPath,JSON.stringify({schemaVersion:1,updatedAt:now,stores:snap},null,2)+"\n");
 fs.writeFileSync(diffPath,JSON.stringify({schemaVersion:1,updatedAt:now,notice:"新規掲載は入荷・再入荷を保証しません。",stores:diff},null,2)+"\n");
 console.log("Processed approved store snapshots:",snap.length);
