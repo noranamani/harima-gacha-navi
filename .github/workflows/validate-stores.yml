@@ -7,6 +7,9 @@ on:
       - 'scripts/generate-city-pages.cjs'
       - '.github/workflows/validate-stores.yml'
       - 'scripts/process-store-candidate.cjs'
+      - 'scripts/build-product-link-diff.cjs'
+      - '.github/workflows/product-link-diff.yml'
+      - 'product-updates.html'
       - 'scripts/guard-candidate-merge.cjs'
       - '.github/workflows/merge-validated-store-candidate.yml'
       - '.github/workflows/candidate-issue-to-pr.yml'
@@ -18,6 +21,9 @@ on:
       - 'scripts/generate-city-pages.cjs'
       - '.github/workflows/validate-stores.yml'
       - 'scripts/process-store-candidate.cjs'
+      - 'scripts/build-product-link-diff.cjs'
+      - '.github/workflows/product-link-diff.yml'
+      - 'product-updates.html'
       - '.github/workflows/candidate-issue-to-pr.yml'
 permissions:
   contents: read
@@ -34,6 +40,8 @@ jobs:
           node --check stores.js
           node --check scripts/generate-city-pages.cjs
           node --check scripts/process-store-candidate.cjs
+          node --check scripts/build-product-link-diff.cjs
+          node scripts/build-product-link-diff.cjs
           node --check scripts/guard-candidate-merge.cjs
           node - <<'NODE'
           const fs=require('node:fs'),vm=require('node:vm');
