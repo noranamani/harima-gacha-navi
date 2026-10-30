@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-30T14:00:13.245Z",
+  "updatedAt": "2026-10-30T19:11:21.409Z",
   "stores": [
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
@@ -516,6 +516,14 @@
       "name": "ガシャポンのデパート イトーヨーカドー明石店",
       "items": [
         {
+          "name": "HG HUNTER×HUNTER Vol.1 500 円(税込)",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582769968372"
+        },
+        {
+          "name": "TOM and JERRY ぷにぷにし隊～クリアカラーバージョン～ 400 円(税込)",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770053814"
+        },
+        {
           "name": "ナルミヤキャラクターズ モノトーンマスコット 400 円(税込)",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770071207"
         },
@@ -534,14 +542,6 @@
         {
           "name": "ART IN GASHAPON ウゴモ 埴輪と土偶 500 円(税込)",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770122909"
-        },
-        {
-          "name": "HG HUNTER×HUNTER Vol.1 500 円(税込)",
-          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582769968372"
-        },
-        {
-          "name": "TOM and JERRY ぷにぷにし隊～クリアカラーバージョン～ 400 円(税込)",
-          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770053814"
         },
         {
           "name": "【CAP'in GALLERY】かえちゃんふぃぎゅあ designed by 田中かえ 500 円(税込)",
