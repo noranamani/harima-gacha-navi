@@ -1,10 +1,30 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-02T15:36:01.306Z",
+  "updatedAt": "2026-11-02T23:26:08.020Z",
   "stores": [
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
       "items": [
+        {
+          "name": "ONE PIECE ゆらゆらし隊 500 円(税込)",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118196545"
+        },
+        {
+          "name": "CAPSULEVERSE ゴジラ 800 円(税込)",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769888700"
+        },
+        {
+          "name": "yeye ムンゲのフィギュア 400 円(税込)",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769889592"
+        },
+        {
+          "name": "魔法騎士レイアース カプセルフィギュアコレクション 500 円(税込)",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769911262"
+        },
+        {
+          "name": "パペットスンスン パッケージミニチュアチャーム 500 円(税込)",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769927140"
+        },
         {
           "name": "FANFANCHUU カラフルカラビナマスコット 500 円(税込)",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769979293"
@@ -64,32 +84,20 @@
         {
           "name": "MOOMIN カプセルボトルチャーム 400 円(税込)",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054989"
-        },
-        {
-          "name": "CAPSULEVERSE 機動戦士ガンダム 01 800 円(税込)",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055863"
-        },
-        {
-          "name": "おジャ魔女どれみ×ひつじのショーン ラバーマスコット 300 円(税込)",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770056099"
-        },
-        {
-          "name": "PLAVE めじるしアクセサリー 400 円(税込)",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770067545"
-        },
-        {
-          "name": "ぐ～チョコランタン カラフルカラビナマスコット 500 円(税込)",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068504"
-        },
-        {
-          "name": "葬送のフリーレン まちぼうけ3 400 円(税込)",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068955"
         }
       ]
     },
     {
       "name": "ガシャポンバンダイオフィシャルショップ 未来屋書店加古川店",
       "items": [
+        {
+          "name": "名探偵プリキュア！ サウンドロップ 400 円(税込)",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118181862"
+        },
+        {
+          "name": "魔法騎士レイアース カプセルフィギュアコレクション 500 円(税込)",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769911262"
+        },
         {
           "name": "HG HUNTER×HUNTER Vol.1 500 円(税込)",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769968372"
@@ -161,20 +169,32 @@
         {
           "name": "ポンデクルール ジュエルペット 香り付き保湿バーム 500 円(税込)",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770098860"
-        },
-        {
-          "name": "【フラットガシャポン】サンリオキャラクターズ ミニおりたたみコンテナ2 500 円(税込)",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770121940"
-        },
-        {
-          "name": "HG ウルトラマン 60周年記念弾 500 円(税込)",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770122510"
         }
       ]
     },
     {
       "name": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
       "items": [
+        {
+          "name": "ジュエルポッド ミニチュアチャームコレクション 300 円(税込)",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186942"
+        },
+        {
+          "name": "ONE PIECE ゆらゆらし隊 500 円(税込)",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118196545"
+        },
+        {
+          "name": "CAPSULEVERSE ゴジラ 800 円(税込)",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769888700"
+        },
+        {
+          "name": "yeye ムンゲのフィギュア 400 円(税込)",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769889592"
+        },
+        {
+          "name": "魔法騎士レイアース カプセルフィギュアコレクション 500 円(税込)",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769911262"
+        },
         {
           "name": "クレヨンしんちゃん なりきり！？アイドルステージ スイングマスコット 400 円(税込)",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769928420"
@@ -234,32 +254,36 @@
         {
           "name": "おジャ魔女どれみ×ひつじのショーン ラバーマスコット 300 円(税込)",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770056099"
-        },
-        {
-          "name": "ぐ～チョコランタン カラフルカラビナマスコット 500 円(税込)",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068504"
-        },
-        {
-          "name": "葬送のフリーレン まちぼうけ3 400 円(税込)",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068955"
-        },
-        {
-          "name": "MINECRAFT クリスタルチャーム 400 円(税込)",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770069143"
-        },
-        {
-          "name": "機動戦士ガンダム ガンダムヘッド めじるしアクセサリー2 400 円(税込)",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770069266"
-        },
-        {
-          "name": "モンチッチ Twinkleゴム 300 円(税込)",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770070422"
         }
       ]
     },
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路飾磨店",
       "items": [
+        {
+          "name": "ジュエルポッド ミニチュアチャームコレクション 300 円(税込)",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186942"
+        },
+        {
+          "name": "ONE PIECE ゆらゆらし隊 500 円(税込)",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118196545"
+        },
+        {
+          "name": "CAPSULEVERSE ゴジラ 800 円(税込)",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769888700"
+        },
+        {
+          "name": "yeye ムンゲのフィギュア 400 円(税込)",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769889592"
+        },
+        {
+          "name": "魔法騎士レイアース カプセルフィギュアコレクション 500 円(税込)",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769911262"
+        },
+        {
+          "name": "パペットスンスン パッケージミニチュアチャーム 500 円(税込)",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769927140"
+        },
         {
           "name": "FANFANCHUU カラフルカラビナマスコット 500 円(税込)",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769979293"
@@ -315,36 +339,36 @@
         {
           "name": "【フラットガシャポン/ジャンボカードダス】アニメ『薬屋のひとりごと』 クリアポスター3 200 円(税込)",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054934"
-        },
-        {
-          "name": "MOOMIN カプセルボトルチャーム 400 円(税込)",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054989"
-        },
-        {
-          "name": "CAPSULEVERSE 機動戦士ガンダム 01 800 円(税込)",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055863"
-        },
-        {
-          "name": "おジャ魔女どれみ×ひつじのショーン ラバーマスコット 300 円(税込)",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770056099"
-        },
-        {
-          "name": "ぐ～チョコランタン カラフルカラビナマスコット 500 円(税込)",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068504"
-        },
-        {
-          "name": "葬送のフリーレン まちぼうけ3 400 円(税込)",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068955"
-        },
-        {
-          "name": "MINECRAFT クリスタルチャーム 400 円(税込)",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770069143"
         }
       ]
     },
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA太子店",
       "items": [
+        {
+          "name": "ジュエルポッド ミニチュアチャームコレクション 300 円(税込)",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186942"
+        },
+        {
+          "name": "ONE PIECE ゆらゆらし隊 500 円(税込)",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118196545"
+        },
+        {
+          "name": "CAPSULEVERSE ゴジラ 800 円(税込)",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769888700"
+        },
+        {
+          "name": "yeye ムンゲのフィギュア 400 円(税込)",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769889592"
+        },
+        {
+          "name": "魔法騎士レイアース カプセルフィギュアコレクション 500 円(税込)",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769911262"
+        },
+        {
+          "name": "パペットスンスン パッケージミニチュアチャーム 500 円(税込)",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769927140"
+        },
         {
           "name": "クレヨンしんちゃん なりきり！？アイドルステージ スイングマスコット 400 円(税込)",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769928420"
@@ -400,36 +424,48 @@
         {
           "name": "おジャ魔女どれみ×ひつじのショーン ラバーマスコット 300 円(税込)",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770056099"
-        },
-        {
-          "name": "PLAVE めじるしアクセサリー 400 円(税込)",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770067545"
-        },
-        {
-          "name": "ぐ～チョコランタン カラフルカラビナマスコット 500 円(税込)",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068504"
-        },
-        {
-          "name": "MINECRAFT クリスタルチャーム 400 円(税込)",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770069143"
-        },
-        {
-          "name": "モンチッチ Twinkleゴム 300 円(税込)",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770070422"
-        },
-        {
-          "name": "いれいす ふわふわカラフルマルチチャーム 500 円(税込)",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770070965"
-        },
-        {
-          "name": "カラフルマルチチャーム 塊魂 300 円(税込)",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770071092"
         }
       ]
     },
     {
       "name": "ガシャポンバンダイオフィシャルショップ 三木サービスエリア下り線店",
       "items": [
+        {
+          "name": "名探偵プリキュア！ サウンドロップ 400 円(税込)",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118181862"
+        },
+        {
+          "name": "ジュエルポッド ミニチュアチャームコレクション 300 円(税込)",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186942"
+        },
+        {
+          "name": "ちいかわ カプセルステッキ 400 円(税込)",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118187321"
+        },
+        {
+          "name": "ONE PIECE ゆらゆらし隊 500 円(税込)",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118196545"
+        },
+        {
+          "name": "鋼の錬金術師 まちぼうけ 500 円(税込)",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118196859"
+        },
+        {
+          "name": "CAPSULEVERSE ゴジラ 800 円(税込)",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769888700"
+        },
+        {
+          "name": "yeye ムンゲのフィギュア 400 円(税込)",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769889592"
+        },
+        {
+          "name": "魔法騎士レイアース カプセルフィギュアコレクション 500 円(税込)",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769911262"
+        },
+        {
+          "name": "パペットスンスン パッケージミニチュアチャーム 500 円(税込)",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769927140"
+        },
         {
           "name": "クレヨンしんちゃん なりきり！？アイドルステージ スイングマスコット 400 円(税込)",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769928420"
@@ -473,42 +509,6 @@
         {
           "name": "サンリオキャラクターズ がんばれないチャーム 300 円(税込)",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770027051"
-        },
-        {
-          "name": "銀魂 もぐもぐ隊2 500 円(税込)",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770027525"
-        },
-        {
-          "name": "ゲゲゲの鬼太郎（第4期） ねむらせ隊 400 円(税込)",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770027594"
-        },
-        {
-          "name": "TOM and JERRY ぷにぷにし隊～クリアカラーバージョン～ 400 円(税込)",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770053814"
-        },
-        {
-          "name": "チアリステイルズ マスコット 300 円(税込)",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054682"
-        },
-        {
-          "name": "HELLOKITTY スクールガールスイング 300 円(税込)",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054828"
-        },
-        {
-          "name": "【フラットガシャポン/ジャンボカードダス】アニメ『薬屋のひとりごと』 クリアポスター3 200 円(税込)",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054934"
-        },
-        {
-          "name": "MOOMIN カプセルボトルチャーム 400 円(税込)",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054989"
-        },
-        {
-          "name": "刀剣乱舞ONLINE めじるしアクセサリー 300 円(税込)",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055535"
-        },
-        {
-          "name": "CAPSULEVERSE 機動戦士ガンダム 01 800 円(税込)",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055863"
         }
       ]
     },
@@ -601,6 +601,30 @@
       "name": "ガシャポンバンダイオフィシャルショップ 未来屋書店山崎店",
       "items": [
         {
+          "name": "ONE PIECE ゆらゆらし隊 500 円(税込)",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118196545"
+        },
+        {
+          "name": "鋼の錬金術師 まちぼうけ 500 円(税込)",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118196859"
+        },
+        {
+          "name": "CAPSULEVERSE ゴジラ 800 円(税込)",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769888700"
+        },
+        {
+          "name": "yeye ムンゲのフィギュア 400 円(税込)",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769889592"
+        },
+        {
+          "name": "魔法騎士レイアース カプセルフィギュアコレクション 500 円(税込)",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769911262"
+        },
+        {
+          "name": "パペットスンスン パッケージミニチュアチャーム 500 円(税込)",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769927140"
+        },
+        {
           "name": "クレヨンしんちゃん なりきり！？アイドルステージ スイングマスコット 400 円(税込)",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769928420"
         },
@@ -655,30 +679,6 @@
         {
           "name": "HELLOKITTY スクールガールスイング 300 円(税込)",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054828"
-        },
-        {
-          "name": "アニメ『薬屋のひとりごと』 カプセルラバーマスコット3 300 円(税込)",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054927"
-        },
-        {
-          "name": "【フラットガシャポン/ジャンボカードダス】アニメ『薬屋のひとりごと』 クリアポスター3 200 円(税込)",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054934"
-        },
-        {
-          "name": "MOOMIN カプセルボトルチャーム 400 円(税込)",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054989"
-        },
-        {
-          "name": "CAPSULEVERSE 機動戦士ガンダム 01 800 円(税込)",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055863"
-        },
-        {
-          "name": "おジャ魔女どれみ×ひつじのショーン ラバーマスコット 300 円(税込)",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770056099"
-        },
-        {
-          "name": "PLAVE めじるしアクセサリー 400 円(税込)",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770067545"
         }
       ]
     }
