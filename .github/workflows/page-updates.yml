@@ -4,8 +4,21 @@ on:
     - cron: '7 * * * *' # Hourly: metadata plus approved product-link diff
     - cron: '22,37,52 * * * *' # Other metadata runs (every 15 minutes in total)
   workflow_dispatch:
+    inputs:
+      trigger_source:
+        description: Human / Cloudflare 15-minute fallback
+        type: choice
+        options: [manual, cloudflare_backup]
+        default: manual
+      product_refresh:
+        description: Only Cloudflare's hourly slot may refresh product names
+        type: boolean
+        default: false
 permissions:
   contents: write
+concurrency:
+  group: harima-gacha-official-metadata
+  cancel-in-progress: false
 jobs:
   metadata:
     runs-on: ubuntu-latest
@@ -18,12 +31,12 @@ jobs:
       - name: Inspect metadata
         run: node scripts/check-page-updates.cjs
       - name: Collect official product names and links hourly
-        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '7 * * * *'
+        if: github.event.schedule == '7 * * * *' || (github.event_name == 'workflow_dispatch' && (inputs.trigger_source != 'cloudflare_backup' || inputs.product_refresh == true))
         run: |
           node --check scripts/collect-official-product-links.cjs
           node scripts/collect-official-product-links.cjs
       - name: Compare approved product links hourly
-        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '7 * * * *'
+        if: github.event.schedule == '7 * * * *' || (github.event_name == 'workflow_dispatch' && (inputs.trigger_source != 'cloudflare_backup' || inputs.product_refresh == true))
         run: |
           node --check scripts/build-product-link-diff.cjs
           node scripts/build-product-link-diff.cjs
