@@ -51,8 +51,8 @@ export async function safeWakeup({
   if (recent)return {status:"existing_recent_run"};
   // Always ask the original GitHub workflow to execute. It alone fetches and
   // validates official metadata and commits the approved change.
-  const minute = new Date(nowMs).getUTCMinutes();
-  const includeProducts = minute === 7;
+  // Product links are read from the already-fetched official page on every run.
+  const includeProducts = true;
   const result = await fetcher(API + "/dispatches", {
     method:"POST",headers:{
       ...headers,"Content-Type":"application/json"
