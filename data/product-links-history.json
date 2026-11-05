@@ -1,8 +1,29 @@
 {
   "schemaVersion": 1,
-  "lastComparedAt": "2026-11-05T03:26:13.099Z",
+  "lastComparedAt": "2026-11-05T03:38:36.373Z",
   "retentionDays": 30,
   "events": [
+    {
+      "detectedAt": "2026-11-05T03:38:36.373Z",
+      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
+      "name": "モンチッチ Twinkleゴム",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770070422",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_hiromine/item/"
+    },
+    {
+      "detectedAt": "2026-11-05T03:38:36.373Z",
+      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路飾磨店",
+      "name": "CAPSULEVERSE 機動戦士ガンダム 01",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055863",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_shikama/item/"
+    },
+    {
+      "detectedAt": "2026-11-05T03:38:36.373Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 三木サービスエリア下り線店",
+      "name": "ゲゲゲの鬼太郎（第4期） ねむらせ隊",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770027594",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/miki_sa/item/"
+    },
     {
       "detectedAt": "2026-11-05T03:26:13.099Z",
       "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",

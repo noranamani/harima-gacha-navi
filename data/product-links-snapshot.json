@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05T03:26:13.099Z",
+  "updatedAt": "2026-11-05T03:38:36.373Z",
   "stores": [
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
@@ -12,10 +12,6 @@
         {
           "name": "CAPSULEVERSE ゴジラ",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769888700"
-        },
-        {
-          "name": "yeye ムンゲのフィギュア",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769889592"
         },
         {
           "name": "魔法騎士レイアース カプセルフィギュアコレクション",
@@ -84,6 +80,10 @@
         {
           "name": "らぼっと ふわふわフロッキーチャーム",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068559"
+        },
+        {
+          "name": "モンチッチ Twinkleゴム",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770070422"
         }
       ]
     },
@@ -293,10 +293,6 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769979484"
         },
         {
-          "name": "オーバーロード まちぼうけ",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769979545"
-        },
-        {
           "name": "初音ミク まちぼうけ",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769979804"
         },
@@ -339,6 +335,10 @@
         {
           "name": "MOOMIN カプセルボトルチャーム",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054989"
+        },
+        {
+          "name": "CAPSULEVERSE 機動戦士ガンダム 01",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055863"
         }
       ]
     },
@@ -443,10 +443,6 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118196545"
         },
         {
-          "name": "鋼の錬金術師 まちぼうけ",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118196859"
-        },
-        {
           "name": "CAPSULEVERSE ゴジラ",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769888700"
         },
@@ -509,6 +505,10 @@
         {
           "name": "銀魂 もぐもぐ隊2",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770027525"
+        },
+        {
+          "name": "ゲゲゲの鬼太郎（第4期） ねむらせ隊",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770027594"
         }
       ]
     },
