@@ -28,16 +28,13 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Inspect metadata
+      - name: Inspect metadata and approved store product links once
         run: node scripts/check-page-updates.cjs
-      - name: Collect official product names and links hourly
-        if: github.event.schedule == '7 * * * *' || (github.event_name == 'workflow_dispatch' && (inputs.trigger_source != 'cloudflare_backup' || inputs.product_refresh == true))
+      - name: Compare new product links on every actual 15-minute check
+        # Inspect metadata already fetched the approved store pages. Reuse
+        # that same HTML response; never make a second official-site request.
         run: |
-          node --check scripts/collect-official-product-links.cjs
-          node scripts/collect-official-product-links.cjs
-      - name: Compare approved product links hourly
-        if: github.event.schedule == '7 * * * *' || (github.event_name == 'workflow_dispatch' && (inputs.trigger_source != 'cloudflare_backup' || inputs.product_refresh == true))
-        run: |
+          node --check scripts/official-product-links.cjs
           node --check scripts/build-product-link-diff.cjs
           node scripts/build-product-link-diff.cjs
       - name: Commit status if changed
@@ -45,7 +42,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/page-status.json data/product-links-input.json
-          for file in data/product-links-snapshot.json data/product-links-diff.json; do
+          for file in data/product-links-snapshot.json data/product-links-diff.json data/product-links-history.json; do
             if test -f "$file"; then git add "$file"; fi
           done
           if ! git diff --cached --quiet; then

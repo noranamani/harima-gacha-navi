@@ -6,3 +6,12 @@
 .favorite-filter{display:flex;align-items:center;gap:10px;margin:16px 0}.favorite-filter input{width:20px;height:20px;flex:none}.favorite-button{font:inherit;font-size:.9rem;border:1px solid #c4cedb;border-radius:9px;padding:10px;background:#fff;cursor:pointer;color:#355071}.favorite-button[aria-pressed="true"]{background:#fff5d9;border-color:#dfbb57;color:#6d4b05}#board-count{font-size:.9rem;color:#526076}
 
 .store-details{font-size:.85rem;color:#58667b;display:grid;gap:3px}.card .store-details p{margin:0;line-height:1.45}.card .map-link{background:#e7f4ec;color:#23623e}.update-status{font-size:.82rem;overflow-wrap:anywhere}
+
+/* Readable product listings without republishing manufacturer content. */
+.product-event-list{list-style:none;margin:18px 0 0;padding:0;display:grid;gap:12px}
+.product-event{background:#f7f9fc;border:1px solid #e0e7f1;padding:14px 16px;border-radius:12px}
+.product-event a{font-weight:700;overflow-wrap:anywhere}
+.product-event-meta{font-size:.82rem;color:#516177;margin:0 0 6px}
+.product-preview-list{padding-left:20px;display:grid;gap:10px}
+.product-preview-list li{line-height:1.65}
+.product-preview-store{font-size:.85rem;color:#5a677b}
