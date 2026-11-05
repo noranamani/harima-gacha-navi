@@ -24,6 +24,7 @@ on:
       - 'scripts/official-product-links.cjs'
       - 'scripts/official-product-links.test.cjs'
       - 'data/product-links-history.json'
+      - 'data/product-links-observed.json'
       - 'scripts/check-page-updates.cjs'
       - 'scripts/page-monitor-audit.cjs'
       - 'scripts/page-monitor-audit.test.cjs'
@@ -60,6 +61,7 @@ on:
       - 'scripts/official-product-links.cjs'
       - 'scripts/official-product-links.test.cjs'
       - 'data/product-links-history.json'
+      - 'data/product-links-observed.json'
       - '.github/workflows/candidate-issue-to-pr.yml'
 permissions:
   contents: read
