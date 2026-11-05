@@ -17,6 +17,9 @@ on:
       - 'product-updates.js'
       - 'recent-products.js'
       - 'index.html'
+      - 'store-card-gachas.js'
+      - 'city-gacha-cards.js'
+      - 'scripts/store-card-gachas.test.cjs'
       - 'style.css'
       - 'scripts/official-product-links.cjs'
       - 'scripts/official-product-links.test.cjs'
@@ -50,6 +53,9 @@ on:
       - 'product-updates.js'
       - 'recent-products.js'
       - 'index.html'
+      - 'store-card-gachas.js'
+      - 'city-gacha-cards.js'
+      - 'scripts/store-card-gachas.test.cjs'
       - 'style.css'
       - 'scripts/official-product-links.cjs'
       - 'scripts/official-product-links.test.cjs'
@@ -73,6 +79,10 @@ jobs:
           node --check scripts/build-product-link-diff.cjs
           node --check scripts/official-product-links.cjs
           node --check product-updates.js
+          node --check store-card-gachas.js
+          node --check city-gacha-cards.js
+          node --check app.js
+          node --test scripts/store-card-gachas.test.cjs
           node --check recent-products.js
           node --test scripts/official-product-links.test.cjs
           node --check scripts/collect-official-product-links.cjs
@@ -99,6 +109,9 @@ jobs:
       - name: Generate and verify location pages
         run: |
           node scripts/generate-city-pages.cjs
+          grep -q 'data-store-name=' city/kakogawa/index.html
+          grep -q 'store-card-gachas.js' city/kakogawa/index.html
+          grep -q 'city-gacha-cards.js' city/kakogawa/index.html
           test -f city/akashi/index.html
           grep -q 'TOYS SPOT PALO 2' city/akashi/index.html
           grep -q 'city/akashi/' sitemap.xml
