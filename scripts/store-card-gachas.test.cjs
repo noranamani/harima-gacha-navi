@@ -88,3 +88,23 @@ test("empty data never creates a fake new-products section",()=>{
  assert.equal(attach(card,[],doc),false);
  assert.equal(card.querySelector(".card-new-gachas"),null);
 });
+test("new product cards show both date and detection time in JST including midnight rollover",()=>{
+ const card=new Node("article"),links=new Node("div");links.className="links";card.append(links);
+ const moments=[
+   Date.parse("2026-11-05T14:59:00Z"), // JST 2026/11/05 23:59
+   Date.parse("2026-11-05T15:02:00Z"), // JST 2026/11/06 00:02
+   Date.parse("2026-11-05T15:15:00Z"),
+   Date.parse("2026-11-05T15:30:00Z")
+ ];
+ assert.equal(attach(card,moments.map((when,i)=>event("同じ店舗",i+1,when)),doc),true);
+ const labels=[];
+ walk(card.querySelector(".card-new-gachas"),node=>{
+   if(node.tag==="small"&&node.textContent.includes("検出"))labels.push(node.textContent);
+ });
+ assert.deepEqual(labels,[
+   "2026/11/05 23:59 検出",
+   "2026/11/06 00:02 検出",
+   "2026/11/06 00:15 検出",
+   "2026/11/06 00:30 検出"
+ ]);
+});
