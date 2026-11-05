@@ -10,6 +10,10 @@
 })(typeof window!=="undefined"?window:null,function(){
   const PERIOD_MS=30*86400000;
   const PREVIEW_COUNT=3;
+  const detectedAtFormatter=new Intl.DateTimeFormat("ja-JP",{
+    timeZone:"Asia/Tokyo",year:"numeric",month:"2-digit",day:"2-digit",
+    hour:"2-digit",minute:"2-digit",hourCycle:"h23"
+  });
 
   function safeOfficialProductUrl(raw){
     try{
@@ -62,11 +66,9 @@
         const a=documentRef.createElement("a");
         a.href=e.url;a.target="_blank";a.rel="noopener noreferrer";
         a.textContent=e.name;
-        const date=documentRef.createElement("small");
-        date.textContent=new Intl.DateTimeFormat("ja-JP",{
-          timeZone:"Asia/Tokyo",year:"numeric",month:"numeric",day:"numeric"
-        }).format(new Date(e.detectedAt))+" 検出";
-        li.append(a,date);ul.append(li);
+        const detectedAt=documentRef.createElement("small");
+        detectedAt.textContent=detectedAtFormatter.format(new Date(e.detectedAt))+" 検出";
+        li.append(a,detectedAt);ul.append(li);
       }
       return ul;
     };
