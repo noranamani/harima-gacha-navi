@@ -1,0 +1,56 @@
+name: Audit real gacha scheduler coverage and official page availability
+on:
+  schedule:
+    - cron: '20 0 * * *'  # 09:20 JST; advisory, not a 15-minute scheduler
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/page-monitor-audit.cjs'
+      - 'scripts/page-monitor-audit.test.cjs'
+      - '.github/workflows/page-monitor-health.yml'
+permissions:
+  contents: read
+  actions: read
+  issues: write
+concurrency:
+  group: gacha-monitor-health
+  cancel-in-progress: false
+jobs:
+  audit:
+    if: github.repository == 'noranamani/harima-gacha-navi' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Run offline audit regression
+        run: node --test scripts/page-monitor-audit.test.cjs
+      - name: Download last 100 actual run records, not scheduled cron declarations
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api "repos/$GITHUB_REPOSITORY/actions/workflows/page-updates.yml/runs?per_page=100" > "$RUNNER_TEMP/gacha-runs.json"
+      - name: Audit 24h coverage and repeatedly unavailable official sources
+        run: |
+          node scripts/page-monitor-audit.cjs data/page-status.json "$RUNNER_TEMP/gacha-runs.json" "$RUNNER_TEMP/gacha-audit.json" "$RUNNER_TEMP/gacha-audit.md"
+          cat "$RUNNER_TEMP/gacha-audit.md" >> "$GITHUB_STEP_SUMMARY"
+      - name: Keep one actionable issue without generating failure email spam
+        if: github.event_name == 'schedule'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          TITLE='[GACHA MONITOR] 巡回・公式ページ取得の継続異常'
+          ALERT=$(node -p "require(process.argv[1]).alert" "$RUNNER_TEMP/gacha-audit.json")
+          existing=$(gh issue list --state open --limit 100 --json number,title --jq '.[] | select(.title=="[GACHA MONITOR] 巡回・公式ページ取得の継続異常") | .number' | head -n 1 || true)
+          if [ "$ALERT" = true ] && [ -z "$existing" ]; then
+            gh issue create --title "$TITLE" --body-file "$RUNNER_TEMP/gacha-audit.md"
+          elif [ "$ALERT" = false ] && [ -n "$existing" ]; then
+            gh issue close "$existing" --reason completed
+          else
+            echo 'Existing issue matches current health state: no duplicate notification.' >> "$GITHUB_STEP_SUMMARY"
+          fi
