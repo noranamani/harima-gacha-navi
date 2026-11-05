@@ -3,6 +3,7 @@
 const fs = require("node:fs");
 const vm = require("node:vm");
 const crypto = require("node:crypto");
+const {extractOfficialProducts,updateApprovedProducts} = require("./official-product-links.cjs");
 const source = fs.readFileSync("stores.js", "utf8");
 const sandbox = {window: {}};
 vm.runInNewContext(source, sandbox, {timeout: 1000});
@@ -11,6 +12,11 @@ const file = "data/page-status.json";
 let previous = {pages: {}};
 try { previous = JSON.parse(fs.readFileSync(file, "utf8")); } catch (e) { if (e.code !== "ENOENT") throw e; }
 const pages = {};
+const approvedPath = "data/product-links-input.json";
+const approved = JSON.parse(fs.readFileSync(approvedPath, "utf8"));
+const approvedNames = new Set(approved.publicationApproved === true ?
+  approved.stores.map(s => s.name) : []);
+const productObservations = new Map();
 const now = new Date().toISOString();
 const pause = ms => new Promise(resolve => setTimeout(resolve, ms));
 function extractText(html) {
@@ -23,21 +29,22 @@ function extractText(html) {
     .replace(/<[^>]+>/g, " ").replace(/&nbsp;|&#160;/gi, " ")
     .replace(/\s+/g, " ").trim().slice(0, 150000);
 }
-async function inspect(url, monitorContent) {
+async function inspect(url, monitorContent, captureProducts) {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), 12000);
   try {
     const response = await fetch(url, {method: "GET", redirect: "follow", signal: controller.signal,
       headers: {"User-Agent": "HarimaGachaNavi-MetadataCheck/1.0"}});
     if (!response.ok) return {errorCode: "HTTP_" + response.status};
-    const html = (await response.text()).slice(0, 500000);
+    const html = (await response.text()).slice(0, 600000);
     const match = html.match(/最終更新日[：:\s\u00a0]*(\d{4})[.\/-](\d{1,2})[.\/-](\d{1,2})\s+(\d{1,2}):(\d{2})/);
     const publishedUpdate = match ? [match[1], match[2].padStart(2,"0"), match[3].padStart(2,"0")].join("-") + " " + match[4].padStart(2,"0") + ":" + match[5] : null;
     const lastModified = response.headers.get("last-modified");
     const etag = response.headers.get("etag");
     const content = monitorContent ? extractText(html) : "";
     const contentHash = content.length >= 80 ? crypto.createHash("sha256").update(content).digest("hex") : null;
-    return {etag: etag || null, lastModified: lastModified && !Number.isNaN(Date.parse(lastModified)) ? lastModified : null, publishedUpdate, contentHash};
+    return {etag: etag || null, lastModified: lastModified && !Number.isNaN(Date.parse(lastModified)) ? lastModified : null, publishedUpdate, contentHash,
+      products: captureProducts ? extractOfficialProducts(html,url) : null};
   } catch (error) {
     return {errorCode: error?.name === "AbortError" || error?.name === "TimeoutError" ? "TIMEOUT" : "NETWORK_ERROR"};
   } finally { clearTimeout(timer); }
@@ -49,20 +56,24 @@ async function inspect(url, monitorContent) {
     if (!url || !/^https:\/\//.test(url)) continue;
     // Shared chain directory pages are not store-specific: their changes cannot be attributed to a store.
     if (!store.inventory && /\/shoplist\/?(?:\?.*)?$/.test(url)) continue;
-    if (!targets.has(url)) targets.set(url, {names: [], monitorContent: !store.inventory});
+    if (!targets.has(url)) targets.set(url, {names: [], monitorContent: !store.inventory, captureProducts: false});
+    if (store.inventory && approvedNames.has(store.name)) targets.get(url).captureProducts = true;
     targets.get(url).names.push(store.name);
   }
   for (const [url, target] of targets) {
     const old = previous.pages?.[url] || {};
-    const metadata = await inspect(url, target.monitorContent);
+    const metadata = await inspect(url, target.monitorContent, target.captureProducts);
+    if (metadata && !metadata.errorCode && Array.isArray(metadata.products) && metadata.products.length) {
+      for (const name of target.names) if (approvedNames.has(name)) productObservations.set(name, metadata.products);
+    }
     const entry = {...old, name: target.names.join(" / "), lastAttemptAt: now};
-    if (metadata && !metadata.errorCode && (metadata.publishedUpdate || metadata.etag || metadata.lastModified || metadata.contentHash)) {
+    if (metadata && !metadata.errorCode && (metadata.publishedUpdate || metadata.etag || metadata.lastModified || metadata.contentHash || metadata.products?.length)) {
       entry.lastSuccessAt = now;
       entry.firstUnavailableAt = null;
       entry.consecutiveUnavailable = 0;
       entry.lastErrorCode = null;
       const nextPublished = metadata.publishedUpdate || null;
-      const {contentHash, ...headers} = metadata;
+      const {contentHash, products, ...headers} = metadata;
       const changed = !!(target.monitorContent && old.contentHash && contentHash && old.contentHash !== contentHash);
       const newObservation = old.status !== "OBSERVED" || old.publishedUpdate !== nextPublished ||
         ["etag", "lastModified"].some(key => (old.metadata?.[key] || null) !== (headers[key] || null)) ||
@@ -92,4 +103,9 @@ async function inspect(url, monitorContent) {
   }
   fs.mkdirSync("data", {recursive: true});
   fs.writeFileSync(file, JSON.stringify({schemaVersion: 1, lastCheckedAt: now, pages}, null, 2) + "\n");
+  if (approved.publicationApproved === true) {
+    const next=updateApprovedProducts(approved,productObservations);
+    if (next.updated) fs.writeFileSync(approvedPath,JSON.stringify(next.config,null,2)+"\n");
+    console.log("PRODUCT_CAPTURE: sampled "+productObservations.size+" approved stores, updated "+next.updated+", partial skipped "+next.skipped);
+  }
 })().catch(error => {console.error(error); process.exitCode = 1;});
