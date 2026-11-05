@@ -1,0 +1,12 @@
+# Optional free external quarter-hour wakeup. Deploy manually only after
+# Cloudflare account login and limited GitHub Actions-only credential setup.
+name = "harima-gacha-wakeup"
+main = "cloudflare/gacha-wakeup.mjs"
+compatibility_date = "2026-10-01"
+workers_dev = true
+
+[triggers]
+crons = ["7,22,37,52 * * * *"]
+
+[vars]
+GACHA_WAKEUP_ENABLED = "false"
