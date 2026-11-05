@@ -37,19 +37,23 @@ test("successive observed snapshots create one new-link event, not initial-basel
  const updated=updateApprovedProducts(initial,new Map([["公式テスト店",result]]));
  assert.equal(updated.updated,1);
  const now=new Date("2026-11-05T00:15:00Z");
- const diff=build({input:updated.config,previous:prev,storeMap:catalog,now});
+ const baseline={schemaVersion:1,startedAt:"2026-11-03T00:00:00Z",
+   warmupHours:24,stores:[{name:"公式テスト店",items:initial.stores[0].items}]};
+ const diff=build({input:updated.config,previous:prev,observed:baseline,storeMap:catalog,now});
  assert.equal(diff.addedCount,1);
  assert.equal(diff.diff.stores[0].added[0].name,"商品F");
  assert.equal(diff.history.events[0].url,item("666"));
  assert.equal(diff.history.events[0].store,"公式テスト店");
  const again=build({input:updated.config,previous:diff.snapshot,history:diff.history,
-   storeMap:catalog,now:new Date("2026-11-05T00:30:00Z")});
+   observed:diff.observed,storeMap:catalog,now:new Date("2026-11-05T00:30:00Z")});
  assert.equal(again.addedCount,0);
  assert.equal(again.history.events.length,1);
  assert.equal(again.snapshot,null);
  const first=build({input:updated.config,previous:null,storeMap:catalog,now});
  assert.equal(first.addedCount,0);
  assert.equal(first.diff.stores[0].initialBaseline,true);
+ assert.equal(first.migrating,true);
+ assert.equal(first.history.events.length,0);
 });
 test("30-day window prunes stale history and retains current verified events",()=>{
  const events=[{detectedAt:"2026-09-01T00:00:00Z",name:"過去"}];
@@ -68,4 +72,65 @@ test("reject unknown store, untrusted item URL, corrupt history and no approval"
    /PRODUCT_DIFF_INPUT_INVALID/);
  assert.throws(()=>updateApprovedProducts({...initial,publicationApproved:false},new Map()),
    /CONFIG_INVALID/);
+});
+
+
+test("migration never republishes unreliable new-link events; all seen URLs become baseline",()=>{
+ const now=new Date("2026-11-05T03:53:00Z");
+ const history={schemaVersion:1,events:[
+  {store:"公式テスト店",name:"商品F",url:item("666"),detectedAt:"2026-11-05T03:23:00Z"},
+  {store:"公式テスト店",name:"商品F",url:item("666"),detectedAt:"2026-11-05T03:38:00Z"}
+ ]};
+ const latest={...initial,stores:[{name:"公式テスト店",
+  items:[...initial.stores[0].items.slice(0,4),{name:"商品G",url:item("777")}]}]};
+ const first=build({input:latest,previous:prev,history,storeMap:catalog,now});
+ assert.equal(first.addedCount,0);
+ assert.equal(first.history.events.length,0);
+ assert.equal(first.observed.stores[0].items.length,7); // A-E, F, G
+ assert.equal(first.migrating,true);
+ const rotatedBack=build({input:initial,previous:first.snapshot,observed:first.observed,
+  history:first.history,storeMap:catalog,now:new Date("2026-11-05T04:08:00Z")});
+ assert.equal(rotatedBack.addedCount,0);
+ assert.equal(rotatedBack.observed.stores[0].items.length,7);
+ assert.equal(rotatedBack.history.events.length,0);
+});
+test("warmup absorbs unseen rotating first-page links, but later brand-new URLs are announced once",()=>{
+ const first=build({input:initial,previous:prev,storeMap:catalog,
+   now:new Date("2026-11-05T03:00:00Z")});
+ const altered={...initial,stores:[{name:"公式テスト店",items:[
+  ...initial.stores[0].items.slice(0,4),{name:"ページ移動A",url:item("999")}
+ ]}]};
+ const within=build({input:altered,previous:prev,history:first.history,
+   observed:first.observed,storeMap:catalog,now:new Date("2026-11-05T03:15:00Z")});
+ assert.equal(within.addedCount,0);
+ assert.equal(within.pageMovementCount,1);
+ assert.equal(within.observed.stores[0].items.length,6);
+ const tomorrow=build({input:altered,previous:within.snapshot,
+   history:within.history,observed:within.observed,storeMap:catalog,
+   now:new Date("2026-11-06T04:00:00Z")});
+ assert.equal(tomorrow.addedCount,0); // reappearing historical page product
+ const newProduct={...initial,stores:[{name:"公式テスト店",
+  items:[...initial.stores[0].items.slice(0,4),{name:"新しい公式商品",url:item("12345")}]}]};
+ const detected=build({input:newProduct,previous:within.snapshot,
+   history:tomorrow.history,observed:tomorrow.observed,storeMap:catalog,
+   now:new Date("2026-11-06T04:15:00Z")});
+ assert.equal(detected.addedCount,1);
+ assert.deepEqual(detected.diff.stores[0].added.map(x=>x.name),["新しい公式商品"]);
+ const again=build({input:altered,previous:detected.snapshot,
+   history:detected.history,observed:detected.observed,storeMap:catalog,
+   now:new Date("2026-11-06T04:30:00Z")});
+ assert.equal(again.addedCount,0);
+ const returned=build({input:newProduct,previous:again.snapshot,
+   history:again.history,observed:again.observed,storeMap:catalog,
+   now:new Date("2026-11-06T04:45:00Z")});
+ assert.equal(returned.addedCount,0);
+ assert.equal(returned.history.events.length,1);
+});
+test("damaged observed URLs and future baseline fail closed",()=>{
+ assert.throws(()=>build({input:initial,previous:prev,storeMap:catalog,
+  observed:{schemaVersion:1,startedAt:"2026-11-06T00:00:00Z",stores:[]},
+  now:new Date("2026-11-05T00:00:00Z")}),/PRODUCT_OBSERVED_STATE_INVALID/);
+ assert.throws(()=>build({input:initial,previous:prev,storeMap:catalog,
+  observed:{schemaVersion:1,startedAt:"2026-11-03T00:00:00Z",stores:[]},
+  now:new Date("2026-11-05T00:00:00Z")}),/PRODUCT_OBSERVED_STORE_MISSING/);
 });
