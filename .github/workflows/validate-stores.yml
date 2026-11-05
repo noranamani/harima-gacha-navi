@@ -18,6 +18,10 @@ on:
       - 'scripts/page-monitor-audit.cjs'
       - 'scripts/page-monitor-audit.test.cjs'
       - '.github/workflows/page-monitor-health.yml'
+      - 'wrangler.toml'
+      - 'cloudflare/gacha-wakeup.mjs'
+      - 'cloudflare/gacha-wakeup.test.mjs'
+      - 'cloudflare/README.md'
       - 'scripts/guard-candidate-merge.cjs'
       - '.github/workflows/merge-validated-store-candidate.yml'
       - '.github/workflows/candidate-issue-to-pr.yml'
@@ -58,6 +62,7 @@ jobs:
           node --check scripts/guard-candidate-merge.cjs
           node --check scripts/check-page-updates.cjs
           node --test scripts/page-monitor-audit.test.cjs
+          node --test cloudflare/gacha-wakeup.test.mjs
           node - <<'NODE'
           const fs=require('node:fs'),vm=require('node:vm');
           const ctx={window:{}};
