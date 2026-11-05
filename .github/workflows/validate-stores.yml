@@ -14,6 +14,10 @@ on:
       - '.github/workflows/product-link-diff.yml'
       - '.github/workflows/page-updates.yml'
       - 'product-updates.html'
+      - 'scripts/check-page-updates.cjs'
+      - 'scripts/page-monitor-audit.cjs'
+      - 'scripts/page-monitor-audit.test.cjs'
+      - '.github/workflows/page-monitor-health.yml'
       - 'scripts/guard-candidate-merge.cjs'
       - '.github/workflows/merge-validated-store-candidate.yml'
       - '.github/workflows/candidate-issue-to-pr.yml'
@@ -52,6 +56,8 @@ jobs:
           node --check scripts/collect-official-product-links.cjs
           node scripts/build-product-link-diff.cjs
           node --check scripts/guard-candidate-merge.cjs
+          node --check scripts/check-page-updates.cjs
+          node --test scripts/page-monitor-audit.test.cjs
           node - <<'NODE'
           const fs=require('node:fs'),vm=require('node:vm');
           const ctx={window:{}};

@@ -29,7 +29,7 @@ async function inspect(url, monitorContent) {
   try {
     const response = await fetch(url, {method: "GET", redirect: "follow", signal: controller.signal,
       headers: {"User-Agent": "HarimaGachaNavi-MetadataCheck/1.0"}});
-    if (!response.ok) return null;
+    if (!response.ok) return {errorCode: "HTTP_" + response.status};
     const html = (await response.text()).slice(0, 500000);
     const match = html.match(/最終更新日[：:\s\u00a0]*(\d{4})[.\/-](\d{1,2})[.\/-](\d{1,2})\s+(\d{1,2}):(\d{2})/);
     const publishedUpdate = match ? [match[1], match[2].padStart(2,"0"), match[3].padStart(2,"0")].join("-") + " " + match[4].padStart(2,"0") + ":" + match[5] : null;
@@ -38,7 +38,9 @@ async function inspect(url, monitorContent) {
     const content = monitorContent ? extractText(html) : "";
     const contentHash = content.length >= 80 ? crypto.createHash("sha256").update(content).digest("hex") : null;
     return {etag: etag || null, lastModified: lastModified && !Number.isNaN(Date.parse(lastModified)) ? lastModified : null, publishedUpdate, contentHash};
-  } catch { return null; } finally { clearTimeout(timer); }
+  } catch (error) {
+    return {errorCode: error?.name === "AbortError" || error?.name === "TimeoutError" ? "TIMEOUT" : "NETWORK_ERROR"};
+  } finally { clearTimeout(timer); }
 }
 (async () => {
   const targets = new Map();
@@ -53,8 +55,12 @@ async function inspect(url, monitorContent) {
   for (const [url, target] of targets) {
     const old = previous.pages?.[url] || {};
     const metadata = await inspect(url, target.monitorContent);
-    const entry = {...old, name: target.names.join(" / ")};
-    if (metadata && (metadata.publishedUpdate || metadata.etag || metadata.lastModified || metadata.contentHash)) {
+    const entry = {...old, name: target.names.join(" / "), lastAttemptAt: now};
+    if (metadata && !metadata.errorCode && (metadata.publishedUpdate || metadata.etag || metadata.lastModified || metadata.contentHash)) {
+      entry.lastSuccessAt = now;
+      entry.firstUnavailableAt = null;
+      entry.consecutiveUnavailable = 0;
+      entry.lastErrorCode = null;
       const nextPublished = metadata.publishedUpdate || null;
       const {contentHash, ...headers} = metadata;
       const changed = !!(target.monitorContent && old.contentHash && contentHash && old.contentHash !== contentHash);
@@ -76,6 +82,9 @@ async function inspect(url, monitorContent) {
       entry.status = "OBSERVED";
     } else {
       entry.status = "UNAVAILABLE";
+      entry.firstUnavailableAt = old.status === "UNAVAILABLE" && old.firstUnavailableAt || now;
+      entry.consecutiveUnavailable = old.status === "UNAVAILABLE" ? Math.min(100000, (Number(old.consecutiveUnavailable) || 0) + 1) : 1;
+      entry.lastErrorCode = metadata?.errorCode || "UNVERIFIABLE_PAGE";
     }
     pages[url] = entry;
     console.log(entry.status + " " + url);
