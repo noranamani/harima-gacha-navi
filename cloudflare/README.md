@@ -11,7 +11,7 @@ GitHub Cronは維持する。Workersもベストエフォートで、15分以内
 - `wrangler.toml`: `7,22,37,52 * * * *`（UTC/JST同じ分）、Cron Triggerひとつ。初期状態は `GACHA_WAKEUP_ENABLED=false`。
 - `cloudflare/gacha-wakeup.mjs`: REST GETで直近の同Workflow（main）の実行有無を確認。8分以内のschedule/dispatchがあればスキップ。不明・権限エラーなら新規起動しない。
 - 直近実行がなければGitHub REST `workflow_dispatch` で既存Workflowのみ起動。トークンはWorker Secretに保存し、HTTP公開APIは404固定。
-- `page-updates.yml` は並列コミット防止のconcurrencyを追加。外部起動の場合は毎時07分だけ商品差分処理（その他は公式ページメタデータ監視のみ）。手動実行の動作は維持する。
+- `page-updates.yml` は並列コミット防止のconcurrencyを追加。外部起動時も全巡回で商品リンク差分を比較（同じ公式ページのHTTP応答を再利用し、追加GETは発生しない）。手動実行の動作は維持する。
 - `scripts/page-monitor-audit.cjs`: 実際に起動した数と取得不能ページを監査し、長時間の欠落を検知する。
 
 ## 重要：Cloudflare上ではまだ未配置・無効
@@ -25,7 +25,7 @@ GitHub Cronは維持する。Workersもベストエフォートで、15分以内
 3. リポジトリのルートで `npx wrangler login` → `npx wrangler deploy` を実行（初期値 false なのでGitHub書込みは発生しない）。
 4. `npx wrangler secret put GACHA_GITHUB_TOKEN` でSecretへ貼り付ける。保存時、秘密値は画面に出さない。
 5. `wrangler.toml`の`GACHA_WAKEUP_ENABLED`だけ`"true"`に変更し、`npx wrangler deploy`で有効化する。**GitHubには秘密値を登録しない。**
-6. Cloudflare WorkersのCronログとGitHub Actionsの`workflow_dispatch`実行を確認する。15分経過後、`data/page-status.json`の`lastCheckedAt`を照合し、商品リンク差分が毎時だけ動いているかも検証する。
+6. Cloudflare WorkersのCronログとGitHub Actionsの`workflow_dispatch`実行を確認する。15分経過後、`data/page-status.json`の`lastCheckedAt`を照合し、商品リンク差分が実際の各巡回で比較され、追加GETが発生していないことも検証する。
 
 ### 停止・認証更新
 
