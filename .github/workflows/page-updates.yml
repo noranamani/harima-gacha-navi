@@ -11,9 +11,9 @@ on:
         options: [manual, cloudflare_backup]
         default: manual
       product_refresh:
-        description: Only Cloudflare's hourly slot may refresh product names
+        description: Compatibility input; approved links are checked on each run
         type: boolean
-        default: false
+        default: true
 permissions:
   contents: write
 concurrency:
