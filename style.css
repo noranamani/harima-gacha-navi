@@ -15,3 +15,15 @@
 .product-preview-list{padding-left:20px;display:grid;gap:10px}
 .product-preview-list li{line-height:1.65}
 .product-preview-store{font-size:.85rem;color:#5a677b}
+
+/* Store-specific newly listed gachas (official links, not confirmed stock). */
+.card-new-gachas{border-top:1px solid #e3e9f3;padding-top:12px;min-width:0}
+.card-new-gachas h4{font-size:.95rem;color:#224c88;margin:0 0 9px}
+.card-gacha-list{list-style:disc;padding-left:19px;margin:0;display:grid;gap:9px}
+.card-gacha-list li{overflow-wrap:anywhere;line-height:1.45}
+.card-gacha-list a{font-size:.91rem;font-weight:700}
+.card-gacha-list small{display:block;font-size:.74rem;color:#617187;margin-top:3px}
+.card-gacha-extra{margin-top:10px}
+.card-gacha-extra summary{font-size:.84rem;color:#2155ad;font-weight:700;cursor:pointer}
+.card-gacha-extra .card-gacha-list{margin-top:9px}
+.card-gacha-note{display:block;font-size:.75rem;line-height:1.5;color:#667486;margin-top:12px}
