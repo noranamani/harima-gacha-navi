@@ -39,7 +39,7 @@ test("recent schedule or dispatch, including failure, prevents duplicate",async(
     assert.equal(f.seen.length,1);
   }
 });
-test("stale runs trigger existing workflow only; hourly minute refreshes products",async()=>{
+test("stale runs trigger existing workflow only; every quarter-hour includes product link comparison",async()=>{
   const f=mock([record(T-15*60000)]);
   const x=await safeWakeup({env:valid,nowMs:T,cron:CRON,fetcher:f.fetcher});
   assert.deepEqual(x,{status:"requested",product_refresh:true});
@@ -52,8 +52,8 @@ test("stale runs trigger existing workflow only; hourly minute refreshes product
   const second=mock();
   const t=Date.parse("2026-11-05T12:22:00Z");
   assert.equal((await safeWakeup({env:valid,nowMs:t,cron:CRON,
-    fetcher:second.fetcher})).product_refresh,false);
-  assert.equal(JSON.parse(second.seen[1].opts.body).inputs.product_refresh,"false");
+    fetcher:second.fetcher})).product_refresh,true);
+  assert.equal(JSON.parse(second.seen[1].opts.body).inputs.product_refresh,"true");
 });
 test("invalid, unavailable or unauthorized GitHub run list never dispatches",async()=>{
   for (const response of [
