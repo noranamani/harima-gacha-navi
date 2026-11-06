@@ -1,6 +1,49 @@
 {
   "schemaVersion": 1,
-  "lastComparedAt": "2026-11-06T04:23:35.746Z",
+  "lastComparedAt": "2026-11-06T04:38:39.716Z",
   "retentionDays": 30,
-  "events": []
+  "events": [
+    {
+      "detectedAt": "2026-11-06T04:38:39.716Z",
+      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路飾磨店",
+      "name": "ハイキュー!! ねむらせ隊3",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770095487",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_shikama/item/"
+    },
+    {
+      "detectedAt": "2026-11-06T04:38:39.716Z",
+      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA太子店",
+      "name": "ハイキュー!! ねむらせ隊3",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770095487",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_taishi/item/"
+    },
+    {
+      "detectedAt": "2026-11-06T04:38:39.716Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 三木サービスエリア下り線店",
+      "name": "サンリオキャラクターズ 実写版ミニチュアチャーム",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770027006",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/miki_sa/item/"
+    },
+    {
+      "detectedAt": "2026-11-06T04:38:39.716Z",
+      "store": "ガシャポンのデパート イトーヨーカドー明石店",
+      "name": "ハイキュー!! ねむらせ隊3",
+      "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770095487",
+      "inventory": "https://bandainamco-am.co.jp/others/capsule-toy-store/store/iyakashi/item/"
+    },
+    {
+      "detectedAt": "2026-11-06T04:38:39.716Z",
+      "store": "ガシャポンのデパート イトーヨーカドー明石店",
+      "name": "モンスターハンター めじるしアクセサリー",
+      "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582769979514",
+      "inventory": "https://bandainamco-am.co.jp/others/capsule-toy-store/store/iyakashi/item/"
+    },
+    {
+      "detectedAt": "2026-11-06T04:38:39.716Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店山崎店",
+      "name": "ハイキュー!! ねむらせ隊3",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770095487",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_yamazaki/item/"
+    }
+  ]
 }
