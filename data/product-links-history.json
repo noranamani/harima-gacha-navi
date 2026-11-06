@@ -1,8 +1,22 @@
 {
   "schemaVersion": 1,
-  "lastComparedAt": "2026-11-06T08:08:45.313Z",
+  "lastComparedAt": "2026-11-06T08:23:41.796Z",
   "retentionDays": 30,
   "events": [
+    {
+      "detectedAt": "2026-11-06T08:23:41.796Z",
+      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
+      "name": "HELLOKITTY スクールガールスイング",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054828",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_hiromine/item/"
+    },
+    {
+      "detectedAt": "2026-11-06T08:23:41.796Z",
+      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
+      "name": "“ディズニーキャラクター” ふわふわめじるしアクセサリー",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068252",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_hiromine/item/"
+    },
     {
       "detectedAt": "2026-11-06T06:53:39.249Z",
       "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
