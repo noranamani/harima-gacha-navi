@@ -1,8 +1,22 @@
 {
   "schemaVersion": 1,
-  "lastComparedAt": "2026-11-06T09:16:16.070Z",
+  "lastComparedAt": "2026-11-06T09:39:01.184Z",
   "retentionDays": 30,
   "events": [
+    {
+      "detectedAt": "2026-11-06T09:39:01.184Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
+      "name": "ハイキュー!! ねむらせ隊3",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770095487",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/akashi/item/"
+    },
+    {
+      "detectedAt": "2026-11-06T09:39:01.184Z",
+      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路飾磨店",
+      "name": "ちいかわ カプセルステッキ",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118187321",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_shikama/item/"
+    },
     {
       "detectedAt": "2026-11-06T08:23:41.796Z",
       "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
