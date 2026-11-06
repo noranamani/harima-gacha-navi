@@ -1,8 +1,15 @@
 {
   "schemaVersion": 1,
-  "lastComparedAt": "2026-11-06T14:23:34.832Z",
+  "lastComparedAt": "2026-11-06T14:38:39.938Z",
   "retentionDays": 30,
   "events": [
+    {
+      "detectedAt": "2026-11-06T14:38:39.938Z",
+      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路飾磨店",
+      "name": "クレヨンしんちゃん なりきり！？アイドルステージ スイングマスコット",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769928420",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_shikama/item/"
+    },
     {
       "detectedAt": "2026-11-06T09:39:01.184Z",
       "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
