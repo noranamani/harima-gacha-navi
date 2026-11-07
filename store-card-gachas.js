@@ -8,7 +8,7 @@
   if(typeof module==="object"&&module.exports)module.exports=api;
   if(root)root.HARIMA_GACHA_CARDS=api;
 })(typeof window!=="undefined"?window:null,function(){
-  const PERIOD_MS=3*60*60*1000; // Display only the first three hours; archive remains intact.
+  const PERIOD_MS=8*60*60*1000; // Display only the first eight hours; archive remains intact.
   const PREVIEW_COUNT=3;
   const detectedAtFormatter=new Intl.DateTimeFormat("ja-JP",{
     timeZone:"Asia/Tokyo",year:"numeric",month:"2-digit",day:"2-digit",
@@ -76,7 +76,7 @@
       return ul;
     };
 
-    // Rebuild only this section when its oldest visible item reaches 3 hours.
+    // Rebuild only this section when its oldest visible item reaches 8 hours.
     // Keep the store card and official links untouched; no new network fetch.
     function updateVisible(){
       const fresh=freshAt(Date.now());
@@ -96,7 +96,7 @@
         section.append(details);
       }
       const note=documentRef.createElement("small");note.className="card-gacha-note";
-      note.textContent="公式一覧への新規掲載です（検出から3時間のみ表示）。実際の入荷・在庫は保証しません。";
+      note.textContent="公式一覧への新規掲載です（検出から8時間のみ表示）。実際の入荷・在庫は保証しません。";
       section.append(note);
 
       // Timers also handle tabs left open, without waiting for the next reload.
