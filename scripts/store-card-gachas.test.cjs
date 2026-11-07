@@ -119,7 +119,7 @@ test("new product cards show both date and detection time in JST including midni
  assert.equal(fakeWindow.HARIMA_GACHA_CARDS.attach(card,moments.map((when,i)=>event("同じ店舗",i+1,when)),doc),true);
  const labels=[];
  walk(card.querySelector(".card-new-gachas"),node=>{
-   if(node.tag==="small"&&node.textContent.includes("検出"))labels.push(node.textContent);
+   if(node.tag==="small"&&node.textContent.endsWith(" 検出"))labels.push(node.textContent);
  });
  assert.deepEqual(labels,[
    "2026/11/05 23:59 検出",
