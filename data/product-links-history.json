@@ -1,8 +1,22 @@
 {
   "schemaVersion": 1,
-  "lastComparedAt": "2026-11-07T10:23:44.023Z",
+  "lastComparedAt": "2026-11-07T10:38:38.190Z",
   "retentionDays": 30,
   "events": [
+    {
+      "detectedAt": "2026-11-07T10:38:38.190Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
+      "name": "MINECRAFT ぬいぐるみマスコット",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770069136",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/akashi/item/"
+    },
+    {
+      "detectedAt": "2026-11-07T10:38:38.190Z",
+      "store": "ガシャポンのデパート イトーヨーカドー明石店",
+      "name": "【フラットガシャポン】クリアポーチコレクション スーパー戦隊",
+      "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770027754",
+      "inventory": "https://bandainamco-am.co.jp/others/capsule-toy-store/store/iyakashi/item/"
+    },
     {
       "detectedAt": "2026-11-07T09:38:35.261Z",
       "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
