@@ -1,6 +1,9 @@
 "use strict";
 const test=require("node:test");
 const assert=require("node:assert/strict");
+const fs=require("node:fs");
+const vm=require("node:vm");
+const path=require("node:path");
 const {byStore,attach,safeOfficialProductUrl}=require("../store-card-gachas.js");
 
 const NOW=Date.parse("2026-11-05T02:30:00Z");
@@ -10,8 +13,20 @@ const event=(store,id,when=NOW-60000)=>({
 });
 
 class Node{
-  constructor(tag){this.tag=tag;this.children=[];this.props={};this.textContent="";}
-  append(...children){this.children.push(...children);}
+  constructor(tag){this.tag=tag;this.children=[];this.props={};this.textContent="";this.parentNode=null;}
+  get isConnected(){return this.parentNode?this.parentNode.isConnected:this.tag==="article";}
+  append(...children){for(const child of children){child.parentNode=this;this.children.push(child);}}
+  replaceChildren(...children){
+    for(const child of this.children)child.parentNode=null;
+    this.children=[];
+    this.append(...children);
+  }
+  remove(){
+    if(!this.parentNode)return;
+    const parent=this.parentNode,index=parent.children.indexOf(this);
+    if(index>=0)parent.children.splice(index,1);
+    this.parentNode=null;
+  }
   setAttribute(name,value){this.props[name]=value;}
   querySelector(selector){
     const cls=selector.startsWith(".")?selector.slice(1):"";
@@ -25,7 +40,7 @@ class Node{
   insertBefore(node,before){
     const index=this.children.indexOf(before);
     if(index<0)throw Error("not a child");
-    this.children.splice(index,0,node);
+    node.parentNode=this;this.children.splice(index,0,node);
   }
 }
 const doc={createElement:tag=>new Node(tag)};
@@ -107,4 +122,50 @@ test("new product cards show both date and detection time in JST including midni
    "2026/11/06 00:15 検出",
    "2026/11/06 00:30 検出"
  ]);
+});
+
+test("exact three-hour visibility boundary, future stamps, and store-specific links",()=>{
+ const h=3600000;
+ const group=byStore({schemaVersion:1,events:[
+   event("店舗A",1,NOW-3*h+1),
+   event("店舗A",2,NOW-3*h),
+   event("店舗A",3,NOW-3*h-1),
+   event("店舗B",4,NOW-1),
+   event("店舗B",5,NOW+1),
+   event("店舗B",4,NOW-4*h) // older duplicate must not extend visibility
+ ]},NOW);
+ assert.deepEqual(group.get("店舗A").map(e=>e.name),["ガチャ 1"]);
+ assert.deepEqual(group.get("店舗B").map(e=>e.name),["ガチャ 4"]);
+ assert.equal(byStore({schemaVersion:1,events:[event("店舗A",1,NOW-3*h)]},NOW).size,0);
+ const card=new Node("article");card.append(new Node("div"));
+ assert.equal(attach(card,[event("店舗A",1,NOW-3*h)],doc),false);
+ assert.equal(card.querySelector(".card-new-gachas"),null);
+});
+
+test("a card left open expires item by item, updates its count and eventually disappears",()=>{
+ const script=fs.readFileSync(path.resolve(__dirname,"../store-card-gachas.js"),"utf8");
+ const base=Date.parse("2026-11-07T00:00:00Z"),h=3600000;
+ let now=base;
+ class TestClock extends Date{static now(){return now;}}
+ const timers=[],fakeWindow={setTimeout: (fn,delay)=>{timers.push({fn,delay});return timers.length;}};
+ vm.runInNewContext(script,{window:fakeWindow,Date:TestClock,Intl,URL});
+ const api=fakeWindow.HARIMA_GACHA_CARDS;
+ const card=new Node("article"),links=new Node("div");links.className="links";card.append(links);
+ const entries=[event("店舗A",1,base-2*h),event("店舗A",2,base-h/2)];
+ assert.equal(api.attach(card,entries,doc),true);
+ let group=card.querySelector(".card-new-gachas");
+ assert.equal(group.children[0].textContent,"新規掲載のガチャ（2件）");
+ assert.equal(timers.length,1);
+ assert.equal(timers[0].delay,h+1);
+ now=base+h+1;
+ timers.shift().fn();
+ assert.equal(group.children[0].textContent,"新規掲載のガチャ（1件）");
+ const itemNames=[];walk(group,n=>{if(n.tag==="a")itemNames.push(n.textContent);});
+ assert.deepEqual(itemNames,["ガチャ 2"]);
+ assert.equal(timers.length,1);
+ now=base+3*h;
+ timers.shift().fn();
+ assert.equal(card.querySelector(".card-new-gachas"),null);
+ assert.equal(timers.length,0);
+ assert.equal(api.attach(card,entries,doc),false); // older data cannot reappear
 });
