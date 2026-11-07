@@ -8,7 +8,7 @@
     if(!r.ok)throw Error("unavailable");
     const data=await r.json();
     if(data.schemaVersion!==1||!Array.isArray(data.events))throw Error("invalid");
-    const period=3*60*60*1000;
+    const period=8*60*60*1000;
     const valid=data.events.filter(e=>{
       if(!e||typeof e.name!=="string"||typeof e.store!=="string")return false;
       if(!Number.isFinite(Date.parse(e.detectedAt)))return false;
@@ -28,10 +28,10 @@
       list.replaceChildren();
       if(!items.length){
         list.hidden=true;
-        status.textContent="直近3時間以内に新しい商品リンクは検出されていません。";
+        status.textContent="直近8時間以内に新しい商品リンクは検出されていません。";
         return;
       }
-      list.hidden=false;status.textContent="直近3時間の新規掲載リンク";
+      list.hidden=false;status.textContent="直近8時間の新規掲載リンク";
       for(const event of items){
         const li=document.createElement("li");
         const a=document.createElement("a");a.href=event.url;a.target="_blank";
