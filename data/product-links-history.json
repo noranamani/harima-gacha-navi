@@ -1,8 +1,15 @@
 {
   "schemaVersion": 1,
-  "lastComparedAt": "2026-11-07T07:24:22.230Z",
+  "lastComparedAt": "2026-11-07T07:38:33.230Z",
   "retentionDays": 30,
   "events": [
+    {
+      "detectedAt": "2026-11-07T07:38:33.230Z",
+      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路飾磨店",
+      "name": "HELLOKITTY スクールガールスイング",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054828",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_shikama/item/"
+    },
     {
       "detectedAt": "2026-11-07T06:38:45.462Z",
       "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
