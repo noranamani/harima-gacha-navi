@@ -24,7 +24,7 @@
     checked.textContent=data.lastComparedAt&&Number.isFinite(Date.parse(data.lastComparedAt))?
       "最後に比較処理が実行された日時："+dateTime(data.lastComparedAt)+"（日本時間）":
       "まだ比較処理の実績がありません。";
-    const now=Date.now(),limit=3*60*60*1000;
+    const now=Date.now(),limit=8*60*60*1000;
     const events=data.events.filter(e=>e&&typeof e.store==="string"&&
       typeof e.name==="string"&&e.name.length>=2&&e.name.length<=180&&
       officialUrl(e.url)&&Number.isFinite(Date.parse(e.detectedAt))&&
@@ -45,7 +45,7 @@
       const visible=fresh.filter(e=>!filter.value||e.store===filter.value);
       counter.textContent=visible.length+"件";
       if(!visible.length){
-        const p=document.createElement("p");p.textContent="直近3時間以内に、この店舗の新しい商品リンクは検出されていません。";target.append(p);return;
+        const p=document.createElement("p");p.textContent="直近8時間以内に、この店舗の新しい商品リンクは検出されていません。";target.append(p);return;
       }
       const list=document.createElement("ul");list.className="product-event-list";
       for(const event of visible){
