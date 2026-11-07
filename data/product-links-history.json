@@ -1,8 +1,15 @@
 {
   "schemaVersion": 1,
-  "lastComparedAt": "2026-11-07T07:53:35.872Z",
+  "lastComparedAt": "2026-11-07T08:08:32.947Z",
   "retentionDays": 30,
   "events": [
+    {
+      "detectedAt": "2026-11-07T08:08:32.947Z",
+      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
+      "name": "JAPAN めじるしアクセサリー3",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770081695",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_hiromine/item/"
+    },
     {
       "detectedAt": "2026-11-07T07:38:33.230Z",
       "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路飾磨店",
