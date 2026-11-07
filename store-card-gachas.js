@@ -8,7 +8,7 @@
   if(typeof module==="object"&&module.exports)module.exports=api;
   if(root)root.HARIMA_GACHA_CARDS=api;
 })(typeof window!=="undefined"?window:null,function(){
-  const PERIOD_MS=30*86400000;
+  const PERIOD_MS=8*60*60*1000; // Display only the first eight hours; archive remains intact.
   const PREVIEW_COUNT=3;
   const detectedAtFormatter=new Intl.DateTimeFormat("ja-JP",{
     timeZone:"Asia/Tokyo",year:"numeric",month:"2-digit",day:"2-digit",
@@ -33,7 +33,7 @@
          typeof e.name!=="string"||e.name.length<2||e.name.length>180||
          typeof e.detectedAt!=="string"||!safeOfficialProductUrl(e.url))return false;
       const when=Date.parse(e.detectedAt);
-      return Number.isFinite(when)&&when<=nowMs&&nowMs-when<=PERIOD_MS;
+      return Number.isFinite(when)&&when<=nowMs&&nowMs-when<PERIOD_MS;
     }).sort((a,b)=>Date.parse(b.detectedAt)-Date.parse(a.detectedAt));
     const grouped=new Map(),seen=new Set();
     for(const e of filtered){
@@ -51,17 +51,20 @@
     if(card.querySelector(".card-new-gachas"))return false;
     const documentRef=doc||(typeof document!=="undefined"?document:null);
     if(!documentRef)return false;
+    const freshAt=nowMs=>items.filter(e=>{
+      if(!e||typeof e.detectedAt!=="string"||!safeOfficialProductUrl(e.url))return false;
+      const when=Date.parse(e.detectedAt);
+      return Number.isFinite(when)&&when<=nowMs&&nowMs-when<PERIOD_MS;
+    });
+    if(!freshAt(Date.now()).length)return false;
+
     const section=documentRef.createElement("section");
     section.className="card-new-gachas";
     section.setAttribute("aria-label","この店舗の新規掲載ガチャ");
-    const heading=documentRef.createElement("h4");
-    heading.textContent="新規掲載のガチャ（"+items.length+"件）";
-    section.append(heading);
 
     const makeList=part=>{
       const ul=documentRef.createElement("ul");ul.className="card-gacha-list";
       for(const e of part){
-        if(!safeOfficialProductUrl(e.url))continue;
         const li=documentRef.createElement("li");
         const a=documentRef.createElement("a");
         a.href=e.url;a.target="_blank";a.rel="noopener noreferrer";
@@ -72,18 +75,41 @@
       }
       return ul;
     };
-    section.append(makeList(items.slice(0,PREVIEW_COUNT)));
-    if(items.length>PREVIEW_COUNT){
-      const details=documentRef.createElement("details");
-      details.className="card-gacha-extra";
-      const summary=documentRef.createElement("summary");
-      summary.textContent="ほか "+(items.length-PREVIEW_COUNT)+"件を表示";
-      details.append(summary,makeList(items.slice(PREVIEW_COUNT)));
-      section.append(details);
+
+    // Rebuild only this section when its oldest visible item reaches 8 hours.
+    // Keep the store card and official links untouched; no new network fetch.
+    function updateVisible(){
+      const fresh=freshAt(Date.now());
+      if(!fresh.length){section.remove();return;}
+      const wasExpanded=!!section.querySelector(".card-gacha-extra")?.open;
+      section.replaceChildren();
+      const heading=documentRef.createElement("h4");
+      heading.textContent="新規掲載のガチャ（"+fresh.length+"件）";
+      section.append(heading,makeList(fresh.slice(0,PREVIEW_COUNT)));
+      if(fresh.length>PREVIEW_COUNT){
+        const details=documentRef.createElement("details");
+        details.className="card-gacha-extra";
+        details.open=wasExpanded;
+        const summary=documentRef.createElement("summary");
+        summary.textContent="ほか "+(fresh.length-PREVIEW_COUNT)+"件を表示";
+        details.append(summary,makeList(fresh.slice(PREVIEW_COUNT)));
+        section.append(details);
+      }
+      const note=documentRef.createElement("small");note.className="card-gacha-note";
+      note.textContent="公式一覧への新規掲載です（検出から8時間のみ表示）。実際の入荷・在庫は保証しません。";
+      section.append(note);
+
+      // Timers also handle tabs left open, without waiting for the next reload.
+      // Detached cards do not need work after a search/filter re-render.
+      if(typeof window!=="undefined"&&typeof window.setTimeout==="function"){
+        const firstExpiry=Math.min(...fresh.map(e=>Date.parse(e.detectedAt)+PERIOD_MS));
+        window.setTimeout(()=>{
+          if(section.isConnected)updateVisible();
+        },Math.max(1,firstExpiry-Date.now()+1));
+      }
     }
-    const note=documentRef.createElement("small");note.className="card-gacha-note";
-    note.textContent="公式一覧への新規掲載です。実際の入荷・在庫は保証しません。";
-    section.append(note);
+
+    updateVisible();
     const links=card.querySelector(".links");
     if(links)card.insertBefore(section,links);
     else card.append(section);

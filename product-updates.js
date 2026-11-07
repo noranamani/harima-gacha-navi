@@ -24,22 +24,28 @@
     checked.textContent=data.lastComparedAt&&Number.isFinite(Date.parse(data.lastComparedAt))?
       "最後に比較処理が実行された日時："+dateTime(data.lastComparedAt)+"（日本時間）":
       "まだ比較処理の実績がありません。";
-    const now=Date.now(),limit=30*86400000;
+    const now=Date.now(),limit=8*60*60*1000;
     const events=data.events.filter(e=>e&&typeof e.store==="string"&&
       typeof e.name==="string"&&e.name.length>=2&&e.name.length<=180&&
       officialUrl(e.url)&&Number.isFinite(Date.parse(e.detectedAt))&&
-      now-Date.parse(e.detectedAt)>=0&&now-Date.parse(e.detectedAt)<=limit)
+      now-Date.parse(e.detectedAt)>=0&&now-Date.parse(e.detectedAt)<limit)
       .sort((a,b)=>b.detectedAt.localeCompare(a.detectedAt));
     for(const name of [...new Set(events.map(x=>x.store))].sort((a,b)=>a.localeCompare(b,"ja"))){
       const option=document.createElement("option");
       option.value=name;option.textContent=name;filter.append(option);
     }
+    let expiryTimer=null;
     const render=()=>{
+      if(expiryTimer!==null)clearTimeout(expiryTimer);
+      const current=Date.now();
+      const fresh=events.filter(e=>current>=Date.parse(e.detectedAt)&&current-Date.parse(e.detectedAt)<limit);
+      const deadlines=fresh.map(e=>Date.parse(e.detectedAt)+limit);
+      if(deadlines.length)expiryTimer=setTimeout(render,Math.max(1,Math.min(...deadlines)-Date.now()+1));
       target.replaceChildren();
-      const visible=events.filter(e=>!filter.value||e.store===filter.value);
+      const visible=fresh.filter(e=>!filter.value||e.store===filter.value);
       counter.textContent=visible.length+"件";
       if(!visible.length){
-        const p=document.createElement("p");p.textContent="この期間・店舗では、新しい商品リンクの掲載を確認できていません。";target.append(p);return;
+        const p=document.createElement("p");p.textContent="直近8時間以内に、この店舗の新しい商品リンクは検出されていません。";target.append(p);return;
       }
       const list=document.createElement("ul");list.className="product-event-list";
       for(const event of visible){
