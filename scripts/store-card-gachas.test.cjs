@@ -129,21 +129,21 @@ test("new product cards show both date and detection time in JST including midni
  ]);
 });
 
-test("exact three-hour visibility boundary, future stamps, and store-specific links",()=>{
+test("exact eight-hour visibility boundary, future stamps, and store-specific links",()=>{
  const h=3600000;
  const group=byStore({schemaVersion:1,events:[
-   event("店舗A",1,NOW-3*h+1),
-   event("店舗A",2,NOW-3*h),
-   event("店舗A",3,NOW-3*h-1),
+   event("店舗A",1,NOW-8*h+1),
+   event("店舗A",2,NOW-8*h),
+   event("店舗A",3,NOW-8*h-1),
    event("店舗B",4,NOW-1),
    event("店舗B",5,NOW+1),
-   event("店舗B",4,NOW-4*h) // older duplicate must not extend visibility
+   event("店舗B",4,NOW-9*h) // older duplicate must not extend visibility
  ]},NOW);
  assert.deepEqual(group.get("店舗A").map(e=>e.name),["ガチャ 1"]);
  assert.deepEqual(group.get("店舗B").map(e=>e.name),["ガチャ 4"]);
- assert.equal(byStore({schemaVersion:1,events:[event("店舗A",1,NOW-3*h)]},NOW).size,0);
+ assert.equal(byStore({schemaVersion:1,events:[event("店舗A",1,NOW-8*h)]},NOW).size,0);
  const card=new Node("article");card.append(new Node("div"));
- assert.equal(attach(card,[event("店舗A",1,NOW-3*h)],doc),false);
+ assert.equal(attach(card,[event("店舗A",1,NOW-8*h)],doc),false);
  assert.equal(card.querySelector(".card-new-gachas"),null);
 });
 
@@ -156,7 +156,7 @@ test("a card left open expires item by item, updates its count and eventually di
  vm.runInNewContext(script,{window:fakeWindow,Date:TestClock,Intl,URL});
  const api=fakeWindow.HARIMA_GACHA_CARDS;
  const card=new Node("article"),links=new Node("div");links.className="links";card.append(links);
- const entries=[event("店舗A",1,base-2*h),event("店舗A",2,base-h/2)];
+ const entries=[event("店舗A",1,base-7*h),event("店舗A",2,base-5.5*h)];
  assert.equal(api.attach(card,entries,doc),true);
  let group=card.querySelector(".card-new-gachas");
  assert.equal(group.children[0].textContent,"新規掲載のガチャ（2件）");
