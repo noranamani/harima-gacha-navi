@@ -13,12 +13,12 @@
 <p><a href="./">← トップへ戻る</a></p>
 <section class="notice">
 <h2>掲載差分について</h2>
-<p>公式の店舗別商品一覧を前回の取得結果と比較して、新しく掲載された<strong>商品名と公式商品ページへのリンクのみ</strong>を表示します。入荷・再入荷・在庫の有無は保証しません。取扱商品の掲載順やページ移動によって「新規掲載」と判定される場合があります。</p>
+<p>公式の店舗別商品一覧で過去に観測していない商品リンクを検出したとき、検出から3時間以内の<strong>商品名と公式商品ページへのリンクのみ</strong>を表示します。入荷・再入荷・在庫の有無は保証しません。公式一覧への初掲載は、実店舗への入荷時刻や新発売日を示すものではありません。3時間を過ぎると表示から外れますが、誤検出防止用の観測履歴は保持します。</p>
 <p>現在の対象は取得を承認したバンダイ公式ショップ8店舗の<strong>一覧先頭ページに掲載された商品</strong>です。初回取得と取得方法の変更時は比較の基準として保存し、古い商品の再表示を新着扱いしないため24時間の学習期間を設けます。確認頻度は最短15分ですが、GitHub Actionsの起動遅延や公式サイト側の取得制限により遅れる場合があります。</p>
 <p id="product-checked-at" class="update-status">最終比較日時を確認しています。</p>
 </section>
 <section class="notice">
-<div class="section-head"><h2>最近30日間の新規掲載</h2><span id="product-result-count"></span></div>
+<div class="section-head"><h2>直近3時間以内の新規掲載</h2><span id="product-result-count"></span></div>
 <label for="product-store-filter">店舗で絞り込む</label>
 <select id="product-store-filter"><option value="">すべての対象店舗</option></select>
 <div id="product-diff" aria-live="polite">情報を確認しています。</div>
