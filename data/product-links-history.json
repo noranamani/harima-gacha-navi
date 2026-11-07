@@ -1,8 +1,15 @@
 {
   "schemaVersion": 1,
-  "lastComparedAt": "2026-11-07T08:23:37.390Z",
+  "lastComparedAt": "2026-11-07T08:38:36.075Z",
   "retentionDays": 30,
   "events": [
+    {
+      "detectedAt": "2026-11-07T08:38:36.075Z",
+      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路飾磨店",
+      "name": "miffy カラフルカラビナマスコット",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769979286",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_shikama/item/"
+    },
     {
       "detectedAt": "2026-11-07T08:08:32.947Z",
       "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
