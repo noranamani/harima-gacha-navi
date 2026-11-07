@@ -6,7 +6,7 @@ const vm=require("node:vm");
 const path=require("node:path");
 const {byStore,attach,safeOfficialProductUrl}=require("../store-card-gachas.js");
 
-const NOW=Date.parse("2026-11-05T02:30:00Z");
+const NOW=Date.now(); // General attachment tests must use fresh data at execution time.
 const productUrl=id=>"https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code="+id;
 const event=(store,id,when=NOW-60000)=>({
   store,name:"ガチャ "+id,url:productUrl(id),detectedAt:new Date(when).toISOString()
@@ -104,6 +104,11 @@ test("empty data never creates a fake new-products section",()=>{
  assert.equal(card.querySelector(".card-new-gachas"),null);
 });
 test("new product cards show both date and detection time in JST including midnight rollover",()=>{
+ const script=fs.readFileSync(path.resolve(__dirname,"../store-card-gachas.js"),"utf8");
+ const frozen=Date.parse("2026-11-05T15:50:00Z");
+ class TestClock extends Date{static now(){return frozen;}}
+ const fakeWindow={setTimeout:()=>1};
+ vm.runInNewContext(script,{window:fakeWindow,Date:TestClock,Intl,URL});
  const card=new Node("article"),links=new Node("div");links.className="links";card.append(links);
  const moments=[
    Date.parse("2026-11-05T14:59:00Z"), // JST 2026/11/05 23:59
@@ -111,7 +116,7 @@ test("new product cards show both date and detection time in JST including midni
    Date.parse("2026-11-05T15:15:00Z"),
    Date.parse("2026-11-05T15:30:00Z")
  ];
- assert.equal(attach(card,moments.map((when,i)=>event("同じ店舗",i+1,when)),doc),true);
+ assert.equal(fakeWindow.HARIMA_GACHA_CARDS.attach(card,moments.map((when,i)=>event("同じ店舗",i+1,when)),doc),true);
  const labels=[];
  walk(card.querySelector(".card-new-gachas"),node=>{
    if(node.tag==="small"&&node.textContent.includes("検出"))labels.push(node.textContent);
