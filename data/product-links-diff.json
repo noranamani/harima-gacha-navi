@@ -1,18 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T08:08:32.947Z",
+  "updatedAt": "2026-11-07T08:23:37.390Z",
   "notice": "新規掲載は入荷・再入荷を保証しません。公式商品一覧の表示範囲だけを監視しています。",
   "stores": [
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_hiromine/item/",
       "initialBaseline": false,
-      "added": [
-        {
-          "name": "JAPAN めじるしアクセサリー3",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770081695"
-        }
-      ],
+      "added": [],
       "removedCount": 9
     },
     {
