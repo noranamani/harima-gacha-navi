@@ -1,8 +1,15 @@
 {
   "schemaVersion": 1,
-  "lastComparedAt": "2026-11-07T12:23:34.588Z",
+  "lastComparedAt": "2026-11-07T12:38:36.108Z",
   "retentionDays": 30,
   "events": [
+    {
+      "detectedAt": "2026-11-07T12:38:36.108Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
+      "name": "FANFANCHUU カラフルカラビナマスコット",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769979293",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/akashi/item/"
+    },
     {
       "detectedAt": "2026-11-07T10:38:38.190Z",
       "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
