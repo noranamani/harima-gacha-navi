@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T12:38:36.846Z",
+  "updatedAt": "2026-11-08T13:08:46.640Z",
   "stores": [
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
@@ -16,10 +16,6 @@
         {
           "name": "ZETT（ゼット） 野球グローブコレクション",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770095357"
-        },
-        {
-          "name": "ジュエルポッド ミニチュアチャームコレクション",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186942"
         },
         {
           "name": "CAPSULEVERSE ゴジラ",
@@ -84,6 +80,10 @@
         {
           "name": "カラフルマルチチャーム 塊魂",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770071092"
+        },
+        {
+          "name": "いたずらねこちゃあぁぁん",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770076776"
         }
       ]
     },
@@ -93,14 +93,6 @@
         {
           "name": "ハイキュー!! ねむらせ隊3",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770095487"
-        },
-        {
-          "name": "ジュエルポッド ミニチュアチャームコレクション",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186942"
-        },
-        {
-          "name": "ONE PIECE ゆらゆらし隊",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118196545"
         },
         {
           "name": "yeye ムンゲのフィギュア",
@@ -169,6 +161,14 @@
         {
           "name": "MOOMIN カプセルボトルチャーム",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054989"
+        },
+        {
+          "name": "刀剣乱舞ONLINE めじるしアクセサリー",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055535"
+        },
+        {
+          "name": "CAPSULEVERSE 機動戦士ガンダム 01",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055863"
         }
       ]
     },
@@ -186,14 +186,6 @@
         {
           "name": "ZETT（ゼット） 野球グローブコレクション",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770095357"
-        },
-        {
-          "name": "ジュエルポッド ミニチュアチャームコレクション",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186942"
-        },
-        {
-          "name": "ONE PIECE ゆらゆらし隊",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118196545"
         },
         {
           "name": "CAPSULEVERSE ゴジラ",
@@ -254,6 +246,14 @@
         {
           "name": "おジャ魔女どれみ×ひつじのショーン ラバーマスコット",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770056099"
+        },
+        {
+          "name": "ぐ～チョコランタン カラフルカラビナマスコット",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068504"
+        },
+        {
+          "name": "らぼっと ふわふわフロッキーチャーム",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068559"
         }
       ]
     },
@@ -271,10 +271,6 @@
         {
           "name": "ZETT（ゼット） 野球グローブコレクション",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770095357"
-        },
-        {
-          "name": "ジュエルポッド ミニチュアチャームコレクション",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186942"
         },
         {
           "name": "CAPSULEVERSE ゴジラ",
@@ -339,6 +335,10 @@
         {
           "name": "HELLOKITTY スクールガールスイング",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054828"
+        },
+        {
+          "name": "MOOMIN カプセルボトルチャーム",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054989"
         }
       ]
     },
@@ -352,10 +352,6 @@
         {
           "name": "ZETT（ゼット） 野球グローブコレクション",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770095357"
-        },
-        {
-          "name": "ジュエルポッド ミニチュアチャームコレクション",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186942"
         },
         {
           "name": "CAPSULEVERSE ゴジラ",
@@ -424,6 +420,10 @@
         {
           "name": "リンクトラベラーズ ～幻想に彩られた世界編～ SIDE：G",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770122855"
+        },
+        {
+          "name": "【フラットガシャポン】みいつけた！ ネイル＆マルチシールコレクション",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770140453"
         }
       ]
     },
@@ -437,14 +437,6 @@
         {
           "name": "MINECRAFT ぬいぐるみマスコット",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770069136"
-        },
-        {
-          "name": "名探偵プリキュア！ サウンドロップ",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118181862"
-        },
-        {
-          "name": "ONE PIECE ゆらゆらし隊",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118196545"
         },
         {
           "name": "CAPSULEVERSE ゴジラ",
@@ -509,6 +501,14 @@
         {
           "name": "ゲゲゲの鬼太郎（第4期） ねむらせ隊",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770027594"
+        },
+        {
+          "name": "TOM and JERRY ぷにぷにし隊～クリアカラーバージョン～",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770053814"
+        },
+        {
+          "name": "チアリステイルズ マスコット",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054682"
         }
       ]
     },
@@ -518,14 +518,6 @@
         {
           "name": "ハイキュー!! ねむらせ隊3",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770095487"
-        },
-        {
-          "name": "モンスターハンター めじるしアクセサリー",
-          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582769979514"
-        },
-        {
-          "name": "TOM and JERRY ぷにぷにし隊～クリアカラーバージョン～",
-          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770053814"
         },
         {
           "name": "いれいす ふわふわカラフルマルチチャーム",
@@ -538,6 +530,14 @@
         {
           "name": "GUNDAM × hololive production カプセルラバーマスコット1",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770129465"
+        },
+        {
+          "name": "モンスターハンター めじるしアクセサリー",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582769979514"
+        },
+        {
+          "name": "TOM and JERRY ぷにぷにし隊～クリアカラーバージョン～",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770053814"
         },
         {
           "name": "【CAP'in GALLERY】かえちゃんふぃぎゅあ designed by 田中かえ",
@@ -613,10 +613,6 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770095357"
         },
         {
-          "name": "ONE PIECE ゆらゆらし隊",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118196545"
-        },
-        {
           "name": "yeye ムンゲのフィギュア",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769889592"
         },
@@ -679,6 +675,10 @@
         {
           "name": "おジャ魔女どれみ×ひつじのショーン ラバーマスコット",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770056099"
+        },
+        {
+          "name": "PLAVE めじるしアクセサリー",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770067545"
         }
       ]
     }
