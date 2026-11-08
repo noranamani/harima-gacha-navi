@@ -1,8 +1,15 @@
 {
   "schemaVersion": 1,
-  "lastComparedAt": "2026-11-08T07:11:26.993Z",
+  "lastComparedAt": "2026-11-08T07:23:35.259Z",
   "retentionDays": 30,
   "events": [
+    {
+      "detectedAt": "2026-11-08T07:23:35.259Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
+      "name": "どうぶつの森 めじるしアクセサリー",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068412",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/akashi/item/"
+    },
     {
       "detectedAt": "2026-11-07T12:38:36.108Z",
       "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
