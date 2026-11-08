@@ -1,8 +1,15 @@
 {
   "schemaVersion": 1,
-  "lastComparedAt": "2026-11-08T12:23:40.406Z",
+  "lastComparedAt": "2026-11-08T12:38:36.846Z",
   "retentionDays": 30,
   "events": [
+    {
+      "detectedAt": "2026-11-08T12:38:36.846Z",
+      "store": "ガシャポンのデパート イトーヨーカドー明石店",
+      "name": "取り込んじゃった！おばけさんこれくしょん！",
+      "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770069488",
+      "inventory": "https://bandainamco-am.co.jp/others/capsule-toy-store/store/iyakashi/item/"
+    },
     {
       "detectedAt": "2026-11-08T11:38:37.778Z",
       "store": "ガシャポンのデパート イトーヨーカドー明石店",

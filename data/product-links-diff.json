@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T12:23:40.406Z",
+  "updatedAt": "2026-11-08T12:38:36.846Z",
   "notice": "新規掲載は入荷・再入荷を保証しません。公式商品一覧の表示範囲だけを監視しています。",
   "stores": [
     {
@@ -49,8 +49,13 @@
       "name": "ガシャポンのデパート イトーヨーカドー明石店",
       "inventory": "https://bandainamco-am.co.jp/others/capsule-toy-store/store/iyakashi/item/",
       "initialBaseline": false,
-      "added": [],
-      "removedCount": 0
+      "added": [
+        {
+          "name": "取り込んじゃった！おばけさんこれくしょん！",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770069488"
+        }
+      ],
+      "removedCount": 1
     },
     {
       "name": "ガシャポンバンダイオフィシャルショップ 未来屋書店山崎店",
