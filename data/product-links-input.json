@@ -325,10 +325,6 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770027006"
         },
         {
-          "name": "銀魂 もぐもぐ隊2",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770027525"
-        },
-        {
           "name": "ゲゲゲの鬼太郎（第4期） ねむらせ隊",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770027594"
         },
@@ -339,6 +335,10 @@
         {
           "name": "チアリステイルズ マスコット",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054682"
+        },
+        {
+          "name": "HELLOKITTY スクールガールスイング",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054828"
         }
       ]
     },
@@ -520,10 +520,6 @@
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770095487"
         },
         {
-          "name": "鋼の錬金術師 まちぼうけ",
-          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4570118196859"
-        },
-        {
           "name": "モンスターハンター めじるしアクセサリー",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582769979514"
         },
@@ -548,16 +544,16 @@
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770129465"
         },
         {
+          "name": "【CAP'in GALLERY】かえちゃんふぃぎゅあ designed by 田中かえ",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582769867255"
+        },
+        {
           "name": "【CAP'in GALLERY】LilGemily figure collection",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770055375"
         },
         {
           "name": "【CAP'in GALLERY】atmos TENKYU フィギュアコレクション",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770069242"
-        },
-        {
-          "name": "【CAP'in GALLERY】かえちゃんふぃぎゅあ designed by 田中かえ",
-          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582769867255"
         },
         {
           "name": "いきもの大図鑑アドバンス タマムシとウグイスコガネ",
@@ -594,6 +590,10 @@
         {
           "name": "【フラットガシャポン】クリアポーチコレクション スーパー戦隊",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770027754"
+        },
+        {
+          "name": "めざましコラショ ガシャポンミニチュアコレクション",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770069198"
         }
       ]
     },

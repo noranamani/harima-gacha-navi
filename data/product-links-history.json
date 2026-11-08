@@ -1,8 +1,15 @@
 {
   "schemaVersion": 1,
-  "lastComparedAt": "2026-11-08T11:23:36.738Z",
+  "lastComparedAt": "2026-11-08T11:38:37.778Z",
   "retentionDays": 30,
   "events": [
+    {
+      "detectedAt": "2026-11-08T11:38:37.778Z",
+      "store": "ガシャポンのデパート イトーヨーカドー明石店",
+      "name": "めざましコラショ ガシャポンミニチュアコレクション",
+      "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770069198",
+      "inventory": "https://bandainamco-am.co.jp/others/capsule-toy-store/store/iyakashi/item/"
+    },
     {
       "detectedAt": "2026-11-08T10:53:39.837Z",
       "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
