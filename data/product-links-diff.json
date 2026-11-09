@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T11:23:34.067Z",
+  "updatedAt": "2026-11-09T11:38:37.984Z",
   "notice": "新規掲載は入荷・再入荷を保証しません。公式商品一覧の表示範囲だけを監視しています。",
   "stores": [
     {
@@ -15,7 +15,7 @@
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_kakogawa/item/",
       "initialBaseline": false,
       "added": [],
-      "removedCount": 13
+      "removedCount": 12
     },
     {
       "name": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
@@ -29,7 +29,7 @@
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_shikama/item/",
       "initialBaseline": false,
       "added": [],
-      "removedCount": 8
+      "removedCount": 7
     },
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA太子店",
@@ -43,7 +43,7 @@
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/miki_sa/item/",
       "initialBaseline": false,
       "added": [],
-      "removedCount": 14
+      "removedCount": 13
     },
     {
       "name": "ガシャポンのデパート イトーヨーカドー明石店",
