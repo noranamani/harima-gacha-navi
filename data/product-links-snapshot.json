@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T14:08:38.251Z",
+  "updatedAt": "2026-11-09T14:23:42.246Z",
   "stores": [
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
@@ -528,10 +528,6 @@
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770095357"
         },
         {
-          "name": "CAPSULEVERSE ゴジラ",
-          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582769888700"
-        },
-        {
           "name": "【CAP'in GALLERY】miffy Glint Series",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582769995279"
         },
@@ -550,6 +546,10 @@
         {
           "name": "GUNDAM × hololive production カプセルラバーマスコット1",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770129465"
+        },
+        {
+          "name": "CAPSULEVERSE ゴジラ",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582769888700"
         },
         {
           "name": "【CAP'in GALLERY】かえちゃんふぃぎゅあ designed by 田中かえ",
