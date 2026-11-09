@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T06:23:32.314Z",
+  "updatedAt": "2026-11-09T06:38:36.320Z",
   "notice": "新規掲載は入荷・再入荷を保証しません。公式商品一覧の表示範囲だけを監視しています。",
   "stores": [
     {
@@ -28,7 +28,12 @@
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路飾磨店",
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_shikama/item/",
       "initialBaseline": false,
-      "added": [],
+      "added": [
+        {
+          "name": "【CAP'in GALLERY】miffy Glint Series",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769995279"
+        }
+      ],
       "removedCount": 10
     },
     {
@@ -49,8 +54,29 @@
       "name": "ガシャポンのデパート イトーヨーカドー明石店",
       "inventory": "https://bandainamco-am.co.jp/others/capsule-toy-store/store/iyakashi/item/",
       "initialBaseline": false,
-      "added": [],
-      "removedCount": 0
+      "added": [
+        {
+          "name": "MINECRAFT ぬいぐるみマスコット",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770069136"
+        },
+        {
+          "name": "ZETT（ゼット） 野球グローブコレクション",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770095357"
+        },
+        {
+          "name": "【CAP'in GALLERY】miffy Glint Series",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582769995279"
+        },
+        {
+          "name": "CRAZY RACCOON キーボード風クリッカー",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4570118202222"
+        },
+        {
+          "name": "たまごっち ゆらぷらチャーム",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770027273"
+        }
+      ],
+      "removedCount": 5
     },
     {
       "name": "ガシャポンバンダイオフィシャルショップ 未来屋書店山崎店",
