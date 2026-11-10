@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T10:38:39.507Z",
+  "updatedAt": "2026-11-10T10:53:35.293Z",
   "notice": "新規掲載は入荷・再入荷を保証しません。公式商品一覧の表示範囲だけを監視しています。",
   "stores": [
     {
@@ -22,7 +22,7 @@
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/akashi/item/",
       "initialBaseline": false,
       "added": [],
-      "removedCount": 7
+      "removedCount": 6
     },
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路飾磨店",
