@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T02:23:35.622Z",
+  "updatedAt": "2026-11-10T02:38:41.755Z",
   "notice": "新規掲載は入荷・再入荷を保証しません。公式商品一覧の表示範囲だけを監視しています。",
   "stores": [
     {
@@ -28,8 +28,13 @@
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路飾磨店",
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_shikama/item/",
       "initialBaseline": false,
-      "added": [],
-      "removedCount": 11
+      "added": [
+        {
+          "name": "めじるしアクセサリー サンリオキャラクターズオールスターズ Part.3",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054705"
+        }
+      ],
+      "removedCount": 12
     },
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA太子店",

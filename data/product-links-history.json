@@ -1,8 +1,15 @@
 {
   "schemaVersion": 1,
-  "lastComparedAt": "2026-11-10T02:23:35.622Z",
+  "lastComparedAt": "2026-11-10T02:38:41.755Z",
   "retentionDays": 30,
   "events": [
+    {
+      "detectedAt": "2026-11-10T02:38:41.755Z",
+      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路飾磨店",
+      "name": "めじるしアクセサリー サンリオキャラクターズオールスターズ Part.3",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054705",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_shikama/item/"
+    },
     {
       "detectedAt": "2026-11-09T07:38:37.524Z",
       "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店加古川店",
