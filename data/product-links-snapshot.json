@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T01:38:39.316Z",
+  "updatedAt": "2026-11-11T02:00:09.647Z",
   "stores": [
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
@@ -528,14 +528,6 @@
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770095357"
         },
         {
-          "name": "CAPSULEVERSE ゴジラ",
-          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582769888700"
-        },
-        {
-          "name": "【CAP'in GALLERY】miffy Glint Series",
-          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582769995279"
-        },
-        {
           "name": "TOM and JERRY ぷにぷにし隊～クリアカラーバージョン～",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770053814"
         },
@@ -550,6 +542,14 @@
         {
           "name": "GUNDAM × hololive production カプセルラバーマスコット1",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770129465"
+        },
+        {
+          "name": "CAPSULEVERSE ゴジラ",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582769888700"
+        },
+        {
+          "name": "【CAP'in GALLERY】miffy Glint Series",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582769995279"
         },
         {
           "name": "【CAP'in GALLERY】かえちゃんふぃぎゅあ designed by 田中かえ",
@@ -613,6 +613,18 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770095357"
         },
         {
+          "name": "仮面ライダーマイス GPライダーエグズ02",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770139198"
+        },
+        {
+          "name": "【フラットガシャポン】みいつけた！ ネイル＆マルチシールコレクション",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770140453"
+        },
+        {
+          "name": "キングダム まちぼうけセレクション",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770140965"
+        },
+        {
           "name": "ONE PIECE ゆらゆらし隊",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118196545"
         },
@@ -667,18 +679,6 @@
         {
           "name": "アニメ『薬屋のひとりごと』 カプセルラバーマスコット3",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054927"
-        },
-        {
-          "name": "【フラットガシャポン/ジャンボカードダス】アニメ『薬屋のひとりごと』 クリアポスター3",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054934"
-        },
-        {
-          "name": "CAPSULEVERSE 機動戦士ガンダム 01",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055863"
-        },
-        {
-          "name": "おジャ魔女どれみ×ひつじのショーン ラバーマスコット",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770056099"
         }
       ]
     }
