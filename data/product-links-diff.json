@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T01:28:08.144Z",
+  "updatedAt": "2026-11-12T01:38:38.762Z",
   "notice": "新規掲載は入荷・再入荷を保証しません。公式商品一覧の表示範囲だけを監視しています。",
   "stores": [
     {
@@ -15,7 +15,7 @@
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_kakogawa/item/",
       "initialBaseline": false,
       "added": [],
-      "removedCount": 15
+      "removedCount": 14
     },
     {
       "name": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
@@ -42,17 +42,8 @@
       "name": "ガシャポンバンダイオフィシャルショップ 三木サービスエリア下り線店",
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/miki_sa/item/",
       "initialBaseline": false,
-      "added": [
-        {
-          "name": "プリキュアオールスターズ 変身めじるしアクセサリー２",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118206565"
-        },
-        {
-          "name": "プリキュアオールスターズ 変身ダイキャストチャーム＆パッケージ5",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770026689"
-        }
-      ],
-      "removedCount": 17
+      "added": [],
+      "removedCount": 15
     },
     {
       "name": "ガシャポンのデパート イトーヨーカドー明石店",
