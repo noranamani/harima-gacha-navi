@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T23:38:38.487Z",
+  "updatedAt": "2026-11-12T01:23:37.766Z",
   "stores": [
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
@@ -568,12 +568,12 @@
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4570118202222"
         },
         {
-          "name": "いきもの大図鑑アドバンス タマムシとウグイスコガネ",
-          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770056150"
-        },
-        {
           "name": "Kep1er ミニCDコレクション",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770121827"
+        },
+        {
+          "name": "いきもの大図鑑アドバンス タマムシとウグイスコガネ",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770056150"
         },
         {
           "name": "アニメ『呪術廻戦』5周年 カプセルフィギュアコレクション",
