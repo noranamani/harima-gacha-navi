@@ -1,8 +1,15 @@
 {
   "schemaVersion": 1,
-  "lastComparedAt": "2026-11-12T02:23:36.576Z",
+  "lastComparedAt": "2026-11-12T02:38:37.267Z",
   "retentionDays": 30,
   "events": [
+    {
+      "detectedAt": "2026-11-12T02:38:37.267Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 三木サービスエリア下り線店",
+      "name": "HG レジェンドライダーvol.6",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055627",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/miki_sa/item/"
+    },
     {
       "detectedAt": "2026-11-12T01:28:08.144Z",
       "store": "ガシャポンバンダイオフィシャルショップ 三木サービスエリア下り線店",
