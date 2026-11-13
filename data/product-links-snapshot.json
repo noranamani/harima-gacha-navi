@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T16:53:45.671Z",
+  "updatedAt": "2026-11-13T17:23:35.881Z",
   "stores": [
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
@@ -564,12 +564,12 @@
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770069242"
         },
         {
-          "name": "CRAZY RACCOON キーボード風クリッカー",
-          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4570118202222"
-        },
-        {
           "name": "サンリオキャラクターズ モノトーンマスコット",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770054712"
+        },
+        {
+          "name": "CRAZY RACCOON キーボード風クリッカー",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4570118202222"
         },
         {
           "name": "いきもの大図鑑アドバンス タマムシとウグイスコガネ",
