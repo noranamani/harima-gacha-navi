@@ -1,8 +1,15 @@
 {
   "schemaVersion": 1,
-  "lastComparedAt": "2026-11-13T05:23:38.566Z",
+  "lastComparedAt": "2026-11-13T05:38:40.267Z",
   "retentionDays": 30,
   "events": [
+    {
+      "detectedAt": "2026-11-13T05:38:40.267Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店加古川店",
+      "name": "プリキュアオールスターズ 変身めじるしアクセサリー２",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118206565",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_kakogawa/item/"
+    },
     {
       "detectedAt": "2026-11-13T02:38:42.011Z",
       "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA太子店",
