@@ -1,8 +1,15 @@
 {
   "schemaVersion": 1,
-  "lastComparedAt": "2026-11-13T02:23:39.859Z",
+  "lastComparedAt": "2026-11-13T02:38:42.011Z",
   "retentionDays": 30,
   "events": [
+    {
+      "detectedAt": "2026-11-13T02:38:42.011Z",
+      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA太子店",
+      "name": "スポンジ・ボブ めじるしアクセサリー２",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118184870",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_taishi/item/"
+    },
     {
       "detectedAt": "2026-11-12T04:38:39.115Z",
       "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店加古川店",
