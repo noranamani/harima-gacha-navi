@@ -1,14 +1,10 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T20:53:35.552Z",
+  "updatedAt": "2026-11-13T21:08:39.640Z",
   "stores": [
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
       "items": [
-        {
-          "name": "プリキュアオールスターズ 変身ダイキャストチャーム＆パッケージ5",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770026689"
-        },
         {
           "name": "HG レジェンドライダーvol.6",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055627"
@@ -16,6 +12,10 @@
         {
           "name": "MINECRAFT ぬいぐるみマスコット",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770069136"
+        },
+        {
+          "name": "プリキュアオールスターズ 変身ダイキャストチャーム＆パッケージ5",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770026689"
         },
         {
           "name": "ジュエルポッド ミニチュアチャームコレクション",
@@ -95,10 +95,6 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770095487"
         },
         {
-          "name": "プリキュアオールスターズ 変身ダイキャストチャーム＆パッケージ5",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770026689"
-        },
-        {
           "name": "HG レジェンドライダーvol.6",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055627"
         },
@@ -109,6 +105,10 @@
         {
           "name": "ZETT（ゼット） 野球グローブコレクション",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770095357"
+        },
+        {
+          "name": "プリキュアオールスターズ 変身ダイキャストチャーム＆パッケージ5",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770026689"
         },
         {
           "name": "ジュエルポッド ミニチュアチャームコレクション",
@@ -180,10 +180,6 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770095487"
         },
         {
-          "name": "プリキュアオールスターズ 変身ダイキャストチャーム＆パッケージ5",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770026689"
-        },
-        {
           "name": "HG レジェンドライダーvol.6",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055627"
         },
@@ -194,6 +190,10 @@
         {
           "name": "ZETT（ゼット） 野球グローブコレクション",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770095357"
+        },
+        {
+          "name": "プリキュアオールスターズ 変身ダイキャストチャーム＆パッケージ5",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770026689"
         },
         {
           "name": "ジュエルポッド ミニチュアチャームコレクション",
@@ -265,10 +265,6 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770095487"
         },
         {
-          "name": "プリキュアオールスターズ 変身ダイキャストチャーム＆パッケージ5",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770026689"
-        },
-        {
           "name": "HG レジェンドライダーvol.6",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055627"
         },
@@ -279,6 +275,10 @@
         {
           "name": "ZETT（ゼット） 野球グローブコレクション",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770095357"
+        },
+        {
+          "name": "プリキュアオールスターズ 変身ダイキャストチャーム＆パッケージ5",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770026689"
         },
         {
           "name": "ジュエルポッド ミニチュアチャームコレクション",
@@ -346,16 +346,16 @@
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA太子店",
       "items": [
         {
-          "name": "プリキュアオールスターズ 変身ダイキャストチャーム＆パッケージ5",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770026689"
-        },
-        {
           "name": "MINECRAFT ぬいぐるみマスコット",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770069136"
         },
         {
           "name": "ZETT（ゼット） 野球グローブコレクション",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770095357"
+        },
+        {
+          "name": "プリキュアオールスターズ 変身ダイキャストチャーム＆パッケージ5",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770026689"
         },
         {
           "name": "ジュエルポッド ミニチュアチャームコレクション",
@@ -435,14 +435,6 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770095487"
         },
         {
-          "name": "プリキュアオールスターズ 変身めじるしアクセサリー２",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118206565"
-        },
-        {
-          "name": "プリキュアオールスターズ 変身ダイキャストチャーム＆パッケージ5",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770026689"
-        },
-        {
           "name": "HG レジェンドライダーvol.6",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055627"
         },
@@ -453,6 +445,14 @@
         {
           "name": "ZETT（ゼット） 野球グローブコレクション",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770095357"
+        },
+        {
+          "name": "プリキュアオールスターズ 変身めじるしアクセサリー２",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118206565"
+        },
+        {
+          "name": "プリキュアオールスターズ 変身ダイキャストチャーム＆パッケージ5",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770026689"
         },
         {
           "name": "ONE PIECE ゆらゆらし隊",
@@ -528,18 +528,6 @@
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770069136"
         },
         {
-          "name": "いれいす ふわふわカラフルマルチチャーム",
-          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770070965"
-        },
-        {
-          "name": "いたずらねこちゃあぁぁん",
-          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770076776"
-        },
-        {
-          "name": "GUNDAM × hololive production カプセルラバーマスコット1",
-          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770129465"
-        },
-        {
           "name": "CAPSULEVERSE ゴジラ",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582769888700"
         },
@@ -550,6 +538,18 @@
         {
           "name": "TOM and JERRY ぷにぷにし隊～クリアカラーバージョン～",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770053814"
+        },
+        {
+          "name": "いれいす ふわふわカラフルマルチチャーム",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770070965"
+        },
+        {
+          "name": "いたずらねこちゃあぁぁん",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770076776"
+        },
+        {
+          "name": "GUNDAM × hololive production カプセルラバーマスコット1",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770129465"
         },
         {
           "name": "【CAP'in GALLERY】かえちゃんふぃぎゅあ designed by 田中かえ",
@@ -564,12 +564,12 @@
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770069242"
         },
         {
-          "name": "CRAZY RACCOON キーボード風クリッカー",
-          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4570118202222"
-        },
-        {
           "name": "サンリオキャラクターズ モノトーンマスコット",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770054712"
+        },
+        {
+          "name": "CRAZY RACCOON キーボード風クリッカー",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4570118202222"
         },
         {
           "name": "いきもの大図鑑アドバンス タマムシとウグイスコガネ",
@@ -605,10 +605,6 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770095487"
         },
         {
-          "name": "プリキュアオールスターズ 変身ダイキャストチャーム＆パッケージ5",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770026689"
-        },
-        {
           "name": "HG レジェンドライダーvol.6",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055627"
         },
@@ -619,6 +615,10 @@
         {
           "name": "ZETT（ゼット） 野球グローブコレクション",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770095357"
+        },
+        {
+          "name": "プリキュアオールスターズ 変身ダイキャストチャーム＆パッケージ5",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770026689"
         },
         {
           "name": "ONE PIECE ゆらゆらし隊",
