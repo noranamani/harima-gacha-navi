@@ -1,8 +1,22 @@
 {
   "schemaVersion": 1,
-  "lastComparedAt": "2026-11-14T02:23:38.752Z",
+  "lastComparedAt": "2026-11-14T02:38:39.434Z",
   "retentionDays": 30,
   "events": [
+    {
+      "detectedAt": "2026-11-14T02:38:39.434Z",
+      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路飾磨店",
+      "name": "パワーパフ ガールズ めじるしアクセサリー3",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118181541",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_shikama/item/"
+    },
+    {
+      "detectedAt": "2026-11-14T02:38:39.434Z",
+      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路飾磨店",
+      "name": "ジュエルペット キラキラミラー風コレクション",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186904",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_shikama/item/"
+    },
     {
       "detectedAt": "2026-11-13T05:38:40.267Z",
       "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店加古川店",
