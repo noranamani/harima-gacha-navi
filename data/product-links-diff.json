@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-14T15:08:36.746Z",
+  "updatedAt": "2026-11-14T15:23:37.610Z",
   "notice": "新規掲載は入荷・再入荷を保証しません。公式商品一覧の表示範囲だけを監視しています。",
   "stores": [
     {
@@ -29,7 +29,7 @@
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_shikama/item/",
       "initialBaseline": false,
       "added": [],
-      "removedCount": 10
+      "removedCount": 9
     },
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA太子店",
