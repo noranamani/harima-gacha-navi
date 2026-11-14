@@ -1,18 +1,10 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-14T06:38:38.262Z",
+  "updatedAt": "2026-11-14T06:53:32.463Z",
   "stores": [
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
       "items": [
-        {
-          "name": "STAR WARS ボトルキャップコレクション マンダロリアン・アンド・グローグー",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055931"
-        },
-        {
-          "name": "まちぼうけ 冬の場合 その2",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770094367"
-        },
         {
           "name": "パワーパフ ガールズ めじるしアクセサリー3",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118181541"
@@ -32,6 +24,14 @@
         {
           "name": "モンチッチ ふわふわカラともマスコット",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770053920"
+        },
+        {
+          "name": "STAR WARS ボトルキャップコレクション マンダロリアン・アンド・グローグー",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055931"
+        },
+        {
+          "name": "まちぼうけ 冬の場合 その2",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770094367"
         },
         {
           "name": "プリキュアオールスターズ 変身ダイキャストチャーム＆パッケージ5",
@@ -180,16 +180,16 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770095487"
         },
         {
-          "name": "まちぼうけ 冬の場合 その2",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770094367"
-        },
-        {
           "name": "それいけ！アンパンマン くるりんフェイスアンパンマン",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118182043"
         },
         {
           "name": "ジュエルペット キラキラミラー風コレクション",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186904"
+        },
+        {
+          "name": "まちぼうけ 冬の場合 その2",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770094367"
         },
         {
           "name": "プリキュアオールスターズ 変身ダイキャストチャーム＆パッケージ5",
@@ -265,14 +265,6 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770095487"
         },
         {
-          "name": "STAR WARS ボトルキャップコレクション マンダロリアン・アンド・グローグー",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055931"
-        },
-        {
-          "name": "まちぼうけ 冬の場合 その2",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770094367"
-        },
-        {
           "name": "それいけ！アンパンマン くるりんフェイスアンパンマン",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118182043"
         },
@@ -287,6 +279,14 @@
         {
           "name": "モンチッチ ふわふわカラともマスコット",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770053920"
+        },
+        {
+          "name": "STAR WARS ボトルキャップコレクション マンダロリアン・アンド・グローグー",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055931"
+        },
+        {
+          "name": "まちぼうけ 冬の場合 その2",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770094367"
         },
         {
           "name": "プリキュアオールスターズ 変身ダイキャストチャーム＆パッケージ5",
@@ -520,6 +520,10 @@
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770095487"
         },
         {
+          "name": "【CAP'in GALLERY】miffy Glint Series",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582769995279"
+        },
+        {
           "name": "TOM and JERRY ぷにぷにし隊～クリアカラーバージョン～",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770053814"
         },
@@ -538,10 +542,6 @@
         {
           "name": "CAPSULEVERSE ゴジラ",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582769888700"
-        },
-        {
-          "name": "【CAP'in GALLERY】miffy Glint Series",
-          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582769995279"
         },
         {
           "name": "【CAP'in GALLERY】かえちゃんふぃぎゅあ designed by 田中かえ",
@@ -605,10 +605,6 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770095487"
         },
         {
-          "name": "まちぼうけ 冬の場合 その2",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770094367"
-        },
-        {
           "name": "それいけ！アンパンマン くるりんフェイスアンパンマン",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118182043"
         },
@@ -623,6 +619,10 @@
         {
           "name": "モンチッチ ふわふわカラともマスコット",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770053920"
+        },
+        {
+          "name": "まちぼうけ 冬の場合 その2",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770094367"
         },
         {
           "name": "プリキュアオールスターズ 変身ダイキャストチャーム＆パッケージ5",
