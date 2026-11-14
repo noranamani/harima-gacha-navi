@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-14T16:06:29.000Z",
+  "updatedAt": "2026-11-14T16:23:35.273Z",
   "stores": [
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
@@ -42,6 +42,10 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770069136"
         },
         {
+          "name": "ジュエルポッド ミニチュアチャームコレクション",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186942"
+        },
+        {
           "name": "CAPSULEVERSE ゴジラ",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769888700"
         },
@@ -80,10 +84,6 @@
         {
           "name": "カラフルマルチチャーム 塊魂",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770071092"
-        },
-        {
-          "name": "いたずらねこちゃあぁぁん",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770076776"
         }
       ]
     },
@@ -109,6 +109,10 @@
         {
           "name": "ZETT（ゼット） 野球グローブコレクション",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770095357"
+        },
+        {
+          "name": "ジュエルポッド ミニチュアチャームコレクション",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186942"
         },
         {
           "name": "ONE PIECE ゆらゆらし隊",
@@ -165,10 +169,6 @@
         {
           "name": "おジャ魔女どれみ×ひつじのショーン ラバーマスコット",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770056099"
-        },
-        {
-          "name": "葬送のフリーレン まちぼうけ3",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068955"
         }
       ]
     },
@@ -216,6 +216,10 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770095357"
         },
         {
+          "name": "ジュエルポッド ミニチュアチャームコレクション",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186942"
+        },
+        {
           "name": "ONE PIECE ゆらゆらし隊",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118196545"
         },
@@ -250,10 +254,6 @@
         {
           "name": "チアリステイルズ マスコット",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054682"
-        },
-        {
-          "name": "MOOMIN カプセルボトルチャーム",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054989"
         }
       ]
     },
@@ -301,6 +301,10 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770095357"
         },
         {
+          "name": "ジュエルポッド ミニチュアチャームコレクション",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186942"
+        },
+        {
           "name": "CAPSULEVERSE ゴジラ",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769888700"
         },
@@ -335,10 +339,6 @@
         {
           "name": "サンリオキャラクターズ 実写版ミニチュアチャーム",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770027006"
-        },
-        {
-          "name": "ゲゲゲの鬼太郎（第4期） ねむらせ隊",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770027594"
         }
       ]
     },
@@ -382,6 +382,10 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770095357"
         },
         {
+          "name": "ジュエルポッド ミニチュアチャームコレクション",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186942"
+        },
+        {
           "name": "yeye ムンゲのフィギュア",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769889592"
         },
@@ -420,10 +424,6 @@
         {
           "name": "ぐ～チョコランタン カラフルカラビナマスコット",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068504"
-        },
-        {
-          "name": "モンチッチ Twinkleゴム",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770070422"
         }
       ]
     },
