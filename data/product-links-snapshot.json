@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-14T10:23:44.517Z",
+  "updatedAt": "2026-11-14T10:38:36.864Z",
   "stores": [
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
@@ -180,10 +180,6 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770095487"
         },
         {
-          "name": "パワーパフ ガールズ めじるしアクセサリー3",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118181541"
-        },
-        {
           "name": "それいけ！アンパンマン くるりんフェイスアンパンマン",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118182043"
         },
@@ -254,6 +250,10 @@
         {
           "name": "TOM and JERRY ぷにぷにし隊～クリアカラーバージョン～",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770053814"
+        },
+        {
+          "name": "チアリステイルズ マスコット",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054682"
         }
       ]
     },
@@ -346,10 +346,6 @@
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA太子店",
       "items": [
         {
-          "name": "パワーパフ ガールズ めじるしアクセサリー3",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118181541"
-        },
-        {
           "name": "それいけ！アンパンマン くるりんフェイスアンパンマン",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118182043"
         },
@@ -424,6 +420,10 @@
         {
           "name": "チアリステイルズ マスコット",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054682"
+        },
+        {
+          "name": "MOOMIN カプセルボトルチャーム",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054989"
         }
       ]
     },
