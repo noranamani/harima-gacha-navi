@@ -1,8 +1,22 @@
 {
   "schemaVersion": 1,
-  "lastComparedAt": "2026-11-14T04:23:41.093Z",
+  "lastComparedAt": "2026-11-14T04:38:36.921Z",
   "retentionDays": 30,
   "events": [
+    {
+      "detectedAt": "2026-11-14T04:38:36.921Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
+      "name": "それいけ！アンパンマン くるりんフェイスアンパンマン",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118182043",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/akashi/item/"
+    },
+    {
+      "detectedAt": "2026-11-14T04:38:36.921Z",
+      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路飾磨店",
+      "name": "モンスターハンター めじるしアクセサリー",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769979514",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_shikama/item/"
+    },
     {
       "detectedAt": "2026-11-14T03:38:32.898Z",
       "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路飾磨店",
