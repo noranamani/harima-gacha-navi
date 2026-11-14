@@ -1,8 +1,43 @@
 {
   "schemaVersion": 1,
-  "lastComparedAt": "2026-11-14T08:23:34.109Z",
+  "lastComparedAt": "2026-11-14T08:38:34.617Z",
   "retentionDays": 30,
   "events": [
+    {
+      "detectedAt": "2026-11-14T08:38:34.617Z",
+      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA太子店",
+      "name": "パワーパフ ガールズ めじるしアクセサリー3",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118181541",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_taishi/item/"
+    },
+    {
+      "detectedAt": "2026-11-14T08:38:34.617Z",
+      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA太子店",
+      "name": "それいけ！アンパンマン くるりんフェイスアンパンマン",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118182043",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_taishi/item/"
+    },
+    {
+      "detectedAt": "2026-11-14T08:38:34.617Z",
+      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA太子店",
+      "name": "ジュエルペット キラキラミラー風コレクション",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186904",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_taishi/item/"
+    },
+    {
+      "detectedAt": "2026-11-14T08:38:34.617Z",
+      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA太子店",
+      "name": "モンチッチ ふわふわカラともマスコット",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770053920",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_taishi/item/"
+    },
+    {
+      "detectedAt": "2026-11-14T08:38:34.617Z",
+      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA太子店",
+      "name": "まちぼうけ 冬の場合 その2",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770094367",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_taishi/item/"
+    },
     {
       "detectedAt": "2026-11-14T07:38:38.154Z",
       "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
