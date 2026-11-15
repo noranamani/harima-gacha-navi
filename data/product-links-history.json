@@ -1,8 +1,15 @@
 {
   "schemaVersion": 1,
-  "lastComparedAt": "2026-11-15T01:23:37.700Z",
+  "lastComparedAt": "2026-11-15T01:38:36.366Z",
   "retentionDays": 30,
   "events": [
+    {
+      "detectedAt": "2026-11-15T01:38:36.366Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店山崎店",
+      "name": "パワーパフ ガールズ めじるしアクセサリー3",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118181541",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_yamazaki/item/"
+    },
     {
       "detectedAt": "2026-11-14T09:35:22.812Z",
       "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
