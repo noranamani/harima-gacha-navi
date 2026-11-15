@@ -1,8 +1,29 @@
 {
   "schemaVersion": 1,
-  "lastComparedAt": "2026-11-15T05:23:33.875Z",
+  "lastComparedAt": "2026-11-15T05:38:42.099Z",
   "retentionDays": 30,
   "events": [
+    {
+      "detectedAt": "2026-11-15T05:38:42.099Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
+      "name": "アニメ「桜蘭高校ホスト部」 つまんでつなげてますこっと",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769935077",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/akashi/item/"
+    },
+    {
+      "detectedAt": "2026-11-15T05:38:42.099Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
+      "name": "モンスターハンター めじるしアクセサリー",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769979514",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/akashi/item/"
+    },
+    {
+      "detectedAt": "2026-11-15T05:38:42.099Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
+      "name": "TVアニメ「らんま1/2」 めじるしアクセサリー",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770013382",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/akashi/item/"
+    },
     {
       "detectedAt": "2026-11-15T02:38:38.465Z",
       "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店山崎店",
