@@ -1,8 +1,50 @@
 {
   "schemaVersion": 1,
-  "lastComparedAt": "2026-11-16T04:23:33.660Z",
+  "lastComparedAt": "2026-11-16T04:38:43.741Z",
   "retentionDays": 30,
   "events": [
+    {
+      "detectedAt": "2026-11-16T04:38:43.741Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店加古川店",
+      "name": "それいけ！アンパンマン くるりんフェイスアンパンマン",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118182043",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_kakogawa/item/"
+    },
+    {
+      "detectedAt": "2026-11-16T04:38:43.741Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店加古川店",
+      "name": "ジュエルペット キラキラミラー風コレクション",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186904",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_kakogawa/item/"
+    },
+    {
+      "detectedAt": "2026-11-16T04:38:43.741Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店加古川店",
+      "name": "アニメ「桜蘭高校ホスト部」 つまんでつなげてますこっと",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769935077",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_kakogawa/item/"
+    },
+    {
+      "detectedAt": "2026-11-16T04:38:43.741Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店加古川店",
+      "name": "モンチッチ ふわふわカラともマスコット",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770053920",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_kakogawa/item/"
+    },
+    {
+      "detectedAt": "2026-11-16T04:38:43.741Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店加古川店",
+      "name": "STAR WARS ボトルキャップコレクション マンダロリアン・アンド・グローグー",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055931",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_kakogawa/item/"
+    },
+    {
+      "detectedAt": "2026-11-16T04:38:43.741Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店加古川店",
+      "name": "まちぼうけ 冬の場合 その2",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770094367",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_kakogawa/item/"
+    },
     {
       "detectedAt": "2026-11-16T01:38:37.442Z",
       "store": "ガシャポンバンダイオフィシャルショップ 三木サービスエリア下り線店",
