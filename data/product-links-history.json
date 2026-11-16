@@ -1,8 +1,15 @@
 {
   "schemaVersion": 1,
-  "lastComparedAt": "2026-11-16T07:53:35.091Z",
+  "lastComparedAt": "2026-11-16T08:08:37.741Z",
   "retentionDays": 30,
   "events": [
+    {
+      "detectedAt": "2026-11-16T08:08:37.741Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 三木サービスエリア下り線店",
+      "name": "MINECRAFT クリスタルチャーム",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770069143",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/miki_sa/item/"
+    },
     {
       "detectedAt": "2026-11-16T07:38:40.138Z",
       "store": "ガシャポンのデパート イトーヨーカドー明石店",
