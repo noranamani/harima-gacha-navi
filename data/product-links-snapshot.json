@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T00:53:41.565Z",
+  "updatedAt": "2026-11-16T01:23:44.807Z",
   "stores": [
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
@@ -520,6 +520,10 @@
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770095487"
         },
         {
+          "name": "いたずらねこちゃあぁぁん",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770076776"
+        },
+        {
           "name": "【CAP'in GALLERY】miffy Glint Series",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582769995279"
         },
@@ -530,10 +534,6 @@
         {
           "name": "いれいす ふわふわカラフルマルチチャーム",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770070965"
-        },
-        {
-          "name": "いたずらねこちゃあぁぁん",
-          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770076776"
         },
         {
           "name": "【CAP'in GALLERY】かえちゃんふぃぎゅあ designed by 田中かえ",
