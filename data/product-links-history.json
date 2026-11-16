@@ -1,8 +1,50 @@
 {
   "schemaVersion": 1,
-  "lastComparedAt": "2026-11-16T07:23:40.506Z",
+  "lastComparedAt": "2026-11-16T07:38:40.138Z",
   "retentionDays": 30,
   "events": [
+    {
+      "detectedAt": "2026-11-16T07:38:40.138Z",
+      "store": "ガシャポンのデパート イトーヨーカドー明石店",
+      "name": "パワーパフ ガールズ めじるしアクセサリー3",
+      "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4570118181541",
+      "inventory": "https://bandainamco-am.co.jp/others/capsule-toy-store/store/iyakashi/item/"
+    },
+    {
+      "detectedAt": "2026-11-16T07:38:40.138Z",
+      "store": "ガシャポンのデパート イトーヨーカドー明石店",
+      "name": "ジュエルペット キラキラミラー風コレクション",
+      "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4570118186904",
+      "inventory": "https://bandainamco-am.co.jp/others/capsule-toy-store/store/iyakashi/item/"
+    },
+    {
+      "detectedAt": "2026-11-16T07:38:40.138Z",
+      "store": "ガシャポンのデパート イトーヨーカドー明石店",
+      "name": "モンチッチ ふわふわカラともマスコット",
+      "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770053920",
+      "inventory": "https://bandainamco-am.co.jp/others/capsule-toy-store/store/iyakashi/item/"
+    },
+    {
+      "detectedAt": "2026-11-16T07:38:40.138Z",
+      "store": "ガシャポンのデパート イトーヨーカドー明石店",
+      "name": "まちぼうけ 冬の場合 その2",
+      "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770094367",
+      "inventory": "https://bandainamco-am.co.jp/others/capsule-toy-store/store/iyakashi/item/"
+    },
+    {
+      "detectedAt": "2026-11-16T07:38:40.138Z",
+      "store": "ガシャポンのデパート イトーヨーカドー明石店",
+      "name": "CAPSULEVERSE 機動戦士ガンダム 01",
+      "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770055863",
+      "inventory": "https://bandainamco-am.co.jp/others/capsule-toy-store/store/iyakashi/item/"
+    },
+    {
+      "detectedAt": "2026-11-16T07:38:40.138Z",
+      "store": "ガシャポンのデパート イトーヨーカドー明石店",
+      "name": "ハリー・ポッター アクリルスライド ミラーコレクション",
+      "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4570118181503",
+      "inventory": "https://bandainamco-am.co.jp/others/capsule-toy-store/store/iyakashi/item/"
+    },
     {
       "detectedAt": "2026-11-16T05:53:38.212Z",
       "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
