@@ -1,14 +1,10 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T05:53:38.212Z",
+  "updatedAt": "2026-11-16T06:08:44.372Z",
   "stores": [
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
       "items": [
-        {
-          "name": "それいけ！アンパンマン くるりんフェイスアンパンマン",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118182043"
-        },
         {
           "name": "ジュエルペット キラキラミラー風コレクション",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186904"
@@ -24,6 +20,10 @@
         {
           "name": "まちぼうけ 冬の場合 その2",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770094367"
+        },
+        {
+          "name": "それいけ！アンパンマン くるりんフェイスアンパンマン",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118182043"
         },
         {
           "name": "プリキュアオールスターズ 変身ダイキャストチャーム＆パッケージ5",
@@ -95,10 +95,6 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770095487"
         },
         {
-          "name": "それいけ！アンパンマン くるりんフェイスアンパンマン",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118182043"
-        },
-        {
           "name": "ジュエルペット キラキラミラー風コレクション",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186904"
         },
@@ -117,6 +113,10 @@
         {
           "name": "まちぼうけ 冬の場合 その2",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770094367"
+        },
+        {
+          "name": "それいけ！アンパンマン くるりんフェイスアンパンマン",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118182043"
         },
         {
           "name": "HG レジェンドライダーvol.6",
@@ -265,10 +265,6 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770095487"
         },
         {
-          "name": "それいけ！アンパンマン くるりんフェイスアンパンマン",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118182043"
-        },
-        {
           "name": "ジュエルペット キラキラミラー風コレクション",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186904"
         },
@@ -287,6 +283,10 @@
         {
           "name": "まちぼうけ 冬の場合 その2",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770094367"
+        },
+        {
+          "name": "それいけ！アンパンマン くるりんフェイスアンパンマン",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118182043"
         },
         {
           "name": "プリキュアオールスターズ 変身ダイキャストチャーム＆パッケージ5",
@@ -346,10 +346,6 @@
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA太子店",
       "items": [
         {
-          "name": "それいけ！アンパンマン くるりんフェイスアンパンマン",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118182043"
-        },
-        {
           "name": "ジュエルペット キラキラミラー風コレクション",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186904"
         },
@@ -368,6 +364,10 @@
         {
           "name": "まちぼうけ 冬の場合 その2",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770094367"
+        },
+        {
+          "name": "それいけ！アンパンマン くるりんフェイスアンパンマン",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118182043"
         },
         {
           "name": "プリキュアオールスターズ 変身ダイキャストチャーム＆パッケージ5",
@@ -435,14 +435,6 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770095487"
         },
         {
-          "name": "パワーパフ ガールズ めじるしアクセサリー3",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118181541"
-        },
-        {
-          "name": "それいけ！アンパンマン くるりんフェイスアンパンマン",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118182043"
-        },
-        {
           "name": "ジュエルペット キラキラミラー風コレクション",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186904"
         },
@@ -461,6 +453,14 @@
         {
           "name": "まちぼうけ 冬の場合 その2",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770094367"
+        },
+        {
+          "name": "パワーパフ ガールズ めじるしアクセサリー3",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118181541"
+        },
+        {
+          "name": "それいけ！アンパンマン くるりんフェイスアンパンマン",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118182043"
         },
         {
           "name": "プリキュアオールスターズ 変身ダイキャストチャーム＆パッケージ5",
@@ -520,20 +520,20 @@
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770095487"
         },
         {
-          "name": "【CAP'in GALLERY】miffy Glint Series",
-          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582769995279"
-        },
-        {
-          "name": "TOM and JERRY ぷにぷにし隊～クリアカラーバージョン～",
-          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770053814"
-        },
-        {
           "name": "いれいす ふわふわカラフルマルチチャーム",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770070965"
         },
         {
           "name": "いたずらねこちゃあぁぁん",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770076776"
+        },
+        {
+          "name": "【CAP'in GALLERY】miffy Glint Series",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582769995279"
+        },
+        {
+          "name": "TOM and JERRY ぷにぷにし隊～クリアカラーバージョン～",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770053814"
         },
         {
           "name": "【CAP'in GALLERY】かえちゃんふぃぎゅあ designed by 田中かえ",
@@ -601,10 +601,6 @@
       "name": "ガシャポンバンダイオフィシャルショップ 未来屋書店山崎店",
       "items": [
         {
-          "name": "それいけ！アンパンマン くるりんフェイスアンパンマン",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118182043"
-        },
-        {
           "name": "ジュエルペット キラキラミラー風コレクション",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186904"
         },
@@ -623,6 +619,10 @@
         {
           "name": "まちぼうけ 冬の場合 その2",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770094367"
+        },
+        {
+          "name": "それいけ！アンパンマン くるりんフェイスアンパンマン",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118182043"
         },
         {
           "name": "プリキュアオールスターズ 変身ダイキャストチャーム＆パッケージ5",
