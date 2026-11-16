@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T02:08:47.517Z",
+  "updatedAt": "2026-11-16T02:38:37.565Z",
   "stores": [
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
@@ -32,10 +32,6 @@
         {
           "name": "HG レジェンドライダーvol.6",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055627"
-        },
-        {
-          "name": "MINECRAFT ぬいぐるみマスコット",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770069136"
         },
         {
           "name": "ジュエルポッド ミニチュアチャームコレクション",
@@ -84,6 +80,10 @@
         {
           "name": "JAPAN めじるしアクセサリー3",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770081695"
+        },
+        {
+          "name": "ポンデクルール ジュエルペット 香り付き保湿バーム",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770098860"
         }
       ]
     },
@@ -346,6 +346,10 @@
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA太子店",
       "items": [
         {
+          "name": "それいけ！アンパンマン くるりんフェイスアンパンマン",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118182043"
+        },
+        {
           "name": "ジュエルペット キラキラミラー風コレクション",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186904"
         },
@@ -420,10 +424,6 @@
         {
           "name": "ぐ～チョコランタン カラフルカラビナマスコット",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068504"
-        },
-        {
-          "name": "モンチッチ Twinkleゴム",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770070422"
         }
       ]
     },
