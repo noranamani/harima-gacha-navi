@@ -1,8 +1,15 @@
 {
   "schemaVersion": 1,
-  "lastComparedAt": "2026-11-16T05:23:53.974Z",
+  "lastComparedAt": "2026-11-16T05:38:46.816Z",
   "retentionDays": 30,
   "events": [
+    {
+      "detectedAt": "2026-11-16T05:38:46.816Z",
+      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
+      "name": "サンリオキャラクターズ がんばれないチャーム",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770027051",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_hiromine/item/"
+    },
     {
       "detectedAt": "2026-11-16T04:38:43.741Z",
       "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店加古川店",
