@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T05:38:46.816Z",
+  "updatedAt": "2026-11-16T05:53:38.212Z",
   "notice": "新規掲載は入荷・再入荷を保証しません。公式商品一覧の表示範囲だけを監視しています。",
   "stores": [
     {
@@ -9,11 +9,11 @@
       "initialBaseline": false,
       "added": [
         {
-          "name": "サンリオキャラクターズ がんばれないチャーム",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770027051"
+          "name": "いれいす ふわふわカラフルマルチチャーム",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770070965"
         }
       ],
-      "removedCount": 6
+      "removedCount": 4
     },
     {
       "name": "ガシャポンバンダイオフィシャルショップ 未来屋書店加古川店",
