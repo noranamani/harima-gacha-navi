@@ -1,8 +1,15 @@
 {
   "schemaVersion": 1,
-  "lastComparedAt": "2026-11-16T08:23:42.648Z",
+  "lastComparedAt": "2026-11-16T08:38:39.361Z",
   "retentionDays": 30,
   "events": [
+    {
+      "detectedAt": "2026-11-16T08:38:39.361Z",
+      "store": "ガシャポンのデパート イトーヨーカドー明石店",
+      "name": "【フラットガシャポン/ジャンボカードダス】アニメ『薬屋のひとりごと』 クリアポスター3",
+      "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770054934",
+      "inventory": "https://bandainamco-am.co.jp/others/capsule-toy-store/store/iyakashi/item/"
+    },
     {
       "detectedAt": "2026-11-16T08:08:37.741Z",
       "store": "ガシャポンバンダイオフィシャルショップ 三木サービスエリア下り線店",
