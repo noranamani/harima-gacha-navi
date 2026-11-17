@@ -1,8 +1,15 @@
 {
   "schemaVersion": 1,
-  "lastComparedAt": "2026-11-17T03:23:40.241Z",
+  "lastComparedAt": "2026-11-17T03:38:35.067Z",
   "retentionDays": 30,
   "events": [
+    {
+      "detectedAt": "2026-11-17T03:38:35.067Z",
+      "store": "ガシャポンのデパート イトーヨーカドー明石店",
+      "name": "モンチッチ ミニチュアパッケージチャーム",
+      "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770053937",
+      "inventory": "https://bandainamco-am.co.jp/others/capsule-toy-store/store/iyakashi/item/"
+    },
     {
       "detectedAt": "2026-11-16T08:38:39.361Z",
       "store": "ガシャポンのデパート イトーヨーカドー明石店",
