@@ -1,8 +1,120 @@
 {
   "schemaVersion": 1,
-  "lastComparedAt": "2026-11-18T04:23:35.976Z",
+  "lastComparedAt": "2026-11-18T04:38:36.867Z",
   "retentionDays": 30,
   "events": [
+    {
+      "detectedAt": "2026-11-18T04:38:36.867Z",
+      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA太子店",
+      "name": "グレムリン ぬいぐるみマスコット",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118181589",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_taishi/item/"
+    },
+    {
+      "detectedAt": "2026-11-18T04:38:36.867Z",
+      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA太子店",
+      "name": "ドラえもん ベーカリーチャーム",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118185587",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_taishi/item/"
+    },
+    {
+      "detectedAt": "2026-11-18T04:38:36.867Z",
+      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA太子店",
+      "name": "aespa ぷくっとリング",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186485",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_taishi/item/"
+    },
+    {
+      "detectedAt": "2026-11-18T04:38:36.867Z",
+      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA太子店",
+      "name": "機動戦士ガンダムSEED FREEDOM のっかるんです♪フィギュア",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769981838",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_taishi/item/"
+    },
+    {
+      "detectedAt": "2026-11-18T04:38:36.867Z",
+      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA太子店",
+      "name": "お文具といっしょ カプセルラバーマスコット～おでんであったまるんです～",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054026",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_taishi/item/"
+    },
+    {
+      "detectedAt": "2026-11-18T04:38:36.867Z",
+      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA太子店",
+      "name": "From TV animation ONE PIECE ワンピの実 第二十七海戦",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055405",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_taishi/item/"
+    },
+    {
+      "detectedAt": "2026-11-18T04:38:36.867Z",
+      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA太子店",
+      "name": "【フラットガシャポン】ジョジョの奇妙な冒険 マウスシートコレクション",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055498",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_taishi/item/"
+    },
+    {
+      "detectedAt": "2026-11-18T04:38:36.867Z",
+      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA太子店",
+      "name": "銀魂 めじるしアクセサリー3 ～身に着けている物で趣味が大体分かる～",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055504",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_taishi/item/"
+    },
+    {
+      "detectedAt": "2026-11-18T04:38:36.867Z",
+      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA太子店",
+      "name": "アイドリッシュセブン ふわふわぬいバッジvol.1",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770056051",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_taishi/item/"
+    },
+    {
+      "detectedAt": "2026-11-18T04:38:36.867Z",
+      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA太子店",
+      "name": "とんがり帽子のアトリエ めじるしアクセサリー",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068832",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_taishi/item/"
+    },
+    {
+      "detectedAt": "2026-11-18T04:38:36.867Z",
+      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA太子店",
+      "name": "Lil ala mode スイングコレクション ～天使と悪魔～",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770081596",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_taishi/item/"
+    },
+    {
+      "detectedAt": "2026-11-18T04:38:36.867Z",
+      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA太子店",
+      "name": "PROJECT R.E.D. まちぼうけ",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770098372",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_taishi/item/"
+    },
+    {
+      "detectedAt": "2026-11-18T04:38:36.867Z",
+      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA太子店",
+      "name": "チロルチョコ めじるしアクセサリー2",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770121650",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_taishi/item/"
+    },
+    {
+      "detectedAt": "2026-11-18T04:38:36.867Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 三木サービスエリア下り線店",
+      "name": "ドラえもん ベーカリーチャーム",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118185587",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/miki_sa/item/"
+    },
+    {
+      "detectedAt": "2026-11-18T04:38:36.867Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 三木サービスエリア下り線店",
+      "name": "銀魂 めじるしアクセサリー3 ～身に着けている物で趣味が大体分かる～",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055504",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/miki_sa/item/"
+    },
+    {
+      "detectedAt": "2026-11-18T04:38:36.867Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 三木サービスエリア下り線店",
+      "name": "とんがり帽子のアトリエ めじるしアクセサリー",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068832",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/miki_sa/item/"
+    },
     {
       "detectedAt": "2026-11-18T03:38:38.548Z",
       "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路飾磨店",
