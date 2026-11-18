@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T17:38:52.736Z",
+  "updatedAt": "2026-11-18T17:53:44.441Z",
   "stores": [
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
@@ -20,6 +20,14 @@
         {
           "name": "aespa ぷくっとリング",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186485"
+        },
+        {
+          "name": "ジュエルペット キラキラミラー風コレクション",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186904"
+        },
+        {
+          "name": "機動戦士ガンダムSEED FREEDOM のっかるんです♪フィギュア",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769981838"
         },
         {
           "name": "お文具といっしょ カプセルラバーマスコット～おでんであったまるんです～",
@@ -62,14 +70,6 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770121650"
         },
         {
-          "name": "ジュエルペット キラキラミラー風コレクション",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186904"
-        },
-        {
-          "name": "機動戦士ガンダムSEED FREEDOM のっかるんです♪フィギュア",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769981838"
-        },
-        {
           "name": "プリキュアオールスターズ 変身ダイキャストチャーム＆パッケージ5",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770026689"
         },
@@ -105,6 +105,14 @@
         {
           "name": "aespa ぷくっとリング",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186485"
+        },
+        {
+          "name": "ジュエルペット キラキラミラー風コレクション",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186904"
+        },
+        {
+          "name": "機動戦士ガンダムSEED FREEDOM のっかるんです♪フィギュア",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769981838"
         },
         {
           "name": "モンチッチ ふわふわカラともマスコット",
@@ -147,14 +155,6 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770098372"
         },
         {
-          "name": "ジュエルペット キラキラミラー風コレクション",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186904"
-        },
-        {
-          "name": "機動戦士ガンダムSEED FREEDOM のっかるんです♪フィギュア",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769981838"
-        },
-        {
           "name": "MINECRAFT ぬいぐるみマスコット",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770069136"
         },
@@ -186,6 +186,14 @@
         {
           "name": "aespa ぷくっとリング",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186485"
+        },
+        {
+          "name": "ジュエルペット キラキラミラー風コレクション",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186904"
+        },
+        {
+          "name": "機動戦士ガンダムSEED FREEDOM のっかるんです♪フィギュア",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769981838"
         },
         {
           "name": "モンチッチ ふわふわカラともマスコット",
@@ -222,14 +230,6 @@
         {
           "name": "PROJECT R.E.D. まちぼうけ",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770098372"
-        },
-        {
-          "name": "ジュエルペット キラキラミラー風コレクション",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186904"
-        },
-        {
-          "name": "機動戦士ガンダムSEED FREEDOM のっかるんです♪フィギュア",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769981838"
         },
         {
           "name": "プリキュアオールスターズ 変身ダイキャストチャーム＆パッケージ5",
@@ -277,6 +277,18 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186485"
         },
         {
+          "name": "ジュエルペット キラキラミラー風コレクション",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186904"
+        },
+        {
+          "name": "アニメ「桜蘭高校ホスト部」 つまんでつなげてますこっと",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769935077"
+        },
+        {
+          "name": "機動戦士ガンダムSEED FREEDOM のっかるんです♪フィギュア",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769981838"
+        },
+        {
           "name": "モンチッチ ふわふわカラともマスコット",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770053920"
         },
@@ -315,18 +327,6 @@
         {
           "name": "PROJECT R.E.D. まちぼうけ",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770098372"
-        },
-        {
-          "name": "ジュエルペット キラキラミラー風コレクション",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186904"
-        },
-        {
-          "name": "アニメ「桜蘭高校ホスト部」 つまんでつなげてますこっと",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769935077"
-        },
-        {
-          "name": "機動戦士ガンダムSEED FREEDOM のっかるんです♪フィギュア",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769981838"
         },
         {
           "name": "プリキュアオールスターズ 変身ダイキャストチャーム＆パッケージ5",
@@ -362,6 +362,18 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186485"
         },
         {
+          "name": "ジュエルペット キラキラミラー風コレクション",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186904"
+        },
+        {
+          "name": "アニメ「桜蘭高校ホスト部」 つまんでつなげてますこっと",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769935077"
+        },
+        {
+          "name": "機動戦士ガンダムSEED FREEDOM のっかるんです♪フィギュア",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769981838"
+        },
+        {
           "name": "モンチッチ ふわふわカラともマスコット",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770053920"
         },
@@ -402,18 +414,6 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770098372"
         },
         {
-          "name": "ジュエルペット キラキラミラー風コレクション",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186904"
-        },
-        {
-          "name": "アニメ「桜蘭高校ホスト部」 つまんでつなげてますこっと",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769935077"
-        },
-        {
-          "name": "機動戦士ガンダムSEED FREEDOM のっかるんです♪フィギュア",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769981838"
-        },
-        {
           "name": "プリキュアオールスターズ 変身ダイキャストチャーム＆パッケージ5",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770026689"
         },
@@ -439,6 +439,14 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118185587"
         },
         {
+          "name": "ジュエルペット キラキラミラー風コレクション",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186904"
+        },
+        {
+          "name": "アニメ「桜蘭高校ホスト部」 つまんでつなげてますこっと",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769935077"
+        },
+        {
           "name": "モンチッチ ふわふわカラともマスコット",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770053920"
         },
@@ -461,14 +469,6 @@
         {
           "name": "まちぼうけ 冬の場合 その2",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770094367"
-        },
-        {
-          "name": "ジュエルペット キラキラミラー風コレクション",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186904"
-        },
-        {
-          "name": "アニメ「桜蘭高校ホスト部」 つまんでつなげてますこっと",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769935077"
         },
         {
           "name": "プリキュアオールスターズ 変身ダイキャストチャーム＆パッケージ5",
@@ -552,10 +552,6 @@
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770076776"
         },
         {
-          "name": "ハリー・ポッター アクリルスライド ミラーコレクション",
-          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4570118181503"
-        },
-        {
           "name": "【CAP'in GALLERY】かえちゃんふぃぎゅあ designed by 田中かえ",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582769867255"
         },
@@ -566,6 +562,10 @@
         {
           "name": "【CAP'in GALLERY】atmos TENKYU フィギュアコレクション",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770069242"
+        },
+        {
+          "name": "ハリー・ポッター アクリルスライド ミラーコレクション",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4570118181503"
         },
         {
           "name": "CRAZY RACCOON キーボード風クリッカー",
@@ -617,6 +617,14 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186485"
         },
         {
+          "name": "ジュエルペット キラキラミラー風コレクション",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186904"
+        },
+        {
+          "name": "機動戦士ガンダムSEED FREEDOM のっかるんです♪フィギュア",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769981838"
+        },
+        {
           "name": "お文具といっしょ カプセルラバーマスコット～おでんであったまるんです～",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054026"
         },
@@ -651,14 +659,6 @@
         {
           "name": "PROJECT R.E.D. まちぼうけ",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770098372"
-        },
-        {
-          "name": "ジュエルペット キラキラミラー風コレクション",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186904"
-        },
-        {
-          "name": "機動戦士ガンダムSEED FREEDOM のっかるんです♪フィギュア",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769981838"
         },
         {
           "name": "プリキュアオールスターズ 変身ダイキャストチャーム＆パッケージ5",
