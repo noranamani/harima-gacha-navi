@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T11:53:38.928Z",
+  "updatedAt": "2026-11-18T12:08:34.978Z",
   "stores": [
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
@@ -520,16 +520,24 @@
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770095487"
         },
         {
-          "name": "ジュエルペット キラキラミラー風コレクション",
-          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4570118186904"
-        },
-        {
           "name": "モンチッチ ふわふわカラともマスコット",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770053920"
         },
         {
           "name": "まちぼうけ 冬の場合 その2",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770094367"
+        },
+        {
+          "name": "ジュエルペット キラキラミラー風コレクション",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4570118186904"
+        },
+        {
+          "name": "【CAP'in GALLERY】miffy Glint Series",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582769995279"
+        },
+        {
+          "name": "TOM and JERRY ぷにぷにし隊～クリアカラーバージョン～",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770053814"
         },
         {
           "name": "CAPSULEVERSE 機動戦士ガンダム 01",
@@ -542,14 +550,6 @@
         {
           "name": "いたずらねこちゃあぁぁん",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770076776"
-        },
-        {
-          "name": "【CAP'in GALLERY】miffy Glint Series",
-          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582769995279"
-        },
-        {
-          "name": "TOM and JERRY ぷにぷにし隊～クリアカラーバージョン～",
-          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770053814"
         },
         {
           "name": "ハリー・ポッター アクリルスライド ミラーコレクション",
