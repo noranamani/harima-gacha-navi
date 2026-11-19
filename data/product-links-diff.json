@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-19T01:23:31.895Z",
+  "updatedAt": "2026-11-19T01:38:36.441Z",
   "notice": "新規掲載は入荷・再入荷を保証しません。公式商品一覧の表示範囲だけを監視しています。",
   "stores": [
     {
@@ -8,7 +8,7 @@
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_hiromine/item/",
       "initialBaseline": false,
       "added": [],
-      "removedCount": 2
+      "removedCount": 1
     },
     {
       "name": "ガシャポンバンダイオフィシャルショップ 未来屋書店加古川店",
@@ -22,7 +22,7 @@
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/akashi/item/",
       "initialBaseline": false,
       "added": [],
-      "removedCount": 2
+      "removedCount": 1
     },
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路飾磨店",
@@ -42,8 +42,45 @@
       "name": "ガシャポンバンダイオフィシャルショップ 三木サービスエリア下り線店",
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/miki_sa/item/",
       "initialBaseline": false,
-      "added": [],
-      "removedCount": 6
+      "added": [
+        {
+          "name": "グレムリン ぬいぐるみマスコット",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118181589"
+        },
+        {
+          "name": "aespa ぷくっとリング",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186485"
+        },
+        {
+          "name": "機動戦士ガンダムSEED FREEDOM のっかるんです♪フィギュア",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769981838"
+        },
+        {
+          "name": "お文具といっしょ カプセルラバーマスコット～おでんであったまるんです～",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054026"
+        },
+        {
+          "name": "【フラットガシャポン】ジョジョの奇妙な冒険 マウスシートコレクション",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055498"
+        },
+        {
+          "name": "アイドリッシュセブン ふわふわぬいバッジvol.1",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770056051"
+        },
+        {
+          "name": "Lil ala mode スイングコレクション ～天使と悪魔～",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770081596"
+        },
+        {
+          "name": "PROJECT R.E.D. まちぼうけ",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770098372"
+        },
+        {
+          "name": "チロルチョコ めじるしアクセサリー2",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770121650"
+        }
+      ],
+      "removedCount": 9
     },
     {
       "name": "ガシャポンのデパート イトーヨーカドー明石店",
