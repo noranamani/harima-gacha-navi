@@ -1,8 +1,64 @@
 {
   "schemaVersion": 1,
-  "lastComparedAt": "2026-11-19T05:23:34.717Z",
+  "lastComparedAt": "2026-11-19T05:38:33.233Z",
   "retentionDays": 30,
   "events": [
+    {
+      "detectedAt": "2026-11-19T05:38:33.233Z",
+      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
+      "name": "クレヨンしんちゃん まちぼうけ8 『映画クレヨンしんちゃん 暗黒タマタマ大追跡』",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770094718",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_hiromine/item/"
+    },
+    {
+      "detectedAt": "2026-11-19T05:38:33.233Z",
+      "store": "ガシャポンのデパート イトーヨーカドー明石店",
+      "name": "グレムリン ぬいぐるみマスコット",
+      "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4570118181589",
+      "inventory": "https://bandainamco-am.co.jp/others/capsule-toy-store/store/iyakashi/item/"
+    },
+    {
+      "detectedAt": "2026-11-19T05:38:33.233Z",
+      "store": "ガシャポンのデパート イトーヨーカドー明石店",
+      "name": "aespa ぷくっとリング",
+      "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4570118186485",
+      "inventory": "https://bandainamco-am.co.jp/others/capsule-toy-store/store/iyakashi/item/"
+    },
+    {
+      "detectedAt": "2026-11-19T05:38:33.233Z",
+      "store": "ガシャポンのデパート イトーヨーカドー明石店",
+      "name": "勝利の女神：NIKKE まちぼうけ",
+      "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582769979248",
+      "inventory": "https://bandainamco-am.co.jp/others/capsule-toy-store/store/iyakashi/item/"
+    },
+    {
+      "detectedAt": "2026-11-19T05:38:33.233Z",
+      "store": "ガシャポンのデパート イトーヨーカドー明石店",
+      "name": "アイドリッシュセブン ふわふわぬいバッジvol.1",
+      "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770056051",
+      "inventory": "https://bandainamco-am.co.jp/others/capsule-toy-store/store/iyakashi/item/"
+    },
+    {
+      "detectedAt": "2026-11-19T05:38:33.233Z",
+      "store": "ガシャポンのデパート イトーヨーカドー明石店",
+      "name": "Lil ala mode スイングコレクション ～天使と悪魔～",
+      "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770081596",
+      "inventory": "https://bandainamco-am.co.jp/others/capsule-toy-store/store/iyakashi/item/"
+    },
+    {
+      "detectedAt": "2026-11-19T05:38:33.233Z",
+      "store": "ガシャポンのデパート イトーヨーカドー明石店",
+      "name": "クレヨンしんちゃん まちぼうけ8 『映画クレヨンしんちゃん 暗黒タマタマ大追跡』",
+      "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770094718",
+      "inventory": "https://bandainamco-am.co.jp/others/capsule-toy-store/store/iyakashi/item/"
+    },
+    {
+      "detectedAt": "2026-11-19T05:38:33.233Z",
+      "store": "ガシャポンのデパート イトーヨーカドー明石店",
+      "name": "ナルミヤキャラクターズ モノトーンマスコット",
+      "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770071207",
+      "inventory": "https://bandainamco-am.co.jp/others/capsule-toy-store/store/iyakashi/item/"
+    },
     {
       "detectedAt": "2026-11-19T04:29:44.351Z",
       "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店加古川店",
@@ -1346,62 +1402,6 @@
       "name": "プリキュアオールスターズ 変身めじるしアクセサリー２",
       "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118206565",
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_shikama/item/"
-    },
-    {
-      "detectedAt": "2026-11-11T03:38:37.451Z",
-      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路飾磨店",
-      "name": "プリキュアオールスターズ 変身ダイキャストチャーム＆パッケージ5",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770026689",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_shikama/item/"
-    },
-    {
-      "detectedAt": "2026-11-11T03:38:37.451Z",
-      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路飾磨店",
-      "name": "HG レジェンドライダーvol.6",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055627",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_shikama/item/"
-    },
-    {
-      "detectedAt": "2026-11-10T06:38:36.904Z",
-      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
-      "name": "どうぶつの森 めじるしアクセサリー",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068412",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_hiromine/item/"
-    },
-    {
-      "detectedAt": "2026-11-10T02:38:41.755Z",
-      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路飾磨店",
-      "name": "めじるしアクセサリー サンリオキャラクターズオールスターズ Part.3",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054705",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_shikama/item/"
-    },
-    {
-      "detectedAt": "2026-11-09T07:38:37.524Z",
-      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店加古川店",
-      "name": "MINECRAFT ぬいぐるみマスコット",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770069136",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_kakogawa/item/"
-    },
-    {
-      "detectedAt": "2026-11-09T07:38:37.524Z",
-      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店加古川店",
-      "name": "ZETT（ゼット） 野球グローブコレクション",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770095357",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_kakogawa/item/"
-    },
-    {
-      "detectedAt": "2026-11-09T06:38:36.320Z",
-      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路飾磨店",
-      "name": "【CAP'in GALLERY】miffy Glint Series",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769995279",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_shikama/item/"
-    },
-    {
-      "detectedAt": "2026-11-09T06:38:36.320Z",
-      "store": "ガシャポンのデパート イトーヨーカドー明石店",
-      "name": "MINECRAFT ぬいぐるみマスコット",
-      "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770069136",
-      "inventory": "https://bandainamco-am.co.jp/others/capsule-toy-store/store/iyakashi/item/"
     }
   ]
 }
