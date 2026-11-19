@@ -4,7 +4,7 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: approved-product-links
+  group: harima-gacha-official-metadata
   cancel-in-progress: false
 jobs:
   product-links:
