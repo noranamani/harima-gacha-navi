@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-19T14:53:36.378Z",
+  "updatedAt": "2026-11-19T15:23:44.833Z",
   "stores": [
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
@@ -576,6 +576,10 @@
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770076776"
         },
         {
+          "name": "BT21 ベーカリーチャーム",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770121841"
+        },
+        {
           "name": "ハリー・ポッター アクリルスライド ミラーコレクション",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4570118181503"
         },
@@ -590,10 +594,6 @@
         {
           "name": "【CAP'in GALLERY】atmos TENKYU フィギュアコレクション",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770069242"
-        },
-        {
-          "name": "Lil ala mode ミニチュアパッケージチャーム ～ムース～",
-          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770070392"
         }
       ]
     },
