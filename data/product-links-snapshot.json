@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-19T06:38:33.587Z",
+  "updatedAt": "2026-11-19T06:53:35.098Z",
   "stores": [
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
@@ -337,8 +337,8 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770026689"
         },
         {
-          "name": "ポンデクルール ジュエルペット 香り付き保湿バーム",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770098860"
+          "name": "ジュエルポッド ミニチュアチャームコレクション",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186942"
         }
       ]
     },
@@ -507,8 +507,8 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770069136"
         },
         {
-          "name": "ポンデクルール ジュエルペット 香り付き保湿バーム",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770098860"
+          "name": "yeye ムンゲのフィギュア",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769889592"
         }
       ]
     },
@@ -518,6 +518,14 @@
         {
           "name": "ハイキュー!! ねむらせ隊3",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770095487"
+        },
+        {
+          "name": "まちぼうけ 冬の場合 その2",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770094367"
+        },
+        {
+          "name": "クレヨンしんちゃん まちぼうけ8 『映画クレヨンしんちゃん 暗黒タマタマ大追跡』",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770094718"
         },
         {
           "name": "グレムリン ぬいぐるみマスコット",
@@ -546,14 +554,6 @@
         {
           "name": "Lil ala mode スイングコレクション ～天使と悪魔～",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770081596"
-        },
-        {
-          "name": "まちぼうけ 冬の場合 その2",
-          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770094367"
-        },
-        {
-          "name": "クレヨンしんちゃん まちぼうけ8 『映画クレヨンしんちゃん 暗黒タマタマ大追跡』",
-          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770094718"
         },
         {
           "name": "TOM and JERRY ぷにぷにし隊～クリアカラーバージョン～",
