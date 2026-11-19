@@ -8,6 +8,10 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
+# Serialize with the 15-minute metadata writer to avoid competing main pushes.
+concurrency:
+  group: harima-gacha-official-metadata
+  cancel-in-progress: false
 jobs:
   generate:
     runs-on: ubuntu-latest
