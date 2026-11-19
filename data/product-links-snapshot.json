@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-19T12:50:21.429Z",
+  "updatedAt": "2026-11-19T13:08:36.408Z",
   "stores": [
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
@@ -82,8 +82,8 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055627"
         },
         {
-          "name": "CAPSULEVERSE ゴジラ",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769888700"
+          "name": "ジュエルポッド ミニチュアチャームコレクション",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186942"
         }
       ]
     },
@@ -163,12 +163,12 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770095357"
         },
         {
-          "name": "ONE PIECE ゆらゆらし隊",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118196545"
+          "name": "ジュエルポッド ミニチュアチャームコレクション",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186942"
         },
         {
-          "name": "FANFANCHUU カラフルカラビナマスコット",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769979293"
+          "name": "ONE PIECE ゆらゆらし隊",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118196545"
         }
       ]
     },
@@ -520,6 +520,22 @@
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770095487"
         },
         {
+          "name": "アイドリッシュセブン ふわふわぬいバッジvol.1",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770056051"
+        },
+        {
+          "name": "Lil ala mode スイングコレクション ～天使と悪魔～",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770081596"
+        },
+        {
+          "name": "まちぼうけ 冬の場合 その2",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770094367"
+        },
+        {
+          "name": "クレヨンしんちゃん まちぼうけ8 『映画クレヨンしんちゃん 暗黒タマタマ大追跡』",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770094718"
+        },
+        {
           "name": "グレムリン ぬいぐるみマスコット",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4570118181589"
         },
@@ -538,22 +554,6 @@
         {
           "name": "モンチッチ ふわふわカラともマスコット",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770053920"
-        },
-        {
-          "name": "アイドリッシュセブン ふわふわぬいバッジvol.1",
-          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770056051"
-        },
-        {
-          "name": "Lil ala mode スイングコレクション ～天使と悪魔～",
-          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770081596"
-        },
-        {
-          "name": "まちぼうけ 冬の場合 その2",
-          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770094367"
-        },
-        {
-          "name": "クレヨンしんちゃん まちぼうけ8 『映画クレヨンしんちゃん 暗黒タマタマ大追跡』",
-          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770094718"
         },
         {
           "name": "TOM and JERRY ぷにぷにし隊～クリアカラーバージョン～",
