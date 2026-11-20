@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T10:23:33.701Z",
+  "updatedAt": "2026-11-20T10:38:36.869Z",
   "stores": [
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
@@ -232,14 +232,6 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068832"
         },
         {
-          "name": "Sassy めじるしアクセサリー2",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770071191"
-        },
-        {
-          "name": "Lil ala mode スイングコレクション ～天使と悪魔～",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770081596"
-        },
-        {
           "name": "まちぼうけ 冬の場合 その2",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770094367"
         },
@@ -254,6 +246,14 @@
         {
           "name": "ウルトラマン ウルトラ怪獣ぽんちょめじるしアクセサリー",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770122527"
+        },
+        {
+          "name": "HG レジェンドライダーvol.6",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055627"
+        },
+        {
+          "name": "MINECRAFT ぬいぐるみマスコット",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770069136"
         }
       ]
     },
@@ -520,22 +520,6 @@
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770095487"
         },
         {
-          "name": "アイドリッシュセブン ふわふわぬいバッジvol.1",
-          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770056051"
-        },
-        {
-          "name": "Lil ala mode スイングコレクション ～天使と悪魔～",
-          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770081596"
-        },
-        {
-          "name": "まちぼうけ 冬の場合 その2",
-          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770094367"
-        },
-        {
-          "name": "クレヨンしんちゃん まちぼうけ8 『映画クレヨンしんちゃん 暗黒タマタマ大追跡』",
-          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770094718"
-        },
-        {
           "name": "グレムリン ぬいぐるみマスコット",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4570118181589"
         },
@@ -554,6 +538,22 @@
         {
           "name": "モンチッチ ふわふわカラともマスコット",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770053920"
+        },
+        {
+          "name": "アイドリッシュセブン ふわふわぬいバッジvol.1",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770056051"
+        },
+        {
+          "name": "Lil ala mode スイングコレクション ～天使と悪魔～",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770081596"
+        },
+        {
+          "name": "まちぼうけ 冬の場合 その2",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770094367"
+        },
+        {
+          "name": "クレヨンしんちゃん まちぼうけ8 『映画クレヨンしんちゃん 暗黒タマタマ大追跡』",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770094718"
         },
         {
           "name": "TOM and JERRY ぷにぷにし隊～クリアカラーバージョン～",
@@ -607,10 +607,6 @@
         {
           "name": "それいけ！アンパンマン くるりんフェイスアンパンマン",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118182043"
-        },
-        {
-          "name": "“ディズニーキャラクター” なかよしペアスイング3",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118184450"
         },
         {
           "name": "aespa ぷくっとリング",
@@ -679,6 +675,10 @@
         {
           "name": "HG レジェンドライダーvol.6",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055627"
+        },
+        {
+          "name": "MINECRAFT ぬいぐるみマスコット",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770069136"
         }
       ]
     }
