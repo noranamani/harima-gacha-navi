@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T21:23:35.782Z",
+  "updatedAt": "2026-11-20T21:38:38.767Z",
   "stores": [
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
@@ -163,12 +163,12 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770095357"
         },
         {
-          "name": "ジュエルポッド ミニチュアチャームコレクション",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186942"
+          "name": "ゲゲゲの鬼太郎（第4期） ねむらせ隊",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770027594"
         },
         {
-          "name": "ONE PIECE ゆらゆらし隊",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118196545"
+          "name": "TOM and JERRY ぷにぷにし隊～クリアカラーバージョン～",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770053814"
         }
       ]
     },
@@ -248,12 +248,12 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770069136"
         },
         {
-          "name": "ジュエルポッド ミニチュアチャームコレクション",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186942"
+          "name": "TOM and JERRY ぷにぷにし隊～クリアカラーバージョン～",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770053814"
         },
         {
-          "name": "魔法騎士レイアース カプセルフィギュアコレクション",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769911262"
+          "name": "チアリステイルズ マスコット",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054682"
         }
       ]
     },
@@ -337,8 +337,8 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770026689"
         },
         {
-          "name": "ジュエルポッド ミニチュアチャームコレクション",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186942"
+          "name": "チアリステイルズ マスコット",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054682"
         }
       ]
     },
@@ -414,16 +414,16 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770095357"
         },
         {
-          "name": "ジュエルポッド ミニチュアチャームコレクション",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186942"
+          "name": "ゲゲゲの鬼太郎（第4期） ねむらせ隊",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770027594"
         },
         {
-          "name": "yeye ムンゲのフィギュア",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769889592"
+          "name": "TOM and JERRY ぷにぷにし隊～クリアカラーバージョン～",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770053814"
         },
         {
-          "name": "クレヨンしんちゃん なりきり！？アイドルステージ スイングマスコット",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769928420"
+          "name": "チアリステイルズ マスコット",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054682"
         }
       ]
     },
@@ -572,6 +572,10 @@
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770076776"
         },
         {
+          "name": "ハリー・ポッター アクリルスライド ミラーコレクション",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4570118181503"
+        },
+        {
           "name": "【CAP'in GALLERY】かえちゃんふぃぎゅあ designed by 田中かえ",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582769867255"
         },
@@ -586,10 +590,6 @@
         {
           "name": "Lil ala mode ミニチュアパッケージチャーム ～ムース～",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770070392"
-        },
-        {
-          "name": "ハリー・ポッター アクリルスライド ミラーコレクション",
-          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4570118181503"
         },
         {
           "name": "CRAZY RACCOON キーボード風クリッカー",
