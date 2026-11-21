@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-21T13:38:38.577Z",
+  "updatedAt": "2026-11-21T13:53:38.156Z",
   "notice": "新規掲載は入荷・再入荷を保証しません。公式商品一覧の表示範囲だけを監視しています。",
   "stores": [
     {
@@ -21,12 +21,7 @@
       "name": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/akashi/item/",
       "initialBaseline": false,
-      "added": [
-        {
-          "name": "ちびまる子ちゃん＆クレヨンしんちゃん ラバーマスコット",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770140125"
-        }
-      ],
+      "added": [],
       "removedCount": 4
     },
     {
