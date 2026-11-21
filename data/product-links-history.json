@@ -1,8 +1,22 @@
 {
   "schemaVersion": 1,
-  "lastComparedAt": "2026-11-21T09:23:34.669Z",
+  "lastComparedAt": "2026-11-21T09:37:50.527Z",
   "retentionDays": 30,
   "events": [
+    {
+      "detectedAt": "2026-11-21T09:37:50.527Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
+      "name": "赤見かるび たべすぎまして・・・",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118202307",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/akashi/item/"
+    },
+    {
+      "detectedAt": "2026-11-21T09:37:50.527Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
+      "name": "劇場版『チェンソーマン レゼ篇』 まちぼうけ",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770056044",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/akashi/item/"
+    },
     {
       "detectedAt": "2026-11-21T08:53:04.067Z",
       "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
@@ -1388,20 +1402,6 @@
       "name": "PROJECT R.E.D. まちぼうけ",
       "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770098372",
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_yamazaki/item/"
-    },
-    {
-      "detectedAt": "2026-11-18T06:38:36.369Z",
-      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
-      "name": "グレムリン ぬいぐるみマスコット",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118181589",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_hiromine/item/"
-    },
-    {
-      "detectedAt": "2026-11-18T06:38:36.369Z",
-      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
-      "name": "機動戦士ガンダムSEED FREEDOM のっかるんです♪フィギュア",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769981838",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_hiromine/item/"
     }
   ]
 }
