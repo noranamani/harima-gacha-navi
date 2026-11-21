@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-21T10:38:42.913Z",
+  "updatedAt": "2026-11-21T11:08:31.859Z",
   "stores": [
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
@@ -568,10 +568,6 @@
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770076776"
         },
         {
-          "name": "ハリー・ポッター アクリルスライド ミラーコレクション",
-          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4570118181503"
-        },
-        {
           "name": "【CAP'in GALLERY】かえちゃんふぃぎゅあ designed by 田中かえ",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582769867255"
         },
@@ -586,6 +582,10 @@
         {
           "name": "Lil ala mode ミニチュアパッケージチャーム ～ムース～",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770070392"
+        },
+        {
+          "name": "ハリー・ポッター アクリルスライド ミラーコレクション",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4570118181503"
         },
         {
           "name": "いきもの大図鑑アドバンス タマムシとウグイスコガネ",
