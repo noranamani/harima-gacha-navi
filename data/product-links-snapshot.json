@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-21T03:53:51.491Z",
+  "updatedAt": "2026-11-21T04:08:41.742Z",
   "stores": [
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
@@ -552,6 +552,14 @@
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770094367"
         },
         {
+          "name": "TOM and JERRY ぷにぷにし隊～クリアカラーバージョン～",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770053814"
+        },
+        {
+          "name": "CAPSULEVERSE 機動戦士ガンダム 01",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770055863"
+        },
+        {
           "name": "いれいす ふわふわカラフルマルチチャーム",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770070965"
         },
@@ -562,14 +570,6 @@
         {
           "name": "いたずらねこちゃあぁぁん",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770076776"
-        },
-        {
-          "name": "TOM and JERRY ぷにぷにし隊～クリアカラーバージョン～",
-          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770053814"
-        },
-        {
-          "name": "CAPSULEVERSE 機動戦士ガンダム 01",
-          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770055863"
         },
         {
           "name": "ハリー・ポッター アクリルスライド ミラーコレクション",
@@ -600,6 +600,10 @@
     {
       "name": "ガシャポンバンダイオフィシャルショップ 未来屋書店山崎店",
       "items": [
+        {
+          "name": "グレムリン ぬいぐるみマスコット",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118181589"
+        },
         {
           "name": "それいけ！アンパンマン くるりんフェイスアンパンマン",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118182043"
@@ -663,10 +667,6 @@
         {
           "name": "PROJECT R.E.D. まちぼうけ",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770098372"
-        },
-        {
-          "name": "グレムリン ぬいぐるみマスコット",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118181589"
         },
         {
           "name": "プリキュアオールスターズ 変身ダイキャストチャーム＆パッケージ5",
