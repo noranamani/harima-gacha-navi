@@ -1,8 +1,22 @@
 {
   "schemaVersion": 1,
-  "lastComparedAt": "2026-11-21T10:23:42.143Z",
+  "lastComparedAt": "2026-11-21T10:38:42.913Z",
   "retentionDays": 30,
   "events": [
+    {
+      "detectedAt": "2026-11-21T10:38:42.913Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店山崎店",
+      "name": "“ピクサーキャラクター” 手作りおやつチャーム #しぼりクッキー",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770026931",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_yamazaki/item/"
+    },
+    {
+      "detectedAt": "2026-11-21T10:38:42.913Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店山崎店",
+      "name": "すとぷり めじるしアクセサリー",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770061741",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_yamazaki/item/"
+    },
     {
       "detectedAt": "2026-11-21T10:08:37.662Z",
       "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
@@ -1387,20 +1401,6 @@
       "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店山崎店",
       "name": "From TV animation ONE PIECE ワンピの実 第二十七海戦",
       "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055405",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_yamazaki/item/"
-    },
-    {
-      "detectedAt": "2026-11-18T07:38:35.864Z",
-      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店山崎店",
-      "name": "銀魂 めじるしアクセサリー3 ～身に着けている物で趣味が大体分かる～",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055504",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_yamazaki/item/"
-    },
-    {
-      "detectedAt": "2026-11-18T07:38:35.864Z",
-      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店山崎店",
-      "name": "アイドリッシュセブン ふわふわぬいバッジvol.1",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770056051",
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_yamazaki/item/"
     }
   ]
