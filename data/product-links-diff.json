@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-21T06:38:46.399Z",
+  "updatedAt": "2026-11-21T06:53:43.817Z",
   "notice": "新規掲載は入荷・再入荷を保証しません。公式商品一覧の表示範囲だけを監視しています。",
   "stores": [
     {
@@ -9,38 +9,30 @@
       "initialBaseline": false,
       "added": [
         {
-          "name": "“ピクサーキャラクター” 手作りおやつチャーム #しぼりクッキー",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770026931"
+          "name": "クレヨンしんちゃん カラともマスコット",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770094725"
         },
         {
-          "name": "capsuleトルソー “ディズニーキャラクター” ミニチュア＆パッケージコレクション",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054651"
+          "name": "メゾピアノ グッズコレクション",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770129830"
         },
         {
-          "name": "劇場版『チェンソーマン レゼ篇』 まちぼうけ",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770056044"
+          "name": "キングダム Comics Charm Collection",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770130447"
         },
         {
-          "name": "すとぷり めじるしアクセサリー",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770061741"
-        },
-        {
-          "name": "リメンバー・ミー スイングマスコット",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068269"
-        },
-        {
-          "name": "サンリオキャラクターズ 雪だるまふわふわめじるしアクセサリー",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068351"
+          "name": "豆ガシャ本 「犬夜叉」",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770139860"
         }
       ],
-      "removedCount": 6
+      "removedCount": 7
     },
     {
       "name": "ガシャポンバンダイオフィシャルショップ 未来屋書店加古川店",
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_kakogawa/item/",
       "initialBaseline": false,
       "added": [],
-      "removedCount": 1
+      "removedCount": 0
     },
     {
       "name": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
@@ -48,20 +40,8 @@
       "initialBaseline": false,
       "added": [
         {
-          "name": "“ピクサーキャラクター” 手作りおやつチャーム #しぼりクッキー",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770026931"
-        },
-        {
-          "name": "capsuleトルソー “ディズニーキャラクター” ミニチュア＆パッケージコレクション",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054651"
-        },
-        {
-          "name": "すとぷり めじるしアクセサリー",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770061741"
-        },
-        {
-          "name": "リメンバー・ミー スイングマスコット",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068269"
+          "name": "ホロライブ カラフルカラビナもふしっぽマスコット",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770121773"
         }
       ],
       "removedCount": 4
@@ -70,15 +50,25 @@
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路飾磨店",
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_shikama/item/",
       "initialBaseline": false,
-      "added": [],
+      "added": [
+        {
+          "name": "【フラットガシャポン】ゴジラ MOVIEクリアファイルコレクション",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770141306"
+        }
+      ],
       "removedCount": 12
     },
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA太子店",
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_taishi/item/",
       "initialBaseline": false,
-      "added": [],
-      "removedCount": 13
+      "added": [
+        {
+          "name": "【フラットガシャポン】ゴジラ MOVIEクリアファイルコレクション",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770141306"
+        }
+      ],
+      "removedCount": 11
     },
     {
       "name": "ガシャポンバンダイオフィシャルショップ 三木サービスエリア下り線店",
@@ -86,19 +76,11 @@
       "initialBaseline": false,
       "added": [
         {
-          "name": "初音ミク めじるしアクセサリー",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769995750"
-        },
-        {
-          "name": "名探偵コナン ぎゅーこっと2",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054187"
-        },
-        {
-          "name": "Sassy めじるしアクセサリー2",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770071191"
+          "name": "ウルトラマン ウルトラ怪獣ぽんちょめじるしアクセサリー",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770122527"
         }
       ],
-      "removedCount": 3
+      "removedCount": 2
     },
     {
       "name": "ガシャポンのデパート イトーヨーカドー明石店",
