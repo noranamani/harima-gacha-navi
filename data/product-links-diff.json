@@ -1,22 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-21T07:53:35.140Z",
+  "updatedAt": "2026-11-21T08:08:31.760Z",
   "notice": "新規掲載は入荷・再入荷を保証しません。公式商品一覧の表示範囲だけを監視しています。",
   "stores": [
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_hiromine/item/",
       "initialBaseline": false,
-      "added": [
-        {
-          "name": "ちびまる子ちゃん＆クレヨンしんちゃん ラバーマスコット",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770140125"
-        },
-        {
-          "name": "【フラットガシャポン】ゴジラ MOVIEクリアファイルコレクション",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770141306"
-        }
-      ],
+      "added": [],
       "removedCount": 3
     },
     {
@@ -24,7 +15,7 @@
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_kakogawa/item/",
       "initialBaseline": false,
       "added": [],
-      "removedCount": 3
+      "removedCount": 0
     },
     {
       "name": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
