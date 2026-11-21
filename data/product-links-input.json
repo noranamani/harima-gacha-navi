@@ -6,22 +6,6 @@
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
       "items": [
         {
-          "name": "お文具といっしょ カプセルラバーマスコット～おでんであったまるんです～",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054026"
-        },
-        {
-          "name": "名探偵コナン ぎゅーこっと2",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054187"
-        },
-        {
-          "name": "From TV animation ONE PIECE ワンピの実 第二十七海戦",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055405"
-        },
-        {
-          "name": "【フラットガシャポン】ジョジョの奇妙な冒険 マウスシートコレクション",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055498"
-        },
-        {
           "name": "STAR WARS ボトルキャップコレクション マンダロリアン・アンド・グローグー",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055931"
         },
@@ -82,21 +66,12 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769995750"
         },
         {
-          "name": "プリキュアオールスターズ 変身ダイキャストチャーム＆パッケージ5",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770026689"
-        }
-      ]
-    },
-    {
-      "name": "ガシャポンバンダイオフィシャルショップ 未来屋書店加古川店",
-      "items": [
-        {
-          "name": "モンチッチ ふわふわカラともマスコット",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770053920"
-        },
-        {
           "name": "お文具といっしょ カプセルラバーマスコット～おでんであったまるんです～",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054026"
+        },
+        {
+          "name": "名探偵コナン ぎゅーこっと2",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054187"
         },
         {
           "name": "From TV animation ONE PIECE ワンピの実 第二十七海戦",
@@ -106,6 +81,15 @@
           "name": "【フラットガシャポン】ジョジョの奇妙な冒険 マウスシートコレクション",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055498"
         },
+        {
+          "name": "プリキュアオールスターズ 変身ダイキャストチャーム＆パッケージ5",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770026689"
+        }
+      ]
+    },
+    {
+      "name": "ガシャポンバンダイオフィシャルショップ 未来屋書店加古川店",
+      "items": [
         {
           "name": "STAR WARS ボトルキャップコレクション マンダロリアン・アンド・グローグー",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055931"
@@ -155,6 +139,22 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769981838"
         },
         {
+          "name": "モンチッチ ふわふわカラともマスコット",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770053920"
+        },
+        {
+          "name": "お文具といっしょ カプセルラバーマスコット～おでんであったまるんです～",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054026"
+        },
+        {
+          "name": "From TV animation ONE PIECE ワンピの実 第二十七海戦",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055405"
+        },
+        {
+          "name": "【フラットガシャポン】ジョジョの奇妙な冒険 マウスシートコレクション",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055498"
+        },
+        {
           "name": "MINECRAFT ぬいぐるみマスコット",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770069136"
         },
@@ -175,26 +175,6 @@
     {
       "name": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
       "items": [
-        {
-          "name": "モンチッチ ふわふわカラともマスコット",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770053920"
-        },
-        {
-          "name": "お文具といっしょ カプセルラバーマスコット～おでんであったまるんです～",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054026"
-        },
-        {
-          "name": "名探偵コナン ぎゅーこっと2",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054187"
-        },
-        {
-          "name": "From TV animation ONE PIECE ワンピの実 第二十七海戦",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055405"
-        },
-        {
-          "name": "【フラットガシャポン】ジョジョの奇妙な冒険 マウスシートコレクション",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055498"
-        },
         {
           "name": "アイドリッシュセブン ふわふわぬいバッジvol.1",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770056051"
@@ -240,6 +220,26 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769995750"
         },
         {
+          "name": "モンチッチ ふわふわカラともマスコット",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770053920"
+        },
+        {
+          "name": "お文具といっしょ カプセルラバーマスコット～おでんであったまるんです～",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054026"
+        },
+        {
+          "name": "名探偵コナン ぎゅーこっと2",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054187"
+        },
+        {
+          "name": "From TV animation ONE PIECE ワンピの実 第二十七海戦",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055405"
+        },
+        {
+          "name": "【フラットガシャポン】ジョジョの奇妙な冒険 マウスシートコレクション",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055498"
+        },
+        {
           "name": "HG レジェンドライダーvol.6",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055627"
         },
@@ -260,22 +260,6 @@
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路飾磨店",
       "items": [
-        {
-          "name": "モンチッチ ふわふわカラともマスコット",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770053920"
-        },
-        {
-          "name": "名探偵コナン ぎゅーこっと2",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054187"
-        },
-        {
-          "name": "From TV animation ONE PIECE ワンピの実 第二十七海戦",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055405"
-        },
-        {
-          "name": "【フラットガシャポン】ジョジョの奇妙な冒険 マウスシートコレクション",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055498"
-        },
         {
           "name": "STAR WARS ボトルキャップコレクション マンダロリアン・アンド・グローグー",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055931"
@@ -333,6 +317,22 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769995750"
         },
         {
+          "name": "モンチッチ ふわふわカラともマスコット",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770053920"
+        },
+        {
+          "name": "名探偵コナン ぎゅーこっと2",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054187"
+        },
+        {
+          "name": "From TV animation ONE PIECE ワンピの実 第二十七海戦",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055405"
+        },
+        {
+          "name": "【フラットガシャポン】ジョジョの奇妙な冒険 マウスシートコレクション",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055498"
+        },
+        {
           "name": "プリキュアオールスターズ 変身ダイキャストチャーム＆パッケージ5",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770026689"
         },
@@ -345,22 +345,6 @@
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA太子店",
       "items": [
-        {
-          "name": "モンチッチ ふわふわカラともマスコット",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770053920"
-        },
-        {
-          "name": "お文具といっしょ カプセルラバーマスコット～おでんであったまるんです～",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054026"
-        },
-        {
-          "name": "名探偵コナン ぎゅーこっと2",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054187"
-        },
-        {
-          "name": "From TV animation ONE PIECE ワンピの実 第二十七海戦",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055405"
-        },
         {
           "name": "STAR WARS ボトルキャップコレクション マンダロリアン・アンド・グローグー",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055931"
@@ -400,6 +384,22 @@
         {
           "name": "勝利の女神：NIKKE まちぼうけ",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769979248"
+        },
+        {
+          "name": "モンチッチ ふわふわカラともマスコット",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770053920"
+        },
+        {
+          "name": "お文具といっしょ カプセルラバーマスコット～おでんであったまるんです～",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054026"
+        },
+        {
+          "name": "名探偵コナン ぎゅーこっと2",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054187"
+        },
+        {
+          "name": "From TV animation ONE PIECE ワンピの実 第二十七海戦",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055405"
         },
         {
           "name": "プリキュアオールスターズ 変身ダイキャストチャーム＆パッケージ5",
@@ -431,22 +431,6 @@
       "name": "ガシャポンバンダイオフィシャルショップ 三木サービスエリア下り線店",
       "items": [
         {
-          "name": "モンチッチ ふわふわカラともマスコット",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770053920"
-        },
-        {
-          "name": "お文具といっしょ カプセルラバーマスコット～おでんであったまるんです～",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054026"
-        },
-        {
-          "name": "From TV animation ONE PIECE ワンピの実 第二十七海戦",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055405"
-        },
-        {
-          "name": "【フラットガシャポン】ジョジョの奇妙な冒険 マウスシートコレクション",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055498"
-        },
-        {
           "name": "STAR WARS ボトルキャップコレクション マンダロリアン・アンド・グローグー",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055931"
         },
@@ -503,6 +487,22 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769981838"
         },
         {
+          "name": "モンチッチ ふわふわカラともマスコット",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770053920"
+        },
+        {
+          "name": "お文具といっしょ カプセルラバーマスコット～おでんであったまるんです～",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054026"
+        },
+        {
+          "name": "From TV animation ONE PIECE ワンピの実 第二十七海戦",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055405"
+        },
+        {
+          "name": "【フラットガシャポン】ジョジョの奇妙な冒険 マウスシートコレクション",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055498"
+        },
+        {
           "name": "プリキュアオールスターズ 変身ダイキャストチャーム＆パッケージ5",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770026689"
         },
@@ -518,6 +518,10 @@
         {
           "name": "ハイキュー!! ねむらせ隊3",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770095487"
+        },
+        {
+          "name": "アイドリッシュセブン ふわふわぬいバッジvol.1",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770056051"
         },
         {
           "name": "Lil ala mode スイングコレクション ～天使と悪魔～",
@@ -546,10 +550,6 @@
         {
           "name": "モンチッチ ふわふわカラともマスコット",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770053920"
-        },
-        {
-          "name": "アイドリッシュセブン ふわふわぬいバッジvol.1",
-          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770056051"
         },
         {
           "name": "TOM and JERRY ぷにぷにし隊～クリアカラーバージョン～",
@@ -601,22 +601,6 @@
       "name": "ガシャポンバンダイオフィシャルショップ 未来屋書店山崎店",
       "items": [
         {
-          "name": "お文具といっしょ カプセルラバーマスコット～おでんであったまるんです～",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054026"
-        },
-        {
-          "name": "名探偵コナン ぎゅーこっと2",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054187"
-        },
-        {
-          "name": "From TV animation ONE PIECE ワンピの実 第二十七海戦",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055405"
-        },
-        {
-          "name": "【フラットガシャポン】ジョジョの奇妙な冒険 マウスシートコレクション",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055498"
-        },
-        {
           "name": "STAR WARS ボトルキャップコレクション マンダロリアン・アンド・グローグー",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055931"
         },
@@ -667,6 +651,22 @@
         {
           "name": "初音ミク めじるしアクセサリー",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769995750"
+        },
+        {
+          "name": "お文具といっしょ カプセルラバーマスコット～おでんであったまるんです～",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054026"
+        },
+        {
+          "name": "名探偵コナン ぎゅーこっと2",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054187"
+        },
+        {
+          "name": "From TV animation ONE PIECE ワンピの実 第二十七海戦",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055405"
+        },
+        {
+          "name": "【フラットガシャポン】ジョジョの奇妙な冒険 マウスシートコレクション",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055498"
         },
         {
           "name": "プリキュアオールスターズ 変身ダイキャストチャーム＆パッケージ5",
