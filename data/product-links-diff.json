@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-21T09:37:50.527Z",
+  "updatedAt": "2026-11-21T09:53:37.451Z",
   "notice": "新規掲載は入荷・再入荷を保証しません。公式商品一覧の表示範囲だけを監視しています。",
   "stores": [
     {
@@ -8,30 +8,21 @@
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_hiromine/item/",
       "initialBaseline": false,
       "added": [],
-      "removedCount": 1
+      "removedCount": 0
     },
     {
       "name": "ガシャポンバンダイオフィシャルショップ 未来屋書店加古川店",
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_kakogawa/item/",
       "initialBaseline": false,
       "added": [],
-      "removedCount": 3
+      "removedCount": 5
     },
     {
       "name": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/akashi/item/",
       "initialBaseline": false,
-      "added": [
-        {
-          "name": "赤見かるび たべすぎまして・・・",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118202307"
-        },
-        {
-          "name": "劇場版『チェンソーマン レゼ篇』 まちぼうけ",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770056044"
-        }
-      ],
-      "removedCount": 3
+      "added": [],
+      "removedCount": 0
     },
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路飾磨店",
@@ -59,7 +50,7 @@
       "inventory": "https://bandainamco-am.co.jp/others/capsule-toy-store/store/iyakashi/item/",
       "initialBaseline": false,
       "added": [],
-      "removedCount": 1
+      "removedCount": 0
     },
     {
       "name": "ガシャポンバンダイオフィシャルショップ 未来屋書店山崎店",
