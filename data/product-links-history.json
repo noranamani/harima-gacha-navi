@@ -1,8 +1,22 @@
 {
   "schemaVersion": 1,
-  "lastComparedAt": "2026-11-21T07:38:36.828Z",
+  "lastComparedAt": "2026-11-21T07:53:35.140Z",
   "retentionDays": 30,
   "events": [
+    {
+      "detectedAt": "2026-11-21T07:53:35.140Z",
+      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
+      "name": "ちびまる子ちゃん＆クレヨンしんちゃん ラバーマスコット",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770140125",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_hiromine/item/"
+    },
+    {
+      "detectedAt": "2026-11-21T07:53:35.140Z",
+      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
+      "name": "【フラットガシャポン】ゴジラ MOVIEクリアファイルコレクション",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770141306",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_hiromine/item/"
+    },
     {
       "detectedAt": "2026-11-21T07:38:36.828Z",
       "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
@@ -1388,20 +1402,6 @@
       "name": "【フラットガシャポン】ジョジョの奇妙な冒険 マウスシートコレクション",
       "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055498",
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_kakogawa/item/"
-    },
-    {
-      "detectedAt": "2026-11-18T06:38:36.369Z",
-      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
-      "name": "ドラえもん ベーカリーチャーム",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118185587",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/akashi/item/"
-    },
-    {
-      "detectedAt": "2026-11-18T06:38:36.369Z",
-      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
-      "name": "From TV animation ONE PIECE ワンピの実 第二十七海戦",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055405",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/akashi/item/"
     }
   ]
 }

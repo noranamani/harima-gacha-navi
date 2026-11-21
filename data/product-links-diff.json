@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-21T07:38:36.828Z",
+  "updatedAt": "2026-11-21T07:53:35.140Z",
   "notice": "新規掲載は入荷・再入荷を保証しません。公式商品一覧の表示範囲だけを監視しています。",
   "stores": [
     {
@@ -9,15 +9,15 @@
       "initialBaseline": false,
       "added": [
         {
-          "name": "赤見かるび たべすぎまして・・・",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118202307"
+          "name": "ちびまる子ちゃん＆クレヨンしんちゃん ラバーマスコット",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770140125"
         },
         {
-          "name": "TOM and JERRY なりきりハンバーガーマスコットチャーム",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770026504"
+          "name": "【フラットガシャポン】ゴジラ MOVIEクリアファイルコレクション",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770141306"
         }
       ],
-      "removedCount": 2
+      "removedCount": 3
     },
     {
       "name": "ガシャポンバンダイオフィシャルショップ 未来屋書店加古川店",
@@ -31,21 +31,21 @@
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/akashi/item/",
       "initialBaseline": false,
       "added": [],
-      "removedCount": 0
+      "removedCount": 1
     },
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路飾磨店",
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_shikama/item/",
       "initialBaseline": false,
       "added": [],
-      "removedCount": 0
+      "removedCount": 3
     },
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA太子店",
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_taishi/item/",
       "initialBaseline": false,
       "added": [],
-      "removedCount": 1
+      "removedCount": 3
     },
     {
       "name": "ガシャポンバンダイオフィシャルショップ 三木サービスエリア下り線店",
@@ -65,21 +65,8 @@
       "name": "ガシャポンバンダイオフィシャルショップ 未来屋書店山崎店",
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_yamazaki/item/",
       "initialBaseline": false,
-      "added": [
-        {
-          "name": "リメンバー・ミー スイングマスコット",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068269"
-        },
-        {
-          "name": "よこみぞゆりのなんでもいきもの ふわふわめじるしアクセサリー",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068580"
-        },
-        {
-          "name": "クレヨンしんちゃん カラともマスコット",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770094725"
-        }
-      ],
-      "removedCount": 3
+      "added": [],
+      "removedCount": 0
     }
   ]
 }
