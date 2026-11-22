@@ -1,8 +1,36 @@
 {
   "schemaVersion": 1,
-  "lastComparedAt": "2026-11-22T11:23:33.499Z",
+  "lastComparedAt": "2026-11-22T11:38:38.121Z",
   "retentionDays": 30,
   "events": [
+    {
+      "detectedAt": "2026-11-22T11:38:38.121Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
+      "name": "【フラットガシャポン】シュガーバニーズ クリアラバーコースター",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770129199",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/akashi/item/"
+    },
+    {
+      "detectedAt": "2026-11-22T11:38:38.121Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
+      "name": "【フラットガシャポン】キングダム ポスターコレクション",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770130454",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/akashi/item/"
+    },
+    {
+      "detectedAt": "2026-11-22T11:38:38.121Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店山崎店",
+      "name": "【フラットガシャポン】シュガーバニーズ クリアラバーコースター",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770129199",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_yamazaki/item/"
+    },
+    {
+      "detectedAt": "2026-11-22T11:38:38.121Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店山崎店",
+      "name": "【フラットガシャポン】キングダム ポスターコレクション",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770130454",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_yamazaki/item/"
+    },
     {
       "detectedAt": "2026-11-22T10:08:39.705Z",
       "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
@@ -1374,34 +1402,6 @@
       "name": "Lil ala mode スイングコレクション ～天使と悪魔～",
       "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770081596",
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/miki_sa/item/"
-    },
-    {
-      "detectedAt": "2026-11-19T01:38:36.441Z",
-      "store": "ガシャポンバンダイオフィシャルショップ 三木サービスエリア下り線店",
-      "name": "PROJECT R.E.D. まちぼうけ",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770098372",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/miki_sa/item/"
-    },
-    {
-      "detectedAt": "2026-11-19T01:38:36.441Z",
-      "store": "ガシャポンバンダイオフィシャルショップ 三木サービスエリア下り線店",
-      "name": "チロルチョコ めじるしアクセサリー2",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770121650",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/miki_sa/item/"
-    },
-    {
-      "detectedAt": "2026-11-18T09:38:32.430Z",
-      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
-      "name": "【フラットガシャポン】ジョジョの奇妙な冒険 マウスシートコレクション",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055498",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/akashi/item/"
-    },
-    {
-      "detectedAt": "2026-11-18T09:38:32.430Z",
-      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店山崎店",
-      "name": "【フラットガシャポン】ジョジョの奇妙な冒険 マウスシートコレクション",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055498",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_yamazaki/item/"
     }
   ]
 }
