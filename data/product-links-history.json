@@ -1,8 +1,22 @@
 {
   "schemaVersion": 1,
-  "lastComparedAt": "2026-11-22T03:23:33.931Z",
+  "lastComparedAt": "2026-11-22T03:38:47.072Z",
   "retentionDays": 30,
   "events": [
+    {
+      "detectedAt": "2026-11-22T03:38:47.072Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店山崎店",
+      "name": "赤見かるび たべすぎまして・・・",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118202307",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_yamazaki/item/"
+    },
+    {
+      "detectedAt": "2026-11-22T03:38:47.072Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店山崎店",
+      "name": "capsuleトルソー “ディズニーキャラクター” ミニチュア＆パッケージコレクション",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054651",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_yamazaki/item/"
+    },
     {
       "detectedAt": "2026-11-22T02:38:35.215Z",
       "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
@@ -1388,20 +1402,6 @@
       "name": "PROJECT R.E.D. まちぼうけ",
       "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770098372",
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_hiromine/item/"
-    },
-    {
-      "detectedAt": "2026-11-18T07:38:35.864Z",
-      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店山崎店",
-      "name": "グレムリン ぬいぐるみマスコット",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118181589",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_yamazaki/item/"
-    },
-    {
-      "detectedAt": "2026-11-18T07:38:35.864Z",
-      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店山崎店",
-      "name": "ドラえもん ベーカリーチャーム",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118185587",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_yamazaki/item/"
     }
   ]
 }
