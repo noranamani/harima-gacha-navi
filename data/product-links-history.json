@@ -1,8 +1,15 @@
 {
   "schemaVersion": 1,
-  "lastComparedAt": "2026-11-22T09:53:37.078Z",
+  "lastComparedAt": "2026-11-22T10:08:39.705Z",
   "retentionDays": 30,
   "events": [
+    {
+      "detectedAt": "2026-11-22T10:08:39.705Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
+      "name": "【フラットガシャポン】ゴジラ MOVIEクリアファイルコレクション",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770141306",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/akashi/item/"
+    },
     {
       "detectedAt": "2026-11-22T08:23:35.665Z",
       "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店山崎店",
@@ -1395,13 +1402,6 @@
       "name": "【フラットガシャポン】ジョジョの奇妙な冒険 マウスシートコレクション",
       "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055498",
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_yamazaki/item/"
-    },
-    {
-      "detectedAt": "2026-11-18T08:38:40.060Z",
-      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
-      "name": "チロルチョコ めじるしアクセサリー2",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770121650",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_hiromine/item/"
     }
   ]
 }
