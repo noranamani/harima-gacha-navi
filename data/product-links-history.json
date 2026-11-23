@@ -1,8 +1,22 @@
 {
   "schemaVersion": 1,
-  "lastComparedAt": "2026-11-23T07:23:40.006Z",
+  "lastComparedAt": "2026-11-23T07:38:34.259Z",
   "retentionDays": 30,
   "events": [
+    {
+      "detectedAt": "2026-11-23T07:38:34.259Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 三木サービスエリア下り線店",
+      "name": "メゾピアノ グッズコレクション",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770129830",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/miki_sa/item/"
+    },
+    {
+      "detectedAt": "2026-11-23T07:38:34.259Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店山崎店",
+      "name": "ホロライブ カラフルカラビナもふしっぽマスコット",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770121773",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_yamazaki/item/"
+    },
     {
       "detectedAt": "2026-11-23T05:38:31.855Z",
       "store": "ガシャポンバンダイオフィシャルショップ 三木サービスエリア下り線店",
@@ -1388,20 +1402,6 @@
       "name": "クレヨンしんちゃん まちぼうけ8 『映画クレヨンしんちゃん 暗黒タマタマ大追跡』",
       "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770094718",
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_taishi/item/"
-    },
-    {
-      "detectedAt": "2026-11-19T04:29:44.351Z",
-      "store": "ガシャポンのデパート イトーヨーカドー明石店",
-      "name": "Lil ala mode ミニチュアパッケージチャーム ～ムース～",
-      "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770070392",
-      "inventory": "https://bandainamco-am.co.jp/others/capsule-toy-store/store/iyakashi/item/"
-    },
-    {
-      "detectedAt": "2026-11-19T04:29:44.351Z",
-      "store": "ガシャポンのデパート イトーヨーカドー明石店",
-      "name": "BT21 ベーカリーチャーム",
-      "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770121841",
-      "inventory": "https://bandainamco-am.co.jp/others/capsule-toy-store/store/iyakashi/item/"
     }
   ]
 }
