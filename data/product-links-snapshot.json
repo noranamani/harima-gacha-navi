@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T03:23:44.061Z",
+  "updatedAt": "2026-11-23T03:38:43.137Z",
   "stores": [
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
@@ -435,10 +435,6 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118181589"
         },
         {
-          "name": "“ディズニーキャラクター” なかよしペアスイング3",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118184450"
-        },
-        {
           "name": "aespa ぷくっとリング",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186485"
         },
@@ -461,6 +457,10 @@
         {
           "name": "初音ミク めじるしアクセサリー",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769995750"
+        },
+        {
+          "name": "“ピクサーキャラクター” 手作りおやつチャーム #しぼりクッキー",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770026931"
         },
         {
           "name": "モンチッチ ふわふわカラともマスコット",
@@ -491,6 +491,14 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770056051"
         },
         {
+          "name": "“ディズニーキャラクター” 雪だるまふわふわめじるしアクセサリー",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068313"
+        },
+        {
+          "name": "サンリオキャラクターズ 雪だるまふわふわめじるしアクセサリー",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068351"
+        },
+        {
           "name": "とんがり帽子のアトリエ めじるしアクセサリー",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068832"
         },
@@ -501,14 +509,6 @@
         {
           "name": "まちぼうけ 冬の場合 その2",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770094367"
-        },
-        {
-          "name": "クレヨンしんちゃん まちぼうけ8 『映画クレヨンしんちゃん 暗黒タマタマ大追跡』",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770094718"
-        },
-        {
-          "name": "PROJECT R.E.D. まちぼうけ",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770098372"
         }
       ]
     },
@@ -677,8 +677,8 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770070644"
         },
         {
-          "name": "まちぼうけ 冬の場合 その2",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770094367"
+          "name": "こんなこいるかな フォトフレームマスコット",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770070897"
         }
       ]
     }

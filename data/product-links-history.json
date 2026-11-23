@@ -1,8 +1,36 @@
 {
   "schemaVersion": 1,
-  "lastComparedAt": "2026-11-23T03:23:44.061Z",
+  "lastComparedAt": "2026-11-23T03:38:43.137Z",
   "retentionDays": 30,
   "events": [
+    {
+      "detectedAt": "2026-11-23T03:38:43.137Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 三木サービスエリア下り線店",
+      "name": "“ピクサーキャラクター” 手作りおやつチャーム #しぼりクッキー",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770026931",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/miki_sa/item/"
+    },
+    {
+      "detectedAt": "2026-11-23T03:38:43.137Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 三木サービスエリア下り線店",
+      "name": "“ディズニーキャラクター” 雪だるまふわふわめじるしアクセサリー",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068313",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/miki_sa/item/"
+    },
+    {
+      "detectedAt": "2026-11-23T03:38:43.137Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 三木サービスエリア下り線店",
+      "name": "サンリオキャラクターズ 雪だるまふわふわめじるしアクセサリー",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068351",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/miki_sa/item/"
+    },
+    {
+      "detectedAt": "2026-11-23T03:38:43.137Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店山崎店",
+      "name": "こんなこいるかな フォトフレームマスコット",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770070897",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_yamazaki/item/"
+    },
     {
       "detectedAt": "2026-11-23T02:38:41.794Z",
       "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店山崎店",
@@ -1373,34 +1401,6 @@
       "store": "ガシャポンバンダイオフィシャルショップ 三木サービスエリア下り線店",
       "name": "グレムリン ぬいぐるみマスコット",
       "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118181589",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/miki_sa/item/"
-    },
-    {
-      "detectedAt": "2026-11-19T01:38:36.441Z",
-      "store": "ガシャポンバンダイオフィシャルショップ 三木サービスエリア下り線店",
-      "name": "aespa ぷくっとリング",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186485",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/miki_sa/item/"
-    },
-    {
-      "detectedAt": "2026-11-19T01:38:36.441Z",
-      "store": "ガシャポンバンダイオフィシャルショップ 三木サービスエリア下り線店",
-      "name": "機動戦士ガンダムSEED FREEDOM のっかるんです♪フィギュア",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769981838",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/miki_sa/item/"
-    },
-    {
-      "detectedAt": "2026-11-19T01:38:36.441Z",
-      "store": "ガシャポンバンダイオフィシャルショップ 三木サービスエリア下り線店",
-      "name": "お文具といっしょ カプセルラバーマスコット～おでんであったまるんです～",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054026",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/miki_sa/item/"
-    },
-    {
-      "detectedAt": "2026-11-19T01:38:36.441Z",
-      "store": "ガシャポンバンダイオフィシャルショップ 三木サービスエリア下り線店",
-      "name": "【フラットガシャポン】ジョジョの奇妙な冒険 マウスシートコレクション",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055498",
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/miki_sa/item/"
     }
   ]
