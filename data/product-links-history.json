@@ -1,8 +1,15 @@
 {
   "schemaVersion": 1,
-  "lastComparedAt": "2026-11-23T04:23:36.149Z",
+  "lastComparedAt": "2026-11-23T04:38:40.088Z",
   "retentionDays": 30,
   "events": [
+    {
+      "detectedAt": "2026-11-23T04:38:40.088Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 三木サービスエリア下り線店",
+      "name": "リメンバー・ミー スイングマスコット",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068269",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/miki_sa/item/"
+    },
     {
       "detectedAt": "2026-11-23T04:06:15.998Z",
       "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店山崎店",
@@ -1395,13 +1402,6 @@
       "name": "ナルミヤキャラクターズ モノトーンマスコット",
       "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770071207",
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_hiromine/item/"
-    },
-    {
-      "detectedAt": "2026-11-19T03:12:26.459Z",
-      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路飾磨店",
-      "name": "ナルミヤキャラクターズ モノトーンマスコット",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770071207",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_shikama/item/"
     }
   ]
 }
