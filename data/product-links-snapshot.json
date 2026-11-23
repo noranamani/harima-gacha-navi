@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T08:23:38.781Z",
+  "updatedAt": "2026-11-23T08:38:47.163Z",
   "stores": [
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
@@ -544,10 +544,6 @@
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770076776"
         },
         {
-          "name": "ハリー・ポッター アクリルスライド ミラーコレクション",
-          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4570118181503"
-        },
-        {
           "name": "【CAP'in GALLERY】かえちゃんふぃぎゅあ designed by 田中かえ",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582769867255"
         },
@@ -562,6 +558,10 @@
         {
           "name": "Lil ala mode ミニチュアパッケージチャーム ～ムース～",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770070392"
+        },
+        {
+          "name": "ハリー・ポッター アクリルスライド ミラーコレクション",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4570118181503"
         },
         {
           "name": "いきもの大図鑑アドバンス タマムシとウグイスコガネ",
@@ -669,16 +669,16 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068269"
         },
         {
-          "name": "よこみぞゆりのなんでもいきもの ふわふわめじるしアクセサリー",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068580"
-        },
-        {
           "name": "まちぼうけ ダイナーの場合",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770070644"
         },
         {
           "name": "こんなこいるかな フォトフレームマスコット",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770070897"
+        },
+        {
+          "name": "まちぼうけ 冬の場合 その2",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770094367"
         }
       ]
     }
