@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T05:38:31.855Z",
+  "updatedAt": "2026-11-23T05:53:31.774Z",
   "notice": "新規掲載は入荷・再入荷を保証しません。公式商品一覧の表示範囲だけを監視しています。",
   "stores": [
     {
@@ -15,7 +15,7 @@
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_kakogawa/item/",
       "initialBaseline": false,
       "added": [],
-      "removedCount": 4
+      "removedCount": 5
     },
     {
       "name": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
@@ -36,23 +36,14 @@
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_taishi/item/",
       "initialBaseline": false,
       "added": [],
-      "removedCount": 1
+      "removedCount": 0
     },
     {
       "name": "ガシャポンバンダイオフィシャルショップ 三木サービスエリア下り線店",
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/miki_sa/item/",
       "initialBaseline": false,
-      "added": [
-        {
-          "name": "すとぷり めじるしアクセサリー",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770061741"
-        },
-        {
-          "name": "よこみぞゆりのなんでもいきもの ふわふわめじるしアクセサリー",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068580"
-        }
-      ],
-      "removedCount": 2
+      "added": [],
+      "removedCount": 0
     },
     {
       "name": "ガシャポンのデパート イトーヨーカドー明石店",
