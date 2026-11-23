@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T05:23:35.137Z",
+  "updatedAt": "2026-11-23T05:38:31.855Z",
   "stores": [
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
@@ -151,24 +151,24 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770095357"
         },
         {
-          "name": "ONE PIECE ゆらゆらし隊",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118196545"
-        },
-        {
-          "name": "FANFANCHUU カラフルカラビナマスコット",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769979293"
-        },
-        {
-          "name": "“ディズニーキャラクター” CAT スイングマスコット",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770026948"
-        },
-        {
-          "name": "ズートピア2 ミニチュア＆パッケージコレクション",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770026955"
-        },
-        {
           "name": "銀魂 もぐもぐ隊2",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770027525"
+        },
+        {
+          "name": "TOM and JERRY ぷにぷにし隊～クリアカラーバージョン～",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770053814"
+        },
+        {
+          "name": "チアリステイルズ マスコット",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054682"
+        },
+        {
+          "name": "MOOMIN カプセルボトルチャーム",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054989"
+        },
+        {
+          "name": "刀剣乱舞ONLINE めじるしアクセサリー",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055535"
         }
       ]
     },
@@ -406,10 +406,6 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068269"
         },
         {
-          "name": "よこみぞゆりのなんでもいきもの ふわふわめじるしアクセサリー",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068580"
-        },
-        {
           "name": "とんがり帽子のアトリエ めじるしアクセサリー",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068832"
         },
@@ -424,6 +420,10 @@
         {
           "name": "クレヨンしんちゃん まちぼうけ8 『映画クレヨンしんちゃん 暗黒タマタマ大追跡』",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770094718"
+        },
+        {
+          "name": "PROJECT R.E.D. まちぼうけ",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770098372"
         }
       ]
     },
@@ -491,8 +491,16 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770056051"
         },
         {
+          "name": "すとぷり めじるしアクセサリー",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770061741"
+        },
+        {
           "name": "リメンバー・ミー スイングマスコット",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068269"
+        },
+        {
+          "name": "よこみぞゆりのなんでもいきもの ふわふわめじるしアクセサリー",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068580"
         },
         {
           "name": "とんがり帽子のアトリエ めじるしアクセサリー",
@@ -501,14 +509,6 @@
         {
           "name": "Lil ala mode スイングコレクション ～天使と悪魔～",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770081596"
-        },
-        {
-          "name": "まちぼうけ 冬の場合 その2",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770094367"
-        },
-        {
-          "name": "クレヨンしんちゃん まちぼうけ8 『映画クレヨンしんちゃん 暗黒タマタマ大追跡』",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770094718"
         }
       ]
     },
