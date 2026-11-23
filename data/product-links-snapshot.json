@@ -1,22 +1,10 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T00:23:36.565Z",
+  "updatedAt": "2026-11-23T00:53:44.970Z",
   "stores": [
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
       "items": [
-        {
-          "name": "グレムリン ぬいぐるみマスコット",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118181589"
-        },
-        {
-          "name": "それいけ！アンパンマン くるりんフェイスアンパンマン",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118182043"
-        },
-        {
-          "name": "aespa ぷくっとリング",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186485"
-        },
         {
           "name": "ジュエルペット キラキラミラー風コレクション",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186904"
@@ -84,24 +72,24 @@
         {
           "name": "クレヨンしんちゃん まちぼうけ8 『映画クレヨンしんちゃん 暗黒タマタマ大追跡』",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770094718"
+        },
+        {
+          "name": "PROJECT R.E.D. まちぼうけ",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770098372"
+        },
+        {
+          "name": "ホロライブ カラフルカラビナもふしっぽマスコット",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770121773"
+        },
+        {
+          "name": "【フラットガシャポン】シュガーバニーズ クリアラバーコースター",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770129199"
         }
       ]
     },
     {
       "name": "ガシャポンバンダイオフィシャルショップ 未来屋書店加古川店",
       "items": [
-        {
-          "name": "グレムリン ぬいぐるみマスコット",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118181589"
-        },
-        {
-          "name": "ドラえもん ベーカリーチャーム",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118185587"
-        },
-        {
-          "name": "aespa ぷくっとリング",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186485"
-        },
         {
           "name": "ジュエルペット キラキラミラー風コレクション",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186904"
@@ -141,6 +129,18 @@
         {
           "name": "PROJECT R.E.D. まちぼうけ",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770098372"
+        },
+        {
+          "name": "グレムリン ぬいぐるみマスコット",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118181589"
+        },
+        {
+          "name": "ドラえもん ベーカリーチャーム",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118185587"
+        },
+        {
+          "name": "aespa ぷくっとリング",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186485"
         },
         {
           "name": "MINECRAFT ぬいぐるみマスコット",
@@ -176,18 +176,6 @@
       "name": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
       "items": [
         {
-          "name": "グレムリン ぬいぐるみマスコット",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118181589"
-        },
-        {
-          "name": "“ディズニーキャラクター” なかよしペアスイング3",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118184450"
-        },
-        {
-          "name": "aespa ぷくっとリング",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186485"
-        },
-        {
           "name": "ジュエルペット キラキラミラー風コレクション",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186904"
         },
@@ -254,24 +242,24 @@
         {
           "name": "こんなこいるかな フォトフレームマスコット",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770070897"
+        },
+        {
+          "name": "まちぼうけ 冬の場合 その2",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770094367"
+        },
+        {
+          "name": "クレヨンしんちゃん まちぼうけ8 『映画クレヨンしんちゃん 暗黒タマタマ大追跡』",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770094718"
+        },
+        {
+          "name": "クレヨンしんちゃん カラともマスコット",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770094725"
         }
       ]
     },
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路飾磨店",
       "items": [
-        {
-          "name": "グレムリン ぬいぐるみマスコット",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118181589"
-        },
-        {
-          "name": "それいけ！アンパンマン くるりんフェイスアンパンマン",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118182043"
-        },
-        {
-          "name": "aespa ぷくっとリング",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186485"
-        },
         {
           "name": "ジュエルペット キラキラミラー風コレクション",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186904"
@@ -339,24 +327,24 @@
         {
           "name": "PROJECT R.E.D. まちぼうけ",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770098372"
+        },
+        {
+          "name": "ホロライブ カラフルカラビナもふしっぽマスコット",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770121773"
+        },
+        {
+          "name": "【フラットガシャポン】シュガーバニーズ クリアラバーコースター",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770129199"
+        },
+        {
+          "name": "メゾピアノ グッズコレクション",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770129830"
         }
       ]
     },
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA太子店",
       "items": [
-        {
-          "name": "グレムリン ぬいぐるみマスコット",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118181589"
-        },
-        {
-          "name": "それいけ！アンパンマン くるりんフェイスアンパンマン",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118182043"
-        },
-        {
-          "name": "aespa ぷくっとリング",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186485"
-        },
         {
           "name": "ジュエルペット キラキラミラー風コレクション",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186904"
@@ -424,24 +412,24 @@
         {
           "name": "クレヨンしんちゃん まちぼうけ8 『映画クレヨンしんちゃん 暗黒タマタマ大追跡』",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770094718"
+        },
+        {
+          "name": "PROJECT R.E.D. まちぼうけ",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770098372"
+        },
+        {
+          "name": "ホロライブ カラフルカラビナもふしっぽマスコット",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770121773"
+        },
+        {
+          "name": "【フラットガシャポン】シュガーバニーズ クリアラバーコースター",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770129199"
         }
       ]
     },
     {
       "name": "ガシャポンバンダイオフィシャルショップ 三木サービスエリア下り線店",
       "items": [
-        {
-          "name": "グレムリン ぬいぐるみマスコット",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118181589"
-        },
-        {
-          "name": "“ディズニーキャラクター” なかよしペアスイング3",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118184450"
-        },
-        {
-          "name": "aespa ぷくっとリング",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186485"
-        },
         {
           "name": "ジュエルペット キラキラミラー風コレクション",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186904"
@@ -509,6 +497,18 @@
         {
           "name": "PROJECT R.E.D. まちぼうけ",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770098372"
+        },
+        {
+          "name": "グレムリン ぬいぐるみマスコット",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118181589"
+        },
+        {
+          "name": "“ディズニーキャラクター” なかよしペアスイング3",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118184450"
+        },
+        {
+          "name": "aespa ぷくっとリング",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186485"
         }
       ]
     },
@@ -601,18 +601,6 @@
       "name": "ガシャポンバンダイオフィシャルショップ 未来屋書店山崎店",
       "items": [
         {
-          "name": "グレムリン ぬいぐるみマスコット",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118181589"
-        },
-        {
-          "name": "それいけ！アンパンマン くるりんフェイスアンパンマン",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118182043"
-        },
-        {
-          "name": "aespa ぷくっとリング",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186485"
-        },
-        {
           "name": "ジュエルペット キラキラミラー風コレクション",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186904"
         },
@@ -679,6 +667,18 @@
         {
           "name": "まちぼうけ 冬の場合 その2",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770094367"
+        },
+        {
+          "name": "クレヨンしんちゃん まちぼうけ8 『映画クレヨンしんちゃん 暗黒タマタマ大追跡』",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770094718"
+        },
+        {
+          "name": "PROJECT R.E.D. まちぼうけ",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770098372"
+        },
+        {
+          "name": "【フラットガシャポン】シュガーバニーズ クリアラバーコースター",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770129199"
         }
       ]
     }
