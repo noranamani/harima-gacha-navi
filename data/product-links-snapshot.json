@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24T02:08:33.403Z",
+  "updatedAt": "2026-11-24T02:23:28.482Z",
   "stores": [
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
@@ -516,6 +516,10 @@
       "name": "ガシャポンのデパート イトーヨーカドー明石店",
       "items": [
         {
+          "name": "勝利の女神：NIKKE まちぼうけ",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582769979248"
+        },
+        {
           "name": "モンチッチ ふわふわカラともマスコット",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770053920"
         },
@@ -530,10 +534,6 @@
         {
           "name": "ジュエルペット キラキラミラー風コレクション",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4570118186904"
-        },
-        {
-          "name": "勝利の女神：NIKKE まちぼうけ",
-          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582769979248"
         },
         {
           "name": "CAPSULEVERSE 機動戦士ガンダム 01",
