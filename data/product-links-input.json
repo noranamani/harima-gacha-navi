@@ -54,10 +54,6 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770056051"
         },
         {
-          "name": "リメンバー・ミー スイングマスコット",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068269"
-        },
-        {
           "name": "とんがり帽子のアトリエ めじるしアクセサリー",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068832"
         },
@@ -84,6 +80,10 @@
         {
           "name": "ホロライブ カラフルカラビナもふしっぽマスコット",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770121773"
+        },
+        {
+          "name": "【フラットガシャポン】シュガーバニーズ クリアラバーコースター",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770129199"
         }
       ]
     },
@@ -516,6 +516,18 @@
       "name": "ガシャポンのデパート イトーヨーカドー明石店",
       "items": [
         {
+          "name": "aespa ぷくっとリング",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4570118186485"
+        },
+        {
+          "name": "ジュエルペット キラキラミラー風コレクション",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4570118186904"
+        },
+        {
+          "name": "勝利の女神：NIKKE まちぼうけ",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582769979248"
+        },
+        {
           "name": "モンチッチ ふわふわカラともマスコット",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770053920"
         },
@@ -532,10 +544,6 @@
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770070644"
         },
         {
-          "name": "クレヨンしんちゃん カラともマスコット",
-          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770094725"
-        },
-        {
           "name": "ウルトラマン ウルトラ怪獣ぽんちょめじるしアクセサリー",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770122527"
         },
@@ -546,18 +554,6 @@
         {
           "name": "【フラットガシャポン】ゴジラ MOVIEクリアファイルコレクション",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770141306"
-        },
-        {
-          "name": "aespa ぷくっとリング",
-          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4570118186485"
-        },
-        {
-          "name": "ジュエルペット キラキラミラー風コレクション",
-          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4570118186904"
-        },
-        {
-          "name": "勝利の女神：NIKKE まちぼうけ",
-          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582769979248"
         },
         {
           "name": "いたずらねこちゃあぁぁん",
@@ -594,6 +590,10 @@
         {
           "name": "アニメ『呪術廻戦』5周年 カプセルフィギュアコレクション",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582769968440"
+        },
+        {
+          "name": "ONE PIECE CARD GAME フィギュアコレクション2",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582769979392"
         }
       ]
     },
