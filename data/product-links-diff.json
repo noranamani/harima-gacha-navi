@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24T03:08:45.682Z",
+  "updatedAt": "2026-11-24T03:23:37.157Z",
   "notice": "新規掲載は入荷・再入荷を保証しません。公式商品一覧の表示範囲だけを監視しています。",
   "stores": [
     {
@@ -8,7 +8,7 @@
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_hiromine/item/",
       "initialBaseline": false,
       "added": [],
-      "removedCount": 5
+      "removedCount": 7
     },
     {
       "name": "ガシャポンバンダイオフィシャルショップ 未来屋書店加古川店",
@@ -22,7 +22,7 @@
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/akashi/item/",
       "initialBaseline": false,
       "added": [],
-      "removedCount": 5
+      "removedCount": 7
     },
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路飾磨店",
@@ -36,14 +36,19 @@
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_taishi/item/",
       "initialBaseline": false,
       "added": [],
-      "removedCount": 5
+      "removedCount": 6
     },
     {
       "name": "ガシャポンバンダイオフィシャルショップ 三木サービスエリア下り線店",
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/miki_sa/item/",
       "initialBaseline": false,
-      "added": [],
-      "removedCount": 4
+      "added": [
+        {
+          "name": "【フラットガシャポン】ゴジラ MOVIEクリアファイルコレクション",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770141306"
+        }
+      ],
+      "removedCount": 6
     },
     {
       "name": "ガシャポンのデパート イトーヨーカドー明石店",
@@ -57,7 +62,7 @@
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_yamazaki/item/",
       "initialBaseline": false,
       "added": [],
-      "removedCount": 5
+      "removedCount": 7
     }
   ]
 }
