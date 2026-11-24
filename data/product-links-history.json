@@ -1,8 +1,15 @@
 {
   "schemaVersion": 1,
-  "lastComparedAt": "2026-11-24T04:23:33.546Z",
+  "lastComparedAt": "2026-11-24T04:38:38.761Z",
   "retentionDays": 30,
   "events": [
+    {
+      "detectedAt": "2026-11-24T04:38:38.761Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店加古川店",
+      "name": "【フラットガシャポン】ゴジラ MOVIEクリアファイルコレクション",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770141306",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_kakogawa/item/"
+    },
     {
       "detectedAt": "2026-11-24T03:23:37.157Z",
       "store": "ガシャポンバンダイオフィシャルショップ 三木サービスエリア下り線店",
@@ -1395,13 +1402,6 @@
       "name": "クレヨンしんちゃん まちぼうけ8 『映画クレヨンしんちゃん 暗黒タマタマ大追跡』",
       "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770094718",
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_hiromine/item/"
-    },
-    {
-      "detectedAt": "2026-11-19T05:38:33.233Z",
-      "store": "ガシャポンのデパート イトーヨーカドー明石店",
-      "name": "グレムリン ぬいぐるみマスコット",
-      "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4570118181589",
-      "inventory": "https://bandainamco-am.co.jp/others/capsule-toy-store/store/iyakashi/item/"
     }
   ]
 }
