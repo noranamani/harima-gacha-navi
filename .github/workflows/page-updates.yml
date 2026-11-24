@@ -37,6 +37,8 @@ jobs:
           node --check scripts/official-product-links.cjs
           node --check scripts/build-product-link-diff.cjs
           node scripts/build-product-link-diff.cjs
+      - name: Avoid full Pages deploy for timestamp-only status checks
+        run: node scripts/reduce-noop-page-commits.cjs
       - name: Commit status if changed
         run: |
           git config user.name "github-actions[bot]"

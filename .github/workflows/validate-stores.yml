@@ -27,6 +27,8 @@ on:
       - 'data/product-links-history.json'
       - 'data/product-links-observed.json'
       - 'scripts/check-page-updates.cjs'
+      - 'scripts/reduce-noop-page-commits.cjs'
+      - 'scripts/reduce-noop-page-commits.test.cjs'
       - 'scripts/page-monitor-audit.cjs'
       - 'scripts/page-monitor-audit.test.cjs'
       - '.github/workflows/page-monitor-health.yml'
@@ -94,6 +96,8 @@ jobs:
           node scripts/build-product-link-diff.cjs
           node --check scripts/guard-candidate-merge.cjs
           node --check scripts/check-page-updates.cjs
+          node --check scripts/reduce-noop-page-commits.cjs
+          node --test scripts/reduce-noop-page-commits.test.cjs
           node --test scripts/page-monitor-audit.test.cjs
           node --test cloudflare/gacha-wakeup.test.mjs
           node - <<'NODE'
