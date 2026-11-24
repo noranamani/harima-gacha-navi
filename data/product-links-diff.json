@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24T02:38:45.557Z",
+  "updatedAt": "2026-11-24T02:53:32.280Z",
   "notice": "新規掲載は入荷・再入荷を保証しません。公式商品一覧の表示範囲だけを監視しています。",
   "stores": [
     {
@@ -29,7 +29,7 @@
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_shikama/item/",
       "initialBaseline": false,
       "added": [],
-      "removedCount": 5
+      "removedCount": 4
     },
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA太子店",
@@ -42,12 +42,7 @@
       "name": "ガシャポンバンダイオフィシャルショップ 三木サービスエリア下り線店",
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/miki_sa/item/",
       "initialBaseline": false,
-      "added": [
-        {
-          "name": "【フラットガシャポン】キングダム ポスターコレクション",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770130454"
-        }
-      ],
+      "added": [],
       "removedCount": 15
     },
     {
