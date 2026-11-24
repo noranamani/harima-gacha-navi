@@ -1,8 +1,15 @@
 {
   "schemaVersion": 1,
-  "lastComparedAt": "2026-11-24T09:53:34.605Z",
+  "lastComparedAt": "2026-11-24T10:08:36.375Z",
   "retentionDays": 30,
   "events": [
+    {
+      "detectedAt": "2026-11-24T10:08:36.375Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店加古川店",
+      "name": "クレヨンしんちゃん カラともマスコット",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770094725",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_kakogawa/item/"
+    },
     {
       "detectedAt": "2026-11-24T09:23:39.701Z",
       "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店加古川店",
@@ -1395,13 +1402,6 @@
       "name": "初音ミク めじるしアクセサリー",
       "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769995750",
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/akashi/item/"
-    },
-    {
-      "detectedAt": "2026-11-20T06:38:32.817Z",
-      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
-      "name": "初音ミク めじるしアクセサリー",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769995750",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_hiromine/item/"
     }
   ]
 }
