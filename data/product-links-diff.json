@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24T06:08:43.756Z",
+  "updatedAt": "2026-11-24T06:23:40.746Z",
   "notice": "新規掲載は入荷・再入荷を保証しません。公式商品一覧の表示範囲だけを監視しています。",
   "stores": [
     {
@@ -14,24 +14,7 @@
       "name": "ガシャポンバンダイオフィシャルショップ 未来屋書店加古川店",
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_kakogawa/item/",
       "initialBaseline": false,
-      "added": [
-        {
-          "name": "キングダム Comics Charm Collection",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770130447"
-        },
-        {
-          "name": "【フラットガシャポン】キングダム ポスターコレクション",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770130454"
-        },
-        {
-          "name": "豆ガシャ本 「犬夜叉」",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770139860"
-        },
-        {
-          "name": "ちびまる子ちゃん＆クレヨンしんちゃん ラバーマスコット",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770140125"
-        }
-      ],
+      "added": [],
       "removedCount": 5
     },
     {
