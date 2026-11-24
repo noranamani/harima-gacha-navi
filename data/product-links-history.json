@@ -1,8 +1,92 @@
 {
   "schemaVersion": 1,
-  "lastComparedAt": "2026-11-24T06:23:40.746Z",
+  "lastComparedAt": "2026-11-24T06:38:35.237Z",
   "retentionDays": 30,
   "events": [
+    {
+      "detectedAt": "2026-11-24T06:38:35.237Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店加古川店",
+      "name": "TOM and JERRY なりきりハンバーガーマスコットチャーム",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770026504",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_kakogawa/item/"
+    },
+    {
+      "detectedAt": "2026-11-24T06:38:35.237Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店加古川店",
+      "name": "名探偵コナン ぎゅーこっと2",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054187",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_kakogawa/item/"
+    },
+    {
+      "detectedAt": "2026-11-24T06:38:35.237Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店加古川店",
+      "name": "すとぷり めじるしアクセサリー",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770061741",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_kakogawa/item/"
+    },
+    {
+      "detectedAt": "2026-11-24T06:38:35.237Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店加古川店",
+      "name": "リメンバー・ミー スイングマスコット",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068269",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_kakogawa/item/"
+    },
+    {
+      "detectedAt": "2026-11-24T06:38:35.237Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店加古川店",
+      "name": "よこみぞゆりのなんでもいきもの ふわふわめじるしアクセサリー",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068580",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_kakogawa/item/"
+    },
+    {
+      "detectedAt": "2026-11-24T06:38:35.237Z",
+      "store": "ガシャポンのデパート イトーヨーカドー明石店",
+      "name": "劇場版『チェンソーマン レゼ篇』 まちぼうけ",
+      "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770056044",
+      "inventory": "https://bandainamco-am.co.jp/others/capsule-toy-store/store/iyakashi/item/"
+    },
+    {
+      "detectedAt": "2026-11-24T06:38:35.237Z",
+      "store": "ガシャポンのデパート イトーヨーカドー明石店",
+      "name": "まちぼうけ ダイナーの場合",
+      "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770070644",
+      "inventory": "https://bandainamco-am.co.jp/others/capsule-toy-store/store/iyakashi/item/"
+    },
+    {
+      "detectedAt": "2026-11-24T06:38:35.237Z",
+      "store": "ガシャポンのデパート イトーヨーカドー明石店",
+      "name": "Sassy めじるしアクセサリー2",
+      "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770071191",
+      "inventory": "https://bandainamco-am.co.jp/others/capsule-toy-store/store/iyakashi/item/"
+    },
+    {
+      "detectedAt": "2026-11-24T06:38:35.237Z",
+      "store": "ガシャポンのデパート イトーヨーカドー明石店",
+      "name": "クレヨンしんちゃん カラともマスコット",
+      "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770094725",
+      "inventory": "https://bandainamco-am.co.jp/others/capsule-toy-store/store/iyakashi/item/"
+    },
+    {
+      "detectedAt": "2026-11-24T06:38:35.237Z",
+      "store": "ガシャポンのデパート イトーヨーカドー明石店",
+      "name": "ウルトラマン ウルトラ怪獣ぽんちょめじるしアクセサリー",
+      "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770122527",
+      "inventory": "https://bandainamco-am.co.jp/others/capsule-toy-store/store/iyakashi/item/"
+    },
+    {
+      "detectedAt": "2026-11-24T06:38:35.237Z",
+      "store": "ガシャポンのデパート イトーヨーカドー明石店",
+      "name": "【フラットガシャポン】キングダム ポスターコレクション",
+      "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770130454",
+      "inventory": "https://bandainamco-am.co.jp/others/capsule-toy-store/store/iyakashi/item/"
+    },
+    {
+      "detectedAt": "2026-11-24T06:38:35.237Z",
+      "store": "ガシャポンのデパート イトーヨーカドー明石店",
+      "name": "【フラットガシャポン】ゴジラ MOVIEクリアファイルコレクション",
+      "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770141306",
+      "inventory": "https://bandainamco-am.co.jp/others/capsule-toy-store/store/iyakashi/item/"
+    },
     {
       "detectedAt": "2026-11-24T06:08:43.756Z",
       "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店加古川店",
@@ -1318,90 +1402,6 @@
       "name": "名探偵コナン ぎゅーこっと2",
       "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054187",
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_hiromine/item/"
-    },
-    {
-      "detectedAt": "2026-11-20T06:38:32.817Z",
-      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
-      "name": "Sassy めじるしアクセサリー2",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770071191",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_hiromine/item/"
-    },
-    {
-      "detectedAt": "2026-11-20T06:38:32.817Z",
-      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店山崎店",
-      "name": "初音ミク めじるしアクセサリー",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769995750",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_yamazaki/item/"
-    },
-    {
-      "detectedAt": "2026-11-20T06:38:32.817Z",
-      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店山崎店",
-      "name": "名探偵コナン ぎゅーこっと2",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054187",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_yamazaki/item/"
-    },
-    {
-      "detectedAt": "2026-11-20T05:38:33.870Z",
-      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
-      "name": "ウルトラマン ウルトラ怪獣ぽんちょめじるしアクセサリー",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770122527",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_hiromine/item/"
-    },
-    {
-      "detectedAt": "2026-11-20T05:38:33.870Z",
-      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路飾磨店",
-      "name": "初音ミク めじるしアクセサリー",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769995750",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_shikama/item/"
-    },
-    {
-      "detectedAt": "2026-11-20T05:38:33.870Z",
-      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路飾磨店",
-      "name": "名探偵コナン ぎゅーこっと2",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054187",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_shikama/item/"
-    },
-    {
-      "detectedAt": "2026-11-20T05:38:33.870Z",
-      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路飾磨店",
-      "name": "Sassy めじるしアクセサリー2",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770071191",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_shikama/item/"
-    },
-    {
-      "detectedAt": "2026-11-20T05:38:33.870Z",
-      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店山崎店",
-      "name": "ウルトラマン ウルトラ怪獣ぽんちょめじるしアクセサリー",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770122527",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_yamazaki/item/"
-    },
-    {
-      "detectedAt": "2026-11-20T03:34:16.768Z",
-      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA太子店",
-      "name": "初音ミク めじるしアクセサリー",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769995750",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_taishi/item/"
-    },
-    {
-      "detectedAt": "2026-11-20T03:34:16.768Z",
-      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA太子店",
-      "name": "名探偵コナン ぎゅーこっと2",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054187",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_taishi/item/"
-    },
-    {
-      "detectedAt": "2026-11-20T03:34:16.768Z",
-      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA太子店",
-      "name": "ウルトラマン ウルトラ怪獣ぽんちょめじるしアクセサリー",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770122527",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_taishi/item/"
-    },
-    {
-      "detectedAt": "2026-11-20T02:38:36.375Z",
-      "store": "ガシャポンバンダイオフィシャルショップ 三木サービスエリア下り線店",
-      "name": "“ディズニーキャラクター” なかよしペアスイング3",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118184450",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/miki_sa/item/"
     }
   ]
 }
