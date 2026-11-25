@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T09:08:39.524Z",
+  "updatedAt": "2026-11-25T09:23:36.689Z",
   "stores": [
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
@@ -556,14 +556,6 @@
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770076776"
         },
         {
-          "name": "【CAP'in GALLERY】atmos TENKYU フィギュアコレクション",
-          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770069242"
-        },
-        {
-          "name": "Lil ala mode ミニチュアパッケージチャーム ～ムース～",
-          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770070392"
-        },
-        {
           "name": "ハリー・ポッター アクリルスライド ミラーコレクション",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4570118181503"
         },
@@ -574,6 +566,14 @@
         {
           "name": "【CAP'in GALLERY】LilGemily figure collection",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770055375"
+        },
+        {
+          "name": "【CAP'in GALLERY】atmos TENKYU フィギュアコレクション",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770069242"
+        },
+        {
+          "name": "Lil ala mode ミニチュアパッケージチャーム ～ムース～",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770070392"
         },
         {
           "name": "いきもの大図鑑アドバンス タマムシとウグイスコガネ",
