@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T12:23:44.022Z",
+  "updatedAt": "2026-11-25T12:36:22.103Z",
   "stores": [
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
@@ -281,10 +281,6 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118202307"
         },
         {
-          "name": "TOM and JERRY なりきりハンバーガーマスコットチャーム",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770026504"
-        },
-        {
           "name": "“ピクサーキャラクター” 手作りおやつチャーム #しぼりクッキー",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770026931"
         },
@@ -339,6 +335,10 @@
         {
           "name": "キングダム Comics Charm Collection",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770130447"
+        },
+        {
+          "name": "【フラットガシャポン】キングダム ポスターコレクション",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770130454"
         }
       ]
     },
@@ -532,10 +532,6 @@
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770053920"
         },
         {
-          "name": "劇場版『チェンソーマン レゼ篇』 まちぼうけ",
-          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770056044"
-        },
-        {
           "name": "アイドリッシュセブン ふわふわぬいバッジvol.1",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770056051"
         },
@@ -594,6 +590,10 @@
         {
           "name": "モンチッチ ミニチュアパッケージチャーム",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770053937"
+        },
+        {
+          "name": "だれでもアイドル活動アクリルチャーム ～アイカツスターズ！～",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770076554"
         }
       ]
     },
