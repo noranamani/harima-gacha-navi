@@ -1,8 +1,15 @@
 {
   "schemaVersion": 1,
-  "lastComparedAt": "2026-11-25T03:23:36.088Z",
+  "lastComparedAt": "2026-11-25T03:38:34.602Z",
   "retentionDays": 30,
   "events": [
+    {
+      "detectedAt": "2026-11-25T03:38:34.602Z",
+      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA太子店",
+      "name": "メイドインアビス めじるしアクセサリー",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054996",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_taishi/item/"
+    },
     {
       "detectedAt": "2026-11-24T10:08:36.375Z",
       "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店加古川店",
@@ -1394,13 +1401,6 @@
       "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
       "name": "ウルトラマン ウルトラ怪獣ぽんちょめじるしアクセサリー",
       "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770122527",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/akashi/item/"
-    },
-    {
-      "detectedAt": "2026-11-20T07:38:38.000Z",
-      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
-      "name": "初音ミク めじるしアクセサリー",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769995750",
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/akashi/item/"
     }
   ]
