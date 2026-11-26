@@ -3,6 +3,8 @@ const test=require("node:test"),assert=require("node:assert/strict"),fs=require(
 const root=path.resolve(__dirname,"..");
 test("Cloudflare output includes city and product pages but not internal files or stale JSON",()=>{
  execFileSync(process.execPath,["scripts/build-cloudflare-pages.cjs"],{cwd:root});
+ assert.match(fs.readFileSync(path.join(root,"dist-cloudflare/_headers"),"utf8"),/^\/\*\n/);
+ execFileSync(process.execPath,["scripts/build-cloudflare-pages.cjs","--production"],{cwd:root});
  const out=path.join(root,"dist-cloudflare");
  for(const f of ["index.html","city/kobe-nishi/index.html","product-updates.html","stores.js","app.js","sitemap.xml","guide.html","about.html","privacy.html"])assert.ok(fs.existsSync(path.join(out,f)),f);
  assert.equal(fs.existsSync(path.join(out,"data")),false);
@@ -24,7 +26,7 @@ test("live JSON proxy only permits two public files and reports upstream failure
  const orig=global.fetch;let calls=[];
  const invoke=(file,method="GET")=>onRequest({request:new Request("https://example.test/data/"+file,{method}),params:{file}});
  try{
-   global.fetch=async(url,opts)=>{calls.push({url,opts});return new Response(JSON.stringify({pages:{},lastCheckedAt:"2026-11-26T01:00:00Z"}));};
+   global.fetch=async(url,opts)=>{calls.push({url,opts});return new Response(JSON.stringify({schemaVersion:1,pages:{},events:[],lastCheckedAt:new Date().toISOString(),lastComparedAt:new Date().toISOString()}));};
    assert.equal((await invoke("private.json")).status,404);
    assert.equal((await invoke("page-status.json","POST")).status,405);
    assert.equal(calls.length,0);
@@ -33,6 +35,8 @@ test("live JSON proxy only permits two public files and reports upstream failure
    assert.equal(calls[0].url,"https://raw.githubusercontent.com/noranamani/harima-gacha-navi/main/data/page-status.json");
    assert.equal((await invoke("product-links-history.json")).status,200);
    assert.equal(await (await invoke("page-status.json","HEAD")).text(),"");
+   global.fetch=async(url)=>url.startsWith("https://raw.")?new Response("rate limited",{status:429}):new Response(JSON.stringify({schemaVersion:1,pages:{},lastCheckedAt:new Date().toISOString()}));
+   assert.equal((await invoke("page-status.json")).status,200);
    global.fetch=async()=>new Response("not json");
    assert.equal((await invoke("page-status.json")).status,503);
    global.fetch=async()=>new Response("rate limited",{status:429});
