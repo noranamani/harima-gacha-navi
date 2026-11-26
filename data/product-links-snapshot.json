@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26T13:23:38.629Z",
+  "updatedAt": "2026-11-26T13:38:36.672Z",
   "stores": [
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
@@ -220,6 +220,10 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055559"
         },
         {
+          "name": "MARVEL スパイダーマン めじるしアクセサリー",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770069341"
+        },
+        {
           "name": "クローズ＆WORST カプセルフィギュアコレクション",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770071467"
         },
@@ -230,6 +234,10 @@
         {
           "name": "SIROCARA めじるしアクセサリー",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770081497"
+        },
+        {
+          "name": "MARVEL コレキャラ！めじるしアクセサリー",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770095418"
         },
         {
           "name": "超かぐや姫！ まちぼうけ",
@@ -246,14 +254,6 @@
         {
           "name": "aespa ぷくっとリング",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186485"
-        },
-        {
-          "name": "ジュエルペット キラキラミラー風コレクション",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186904"
-        },
-        {
-          "name": "赤見かるび たべすぎまして・・・",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118202307"
         }
       ]
     },
@@ -309,10 +309,6 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068917"
         },
         {
-          "name": "デジモンアドベンチャー めじるしアクセサリー3",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770069327"
-        },
-        {
           "name": "クローズ＆WORST カプセルフィギュアコレクション",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770071467"
         },
@@ -339,6 +335,10 @@
         {
           "name": "ポンデクルール ちいかわ マルチカラーパウダー",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770137750"
+        },
+        {
+          "name": "グレムリン ぬいぐるみマスコット",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118181589"
         }
       ]
     },

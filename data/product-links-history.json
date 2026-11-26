@@ -1,8 +1,22 @@
 {
   "schemaVersion": 1,
-  "lastComparedAt": "2026-11-26T13:23:38.629Z",
+  "lastComparedAt": "2026-11-26T13:38:36.672Z",
   "retentionDays": 30,
   "events": [
+    {
+      "detectedAt": "2026-11-26T13:38:36.672Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
+      "name": "MARVEL スパイダーマン めじるしアクセサリー",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770069341",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/akashi/item/"
+    },
+    {
+      "detectedAt": "2026-11-26T13:38:36.672Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
+      "name": "MARVEL コレキャラ！めじるしアクセサリー",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770095418",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/akashi/item/"
+    },
     {
       "detectedAt": "2026-11-26T08:38:43.473Z",
       "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
@@ -1388,20 +1402,6 @@
       "name": "【フラットガシャポン】ゴジラ MOVIEクリアファイルコレクション",
       "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770141306",
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_taishi/item/"
-    },
-    {
-      "detectedAt": "2026-11-21T06:53:43.817Z",
-      "store": "ガシャポンバンダイオフィシャルショップ 三木サービスエリア下り線店",
-      "name": "ウルトラマン ウルトラ怪獣ぽんちょめじるしアクセサリー",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770122527",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/miki_sa/item/"
-    },
-    {
-      "detectedAt": "2026-11-21T06:38:46.399Z",
-      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
-      "name": "“ピクサーキャラクター” 手作りおやつチャーム #しぼりクッキー",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770026931",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_hiromine/item/"
     }
   ]
 }
