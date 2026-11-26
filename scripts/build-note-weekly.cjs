@@ -33,7 +33,7 @@ const issueKey = weekYear + "-W" + String(week).padStart(2,"0");
 const ready = changes.length > 0;
 fs.mkdirSync(latest, {recursive:true});
 const title = `播磨ガチャ入荷ナビ｜店舗情報の更新まとめ（${issueKey}）`;
-const manifest = {schema_version:1, site_id:"gacha", issue_key:issueKey, status:ready?"ready":"skip", title, article_path:"article.md", cover_path:null, source_url:"https://noranamani.github.io/harima-gacha-navi/", generated_at:now.toISOString()};
+const manifest = {schema_version:1, site_id:"gacha", issue_key:issueKey, status:ready?"ready":"skip", title, article_path:"article.md", cover_path:null, source_url:"https://harima-gacha-navi.pages.dev/", generated_at:now.toISOString()};
 if (ready) {
   const lines = ["# "+title, "", "公式サイトの掲載情報に基づく店舗情報の変更をまとめました。商品入荷・在庫状況を確認したものではありません。", ""];
   for (const [key, store] of changes) {
