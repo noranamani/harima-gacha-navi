@@ -1,0 +1,35 @@
+name: Verify public Cloudflare Pages
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'functions/**'
+      - 'scripts/build-cloudflare-pages.cjs'
+      - '.github/workflows/verify-cloudflare-live.yml'
+  workflow_dispatch:
+    inputs:
+      production:
+        description: Verify indexing and canonical after confirmed cutover
+        type: boolean
+        default: false
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Compare public Cloudflare and GitHub source JSON
+        run: |
+          for attempt in 1 2 3 4; do
+            if node scripts/verify-cloudflare-live.cjs; then exit 0; fi
+            if [ "$attempt" != 4 ]; then sleep 30; fi
+          done
+          exit 1
+      - name: Verify production SEO and public pages
+        if: inputs.production == true
+        run: node scripts/verify-cloudflare-live.cjs --production
