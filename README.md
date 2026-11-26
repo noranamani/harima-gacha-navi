@@ -2,7 +2,8 @@
 
 兵庫県播磨エリアのガチャガチャ店舗について、公式X・公式店舗ページ・メーカー公式商品一覧へのリンクをまとめた非公式サイトです。
 
-公開サイト: https://noranamani.github.io/harima-gacha-navi/
+新サイト（Cloudflare Pages）: https://harima-gacha-navi.pages.dev/
+旧サイト（移行期間中も利用可能）: https://noranamani.github.io/harima-gacha-navi/
 
 ## 店舗情報の更新
 
