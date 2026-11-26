@@ -4,6 +4,9 @@ on:
   pull_request:
     paths:
       - 'stores.js'
+      - 'scripts/build-cloudflare-pages.cjs'
+      - 'scripts/cloudflare-parallel.test.cjs'
+      - 'functions/**'
       - 'scripts/generate-city-pages.cjs'
       - '.github/workflows/validate-stores.yml'
       - 'scripts/process-store-candidate.cjs'
@@ -100,6 +103,7 @@ jobs:
           node --test scripts/reduce-noop-page-commits.test.cjs
           node --test scripts/page-monitor-audit.test.cjs
           node --test cloudflare/gacha-wakeup.test.mjs
+          node --test scripts/cloudflare-parallel.test.cjs
           node - <<'NODE'
           const fs=require('node:fs'),vm=require('node:vm');
           const ctx={window:{}};
