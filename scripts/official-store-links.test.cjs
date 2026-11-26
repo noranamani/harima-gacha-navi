@@ -33,3 +33,9 @@ test("Every monitored store retains its name and a unique stable identity",()=>{
   assert.ok(typeof s.name==="string" && typeof s.city==="string");
  }
 });
+
+test("Kobe Nishi has four distinct officially sourced stores",()=>{
+ const rows=stores().filter(s=>s.city==="神戸市西区");
+ assert.equal(rows.length,4);
+ for(const s of rows){assert.ok(s.address.startsWith("兵庫県神戸市西区"));assert.equal(new URL(s.official).protocol,"https:");}
+});
