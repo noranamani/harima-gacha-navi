@@ -9,13 +9,14 @@ const files=["index.html","product-updates.html","guide.html","about.html","priv
 for(const file of files)fs.copyFileSync(path.join(root,file),path.join(out,file));
 fs.cpSync(path.join(root,"city"),path.join(out,"city"),{recursive:true});
 // Production Pages URLs are self-canonical; GitHub Pages stays available.
-const oldBase="https://noranamani.github.io/harima-gacha-navi/",base="https://harima-gacha-navi.pages.dev/";
+const production=process.argv.includes("--production");
+const oldBase="https://noranamani.github.io/harima-gacha-navi/",base=production?"https://harima-gacha-navi.pages.dev/":oldBase;
 const cityDirs=fs.readdirSync(path.join(out,"city"),{withFileTypes:true}).filter(d=>d.isDirectory()&&fs.existsSync(path.join(out,"city",d.name,"index.html"))).map(d=>d.name);
 const paths=["index.html","product-updates.html","guide.html","about.html","privacy.html",...cityDirs.map(d=>"city/"+d+"/index.html")];
 const urls=[];
 for(const file of paths){
  const suffix=file==="index.html"?"":file.endsWith("/index.html")?file.slice(0,-"index.html".length):file.replace(/\.html$/,"");
- const url=base+suffix;urls.push(url);
+ const url=base+(production?suffix:(file.endsWith(".html")&&!file.endsWith("index.html")?file:suffix));urls.push(url);
  const p=path.join(out,file);let html=fs.readFileSync(p,"utf8");
  if(!/<link rel="canonical" href="[^"]+">/.test(html))throw Error("Missing canonical: "+file);
  html=html.replace(/<link rel="canonical" href="[^"]+">/,'<link rel="canonical" href="'+url+'">');
@@ -28,6 +29,6 @@ fs.writeFileSync(path.join(out,"sitemap.xml"),'<?xml version="1.0" encoding="UTF
 // Only data routes consume Functions requests.
 fs.writeFileSync(path.join(out,"_routes.json"),JSON.stringify({version:1,include:["/data/page-status.json","/data/product-links-history.json"],exclude:[]},null,2)+"\n");
 // Production is indexable; immutable deployment URLs are handled by Pages.
-fs.writeFileSync(path.join(out,"_headers"),"/data/*\n  X-Robots-Tag: noindex\n");
+fs.writeFileSync(path.join(out,"_headers"),(production?"/data/*":"/*")+"\n  X-Robots-Tag: noindex\n");
 fs.writeFileSync(path.join(out,"robots.txt"),"User-agent: *\nAllow: /\nSitemap: "+base+"sitemap.xml\n");
-console.log("Cloudflare production build: "+urls.length+" canonical URLs.");
+console.log("Cloudflare "+(production?"production":"preview")+" build: "+urls.length+" canonical URLs.");
