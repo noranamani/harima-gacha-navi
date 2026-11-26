@@ -1,0 +1,23 @@
+name: Verify public Cloudflare Pages
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'scripts/verify-cloudflare-live.cjs'
+      - '.github/workflows/verify-cloudflare-live.yml'
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Compare public Cloudflare and GitHub source JSON
+        run: node scripts/verify-cloudflare-live.cjs
+      - name: Verify production SEO and public pages
+        if: github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main'
+        run: node scripts/verify-cloudflare-live.cjs --production
