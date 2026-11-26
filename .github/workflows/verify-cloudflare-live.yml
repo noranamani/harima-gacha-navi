@@ -3,8 +3,8 @@ on:
   push:
     branches: [main]
     paths:
-      - 'functions/**'
       - 'scripts/build-cloudflare-pages.cjs'
+      - 'scripts/verify-cloudflare-live.cjs'
       - '.github/workflows/verify-cloudflare-live.yml'
   workflow_dispatch:
     inputs:
@@ -27,12 +27,12 @@ jobs:
         run: |
           node --input-type=module <<'JS'
           const base="https://harima-gacha-navi.pages.dev/";
-          for(const url of [base,base+"about",base+"data/page-status.json",base+"data/product-links-history.json","https://b40a3470.harima-gacha-navi.pages.dev/data/page-status.json","https://raw.githubusercontent.com/noranamani/harima-gacha-navi/main/data/page-status.json","https://noranamani.github.io/harima-gacha-navi/data/page-status.json"]){
+          for(const url of [base,base+"about",base+"data/page-status.json",base+"data/product-links-history.json","https://raw.githubusercontent.com/noranamani/harima-gacha-navi/main/data/page-status.json","https://noranamani.github.io/harima-gacha-navi/data/page-status.json"]){
             try{
               const r=await fetch(url,{signal:AbortSignal.timeout(12000),headers:{"Cache-Control":"no-cache"}});
               const text=await r.text();let summary={};
               try{const b=JSON.parse(text);summary={error:b.error,reasons:b.reasons,lastCheckedAt:b.lastCheckedAt,lastComparedAt:b.lastComparedAt};}catch{summary={htmlTitle:text.match(/<title>([^<]*)<\/title>/i)?.[1],bodyStart:r.ok?undefined:text.slice(0,200)};}
-              console.log(JSON.stringify({url,status:r.status,contentType:r.headers.get("content-type"),...summary}));
+              console.log(JSON.stringify({url,status:r.status,contentType:r.headers.get("content-type"),finalUrl:r.url,cors:r.headers.get("access-control-allow-origin"),...summary}));
             }catch(e){console.log(JSON.stringify({url,error:e.message}));}
           }
           JS
