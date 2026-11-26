@@ -1,8 +1,15 @@
 {
   "schemaVersion": 1,
-  "lastComparedAt": "2026-11-26T21:23:33.788Z",
+  "lastComparedAt": "2026-11-26T21:38:34.468Z",
   "retentionDays": 30,
   "events": [
+    {
+      "detectedAt": "2026-11-26T21:38:34.468Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
+      "name": "メイドインアビス めじるしアクセサリー",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054996",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/akashi/item/"
+    },
     {
       "detectedAt": "2026-11-26T13:38:36.672Z",
       "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
@@ -1395,13 +1402,6 @@
       "name": "【フラットガシャポン】ゴジラ MOVIEクリアファイルコレクション",
       "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770141306",
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_shikama/item/"
-    },
-    {
-      "detectedAt": "2026-11-21T06:53:43.817Z",
-      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA太子店",
-      "name": "【フラットガシャポン】ゴジラ MOVIEクリアファイルコレクション",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770141306",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_taishi/item/"
     }
   ]
 }
