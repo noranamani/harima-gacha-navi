@@ -1,10 +1,11 @@
 name: Verify public Cloudflare Pages
 on:
   workflow_dispatch:
-  pull_request:
-    paths:
-      - 'scripts/verify-cloudflare-live.cjs'
-      - '.github/workflows/verify-cloudflare-live.yml'
+    inputs:
+      production:
+        description: Verify indexing and canonical after confirmed cutover
+        type: boolean
+        default: false
 permissions:
   contents: read
 jobs:
@@ -19,5 +20,5 @@ jobs:
       - name: Compare public Cloudflare and GitHub source JSON
         run: node scripts/verify-cloudflare-live.cjs
       - name: Verify production SEO and public pages
-        if: github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main'
+        if: inputs.production == true
         run: node scripts/verify-cloudflare-live.cjs --production
