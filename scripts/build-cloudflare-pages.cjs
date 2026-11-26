@@ -26,8 +26,10 @@ for(const file of paths){
  fs.writeFileSync(p,html);
 }
 fs.writeFileSync(path.join(out,"sitemap.xml"),'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+urls.map(u=>'<url><loc>'+u+'</loc></url>').join("\n")+'\n</urlset>\n');
-// Only data routes consume Functions requests.
-fs.writeFileSync(path.join(out,"_routes.json"),JSON.stringify({version:1,include:["/data/page-status.json","/data/product-links-history.json"],exclude:[]},null,2)+"\n");
+// Redirect only the two public JSON endpoints. No server-side fetch or Functions.
+const raw="https://raw.githubusercontent.com/noranamani/harima-gacha-navi/main/data/";
+const feeds=["page-status.json","product-links-history.json"];
+fs.writeFileSync(path.join(out,"_redirects"),feeds.map(f=>"/data/"+f+" "+raw+f+" 302").join("\n")+"\n");
 // Production is indexable; immutable deployment URLs are handled by Pages.
 fs.writeFileSync(path.join(out,"_headers"),(production?"/data/*":"/*")+"\n  X-Robots-Tag: noindex\n");
 fs.writeFileSync(path.join(out,"robots.txt"),"User-agent: *\nAllow: /\nSitemap: "+base+"sitemap.xml\n");
