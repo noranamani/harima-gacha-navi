@@ -1,10 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26T22:53:37.373Z",
+  "updatedAt": "2026-11-26T23:08:35.547Z",
   "stores": [
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
       "items": [
+        {
+          "name": "【CAP'in GALLERY】Mooney the Ghost by Koichi Yairi フィギュアコレクション",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055559"
+        },
+        {
+          "name": "ジョジョの奇妙な冒険 カプセルフィギュアコレクション08",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068917"
+        },
         {
           "name": "ケアベア™ カラフルマルチチャーム",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770070873"
@@ -76,14 +84,6 @@
         {
           "name": "【CAP'in GALLERY】クマども FIGURE COLLECTION",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054583"
-        },
-        {
-          "name": "【CAP'in GALLERY】SANRIO CHARACTERS Sugar & Spice",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054699"
-        },
-        {
-          "name": "サンリオキャラクターズ Holidayオーナメントチャーム",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054767"
         }
       ]
     },
@@ -176,6 +176,14 @@
       "name": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
       "items": [
         {
+          "name": "【CAP'in GALLERY】Mooney the Ghost by Koichi Yairi フィギュアコレクション",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055559"
+        },
+        {
+          "name": "MARVEL スパイダーマン めじるしアクセサリー",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770069341"
+        },
+        {
           "name": "クローズ＆WORST カプセルフィギュアコレクション",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770071467"
         },
@@ -236,14 +244,6 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054699"
         },
         {
-          "name": "【CAP'in GALLERY】Mooney the Ghost by Koichi Yairi フィギュアコレクション",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055559"
-        },
-        {
-          "name": "MARVEL スパイダーマン めじるしアクセサリー",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770069341"
-        },
-        {
           "name": "グレムリン ぬいぐるみマスコット",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118181589"
         },
@@ -261,6 +261,14 @@
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路飾磨店",
       "items": [
         {
+          "name": "【CAP'in GALLERY】Mooney the Ghost by Koichi Yairi フィギュアコレクション",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055559"
+        },
+        {
+          "name": "ジョジョの奇妙な冒険 カプセルフィギュアコレクション08",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068917"
+        },
+        {
           "name": "クローズ＆WORST カプセルフィギュアコレクション",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770071467"
         },
@@ -327,14 +335,6 @@
         {
           "name": "【CAP'in GALLERY】SANRIO CHARACTERS Sugar & Spice",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054699"
-        },
-        {
-          "name": "【CAP'in GALLERY】Mooney the Ghost by Koichi Yairi フィギュアコレクション",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055559"
-        },
-        {
-          "name": "ジョジョの奇妙な冒険 カプセルフィギュアコレクション08",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068917"
         },
         {
           "name": "グレムリン ぬいぐるみマスコット",
@@ -346,6 +346,14 @@
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA太子店",
       "items": [
         {
+          "name": "【CAP'in GALLERY】Mooney the Ghost by Koichi Yairi フィギュアコレクション",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055559"
+        },
+        {
+          "name": "ジョジョの奇妙な冒険 カプセルフィギュアコレクション08",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068917"
+        },
+        {
           "name": "ケアベア™ カラフルマルチチャーム",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770070873"
         },
@@ -416,20 +424,16 @@
         {
           "name": "【CAP'in GALLERY】クマども FIGURE COLLECTION",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054583"
-        },
-        {
-          "name": "【CAP'in GALLERY】SANRIO CHARACTERS Sugar & Spice",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054699"
-        },
-        {
-          "name": "【CAP'in GALLERY】Mooney the Ghost by Koichi Yairi フィギュアコレクション",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055559"
         }
       ]
     },
     {
       "name": "ガシャポンバンダイオフィシャルショップ 三木サービスエリア下り線店",
       "items": [
+        {
+          "name": "ジョジョの奇妙な冒険 カプセルフィギュアコレクション08",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068917"
+        },
         {
           "name": "ケアベア™ カラフルマルチチャーム",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770070873"
@@ -441,10 +445,6 @@
         {
           "name": "JRはたらく電車 カラフルマルチチャーム",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770026610"
-        },
-        {
-          "name": "ジョジョの奇妙な冒険 カプセルフィギュアコレクション08",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068917"
         },
         {
           "name": "グレムリン ぬいぐるみマスコット",
