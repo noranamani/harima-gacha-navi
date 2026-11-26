@@ -18,28 +18,9 @@ test("Cloudflare output includes city and product pages but not internal files o
  assert.ok(sitemap.includes("https://harima-gacha-navi.pages.dev/guide"));
  assert.ok(!sitemap.includes("github.io"));
  assert.match(fs.readFileSync(path.join(out,"robots.txt"),"utf8"),/harima-gacha-navi\.pages\.dev\/sitemap\.xml/);
- assert.deepEqual(JSON.parse(fs.readFileSync(path.join(out,"_routes.json"),"utf8")).include,["/data/page-status.json","/data/product-links-history.json"]);
-});
-test("live JSON proxy only permits two public files and reports upstream failures",async()=>{
- const src=fs.readFileSync(path.join(root,"functions/data/[file].js"),"utf8");
- const {onRequest}=await import("data:text/javascript;base64,"+Buffer.from(src).toString("base64"));
- const orig=global.fetch;let calls=[];
- const invoke=(file,method="GET")=>onRequest({request:new Request("https://example.test/data/"+file,{method}),params:{file}});
- try{
-   global.fetch=async(url,opts)=>{calls.push({url,opts});return new Response(JSON.stringify({schemaVersion:1,pages:{},events:[],lastCheckedAt:new Date().toISOString(),lastComparedAt:new Date().toISOString()}));};
-   assert.equal((await invoke("private.json")).status,404);
-   assert.equal((await invoke("page-status.json","POST")).status,405);
-   assert.equal(calls.length,0);
-   const r=await invoke("page-status.json");
-   assert.equal(r.status,200);assert.equal(r.headers.get("cache-control"),"public, max-age=60");
-   assert.equal(calls[0].url,"https://raw.githubusercontent.com/noranamani/harima-gacha-navi/main/data/page-status.json");
-   assert.equal((await invoke("product-links-history.json")).status,200);
-   assert.equal(await (await invoke("page-status.json","HEAD")).text(),"");
-   global.fetch=async(url)=>url.startsWith("https://raw.")?new Response("rate limited",{status:429}):new Response(JSON.stringify({schemaVersion:1,pages:{},lastCheckedAt:new Date().toISOString()}));
-   assert.equal((await invoke("page-status.json")).status,200);
-   global.fetch=async()=>new Response("not json");
-   assert.equal((await invoke("page-status.json")).status,503);
-   global.fetch=async()=>new Response("rate limited",{status:429});
-   const failure=await invoke("product-links-history.json");assert.equal(failure.status,503);assert.equal(failure.headers.get("cache-control"),"no-store");
- }finally{global.fetch=orig;}
+ assert.equal(fs.existsSync(path.join(out,"_routes.json")),false);
+ assert.equal(fs.existsSync(path.join(root,"functions/data/[file].js")),false);
+ const redirects=fs.readFileSync(path.join(out,"_redirects"),"utf8").trim().split("\n");
+ assert.deepEqual(redirects,["page-status.json","product-links-history.json"].map(f=>"/data/"+f+" https://raw.githubusercontent.com/noranamani/harima-gacha-navi/main/data/"+f+" 302"));
+
 });
