@@ -9,7 +9,7 @@ const files=["index.html","product-updates.html","guide.html","about.html","priv
 for(const file of files)fs.copyFileSync(path.join(root,file),path.join(out,file));
 fs.cpSync(path.join(root,"city"),path.join(out,"city"),{recursive:true});
 // Production Pages URLs are self-canonical; GitHub Pages stays available.
-const production=process.argv.includes("--production");
+const production=!process.argv.includes("--preview");
 const oldBase="https://noranamani.github.io/harima-gacha-navi/",base=production?"https://harima-gacha-navi.pages.dev/":oldBase;
 const cityDirs=fs.readdirSync(path.join(out,"city"),{withFileTypes:true}).filter(d=>d.isDirectory()&&fs.existsSync(path.join(out,"city",d.name,"index.html"))).map(d=>d.name);
 const paths=["index.html","product-updates.html","guide.html","about.html","privacy.html",...cityDirs.map(d=>"city/"+d+"/index.html")];
@@ -18,6 +18,7 @@ for(const file of paths){
  const suffix=file==="index.html"?"":file.endsWith("/index.html")?file.slice(0,-"index.html".length):file.replace(/\.html$/,"");
  const url=base+(production?suffix:(file.endsWith(".html")&&!file.endsWith("index.html")?file:suffix));urls.push(url);
  const p=path.join(out,file);let html=fs.readFileSync(p,"utf8");
+ html=html.replace(/<!-- legacy-migration-start -->[\s\S]*?<!-- legacy-migration-end -->/g,"");
  if(!/<link rel="canonical" href="[^"]+">/.test(html))throw Error("Missing canonical: "+file);
  html=html.replace(/<link rel="canonical" href="[^"]+">/,'<link rel="canonical" href="'+url+'">');
  // Leave all existing relative paths working; append visible navigation.
