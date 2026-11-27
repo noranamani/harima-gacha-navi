@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-27T16:23:35.812Z",
+  "updatedAt": "2026-11-27T16:38:34.242Z",
   "stores": [
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
@@ -159,16 +159,16 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770139204"
         },
         {
-          "name": "グレムリン ぬいぐるみマスコット",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118181589"
+          "name": "お文具といっしょ カプセルラバーマスコット～おでんであったまるんです～",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054026"
         },
         {
-          "name": "aespa ぷくっとリング",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186485"
+          "name": "名探偵コナン ぎゅーこっと2",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054187"
         },
         {
-          "name": "ジュエルペット キラキラミラー風コレクション",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186904"
+          "name": "capsuleトルソー “ディズニーキャラクター” ミニチュア＆パッケージコレクション",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054651"
         }
       ]
     },
@@ -422,8 +422,8 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770139204"
         },
         {
-          "name": "グレムリン ぬいぐるみマスコット",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118181589"
+          "name": "お文具といっしょ カプセルラバーマスコット～おでんであったまるんです～",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054026"
         }
       ]
     },
@@ -516,6 +516,10 @@
       "name": "ガシャポンのデパート イトーヨーカドー明石店",
       "items": [
         {
+          "name": "【フラットガシャポン】キングダム ポスターコレクション",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770130454"
+        },
+        {
           "name": "aespa ぷくっとリング",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4570118186485"
         },
@@ -538,10 +542,6 @@
         {
           "name": "まちぼうけ ダイナーの場合",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770070644"
-        },
-        {
-          "name": "【フラットガシャポン】キングダム ポスターコレクション",
-          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770130454"
         },
         {
           "name": "いたずらねこちゃあぁぁん",
