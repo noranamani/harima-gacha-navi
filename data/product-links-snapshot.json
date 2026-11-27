@@ -1,10 +1,22 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-27T04:53:38.993Z",
+  "updatedAt": "2026-11-27T05:23:40.401Z",
   "stores": [
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
       "items": [
+        {
+          "name": "超かぐや姫！ まちぼうけ",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770098730"
+        },
+        {
+          "name": "ポンデクルール ちいかわ マルチカラーパウダー",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770137750"
+        },
+        {
+          "name": "仮面ライダーマイス GPライダーエグズ03",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770139204"
+        },
         {
           "name": "Art in Gashapon 昆虫骨格標本",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118105998"
@@ -70,18 +82,6 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770081770"
         },
         {
-          "name": "超かぐや姫！ まちぼうけ",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770098730"
-        },
-        {
-          "name": "ポンデクルール ちいかわ マルチカラーパウダー",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770137750"
-        },
-        {
-          "name": "仮面ライダーマイス GPライダーエグズ03",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770139204"
-        },
-        {
           "name": "グレムリン ぬいぐるみマスコット",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118181589"
         }
@@ -91,12 +91,12 @@
       "name": "ガシャポンバンダイオフィシャルショップ 未来屋書店加古川店",
       "items": [
         {
-          "name": "MARVEL スパイダーマン めじるしアクセサリー",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770069341"
-        },
-        {
           "name": "MARVEL コレキャラ！めじるしアクセサリー",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770095418"
+        },
+        {
+          "name": "MARVEL スパイダーマン めじるしアクセサリー",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770069341"
         },
         {
           "name": "グレムリン ぬいぐるみマスコット",
@@ -176,6 +176,10 @@
       "name": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
       "items": [
         {
+          "name": "超かぐや姫！ まちぼうけ",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770098730"
+        },
+        {
           "name": "Art in Gashapon 昆虫骨格標本",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118105998"
         },
@@ -232,10 +236,6 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770081497"
         },
         {
-          "name": "超かぐや姫！ まちぼうけ",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770098730"
-        },
-        {
           "name": "グレムリン ぬいぐるみマスコット",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118181589"
         },
@@ -260,6 +260,14 @@
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路飾磨店",
       "items": [
+        {
+          "name": "超かぐや姫！ まちぼうけ",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770098730"
+        },
+        {
+          "name": "ポンデクルール ちいかわ マルチカラーパウダー",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770137750"
+        },
         {
           "name": "Art in Gashapon 昆虫骨格標本",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118105998"
@@ -331,20 +339,24 @@
         {
           "name": "ニャンちゅう カラフルマルチチャーム",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770081565"
-        },
-        {
-          "name": "ポケットモンスター おっきなお月さまライトマスコット3",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770081763"
-        },
-        {
-          "name": "ポケットモンスター スイングコレクションType:Water",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770081770"
         }
       ]
     },
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA太子店",
       "items": [
+        {
+          "name": "超かぐや姫！ まちぼうけ",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770098730"
+        },
+        {
+          "name": "ポンデクルール ちいかわ マルチカラーパウダー",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770137750"
+        },
+        {
+          "name": "仮面ライダーマイス GPライダーエグズ03",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770139204"
+        },
         {
           "name": "Art in Gashapon 昆虫骨格標本",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118105998"
@@ -412,24 +424,24 @@
         {
           "name": "ニャンちゅう カラフルマルチチャーム",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770081565"
-        },
-        {
-          "name": "ポケットモンスター おっきなお月さまライトマスコット3",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770081763"
-        },
-        {
-          "name": "ポケットモンスター スイングコレクションType:Water",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770081770"
-        },
-        {
-          "name": "超かぐや姫！ まちぼうけ",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770098730"
         }
       ]
     },
     {
       "name": "ガシャポンバンダイオフィシャルショップ 三木サービスエリア下り線店",
       "items": [
+        {
+          "name": "超かぐや姫！ まちぼうけ",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770098730"
+        },
+        {
+          "name": "ポンデクルール ちいかわ マルチカラーパウダー",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770137750"
+        },
+        {
+          "name": "仮面ライダーマイス GPライダーエグズ03",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770139204"
+        },
         {
           "name": "Art in Gashapon 昆虫骨格標本",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118105998"
@@ -497,24 +509,16 @@
         {
           "name": "のびのび！ぼにゃる ねこちゃあぁぁん",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770076783"
-        },
-        {
-          "name": "SIROCARA めじるしアクセサリー",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770081497"
-        },
-        {
-          "name": "ポケットモンスター おっきなお月さまライトマスコット3",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770081763"
-        },
-        {
-          "name": "ポケットモンスター スイングコレクションType:Water",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770081770"
         }
       ]
     },
     {
       "name": "ガシャポンのデパート イトーヨーカドー明石店",
       "items": [
+        {
+          "name": "【フラットガシャポン】キングダム ポスターコレクション",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770130454"
+        },
         {
           "name": "aespa ぷくっとリング",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4570118186485"
@@ -538,10 +542,6 @@
         {
           "name": "まちぼうけ ダイナーの場合",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770070644"
-        },
-        {
-          "name": "【フラットガシャポン】キングダム ポスターコレクション",
-          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770130454"
         },
         {
           "name": "いたずらねこちゃあぁぁん",
