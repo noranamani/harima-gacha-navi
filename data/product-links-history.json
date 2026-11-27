@@ -1,8 +1,57 @@
 {
   "schemaVersion": 1,
-  "lastComparedAt": "2026-11-27T01:23:40.808Z",
+  "lastComparedAt": "2026-11-27T01:38:36.883Z",
   "retentionDays": 30,
   "events": [
+    {
+      "detectedAt": "2026-11-27T01:38:36.883Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 三木サービスエリア下り線店",
+      "name": "Art in Gashapon 昆虫骨格標本",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118105998",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/miki_sa/item/"
+    },
+    {
+      "detectedAt": "2026-11-27T01:38:36.883Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 三木サービスエリア下り線店",
+      "name": "MINECRAFT ミニチュアパッケージチャーム",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769891229",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/miki_sa/item/"
+    },
+    {
+      "detectedAt": "2026-11-27T01:38:36.883Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 三木サービスエリア下り線店",
+      "name": "【CAP'in GALLERY】クマども FIGURE COLLECTION",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054583",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/miki_sa/item/"
+    },
+    {
+      "detectedAt": "2026-11-27T01:38:36.883Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 三木サービスエリア下り線店",
+      "name": "【CAP'in GALLERY】SANRIO CHARACTERS Sugar & Spice",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054699",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/miki_sa/item/"
+    },
+    {
+      "detectedAt": "2026-11-27T01:38:36.883Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 三木サービスエリア下り線店",
+      "name": "ポケットモンスター スイングコレクションType:Water",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770081770",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/miki_sa/item/"
+    },
+    {
+      "detectedAt": "2026-11-27T01:38:36.883Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 三木サービスエリア下り線店",
+      "name": "超かぐや姫！ まちぼうけ",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770098730",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/miki_sa/item/"
+    },
+    {
+      "detectedAt": "2026-11-27T01:38:36.883Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 三木サービスエリア下り線店",
+      "name": "ポンデクルール ちいかわ マルチカラーパウダー",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770137750",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/miki_sa/item/"
+    },
     {
       "detectedAt": "2026-11-26T21:38:34.468Z",
       "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
@@ -1353,55 +1402,6 @@
       "name": "クレヨンしんちゃん カラともマスコット",
       "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770094725",
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_yamazaki/item/"
-    },
-    {
-      "detectedAt": "2026-11-21T07:08:40.333Z",
-      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
-      "name": "よこみぞゆりのなんでもいきもの ふわふわめじるしアクセサリー",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068580",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_hiromine/item/"
-    },
-    {
-      "detectedAt": "2026-11-21T06:53:43.817Z",
-      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
-      "name": "クレヨンしんちゃん カラともマスコット",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770094725",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_hiromine/item/"
-    },
-    {
-      "detectedAt": "2026-11-21T06:53:43.817Z",
-      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
-      "name": "メゾピアノ グッズコレクション",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770129830",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_hiromine/item/"
-    },
-    {
-      "detectedAt": "2026-11-21T06:53:43.817Z",
-      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
-      "name": "キングダム Comics Charm Collection",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770130447",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_hiromine/item/"
-    },
-    {
-      "detectedAt": "2026-11-21T06:53:43.817Z",
-      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
-      "name": "豆ガシャ本 「犬夜叉」",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770139860",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_hiromine/item/"
-    },
-    {
-      "detectedAt": "2026-11-21T06:53:43.817Z",
-      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
-      "name": "ホロライブ カラフルカラビナもふしっぽマスコット",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770121773",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/akashi/item/"
-    },
-    {
-      "detectedAt": "2026-11-21T06:53:43.817Z",
-      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路飾磨店",
-      "name": "【フラットガシャポン】ゴジラ MOVIEクリアファイルコレクション",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770141306",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_shikama/item/"
     }
   ]
 }
