@@ -107,10 +107,6 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118206602"
         },
         {
-          "name": "NCT WISH つまんでつなげてますこっと",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769777059"
-        },
-        {
           "name": "MINECRAFT ミニチュアパッケージチャーム",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769891229"
         },
@@ -169,6 +165,10 @@
         {
           "name": "aespa ぷくっとリング",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186485"
+        },
+        {
+          "name": "ジュエルペット キラキラミラー風コレクション",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186904"
         }
       ]
     },
@@ -362,10 +362,6 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118202550"
         },
         {
-          "name": "怒ったおおきいわんぴーすわんちゃあぁぁん2",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118206602"
-        },
-        {
           "name": "ソニック ドットフィギュア めじるしアクセサリー",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769888434"
         },
@@ -424,6 +420,10 @@
         {
           "name": "ポケットモンスター スイングコレクションType:Water",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770081770"
+        },
+        {
+          "name": "ポンデクルール ちいかわ マルチカラーパウダー",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770137750"
         }
       ]
     },
@@ -548,14 +548,6 @@
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770076776"
         },
         {
-          "name": "ハリー・ポッター アクリルスライド ミラーコレクション",
-          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4570118181503"
-        },
-        {
-          "name": "【CAP'in GALLERY】かえちゃんふぃぎゅあ designed by 田中かえ",
-          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582769867255"
-        },
-        {
           "name": "【CAP'in GALLERY】LilGemily figure collection",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770055375"
         },
@@ -566,6 +558,14 @@
         {
           "name": "Lil ala mode ミニチュアパッケージチャーム ～ムース～",
           "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582770070392"
+        },
+        {
+          "name": "ハリー・ポッター アクリルスライド ミラーコレクション",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4570118181503"
+        },
+        {
+          "name": "【CAP'in GALLERY】かえちゃんふぃぎゅあ designed by 田中かえ",
+          "url": "https://bandainamco-am.co.jp/others/capsule-toy-store/item/item_details.html?product_code=4582769867255"
         },
         {
           "name": "いきもの大図鑑アドバンス タマムシとウグイスコガネ",
