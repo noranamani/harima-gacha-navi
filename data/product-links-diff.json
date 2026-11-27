@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-27T09:39:00.627Z",
+  "updatedAt": "2026-11-27T09:53:46.607Z",
   "notice": "新規掲載は入荷・再入荷を保証しません。公式商品一覧の表示範囲だけを監視しています。",
   "stores": [
     {
@@ -21,16 +21,7 @@
       "name": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/akashi/item/",
       "initialBaseline": false,
-      "added": [
-        {
-          "name": "ドラゴンボール S.H.Figuarts Miniature Collection3",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055436"
-        },
-        {
-          "name": "ポケットモンスター スイングコレクションType:Water",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770081770"
-        }
-      ],
+      "added": [],
       "removedCount": 3
     },
     {
@@ -52,7 +43,7 @@
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/miki_sa/item/",
       "initialBaseline": false,
       "added": [],
-      "removedCount": 3
+      "removedCount": 2
     },
     {
       "name": "ガシャポンのデパート イトーヨーカドー明石店",
