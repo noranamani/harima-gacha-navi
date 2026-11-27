@@ -1,28 +1,111 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-27T07:23:44.293Z",
+  "updatedAt": "2026-11-27T07:38:41.493Z",
   "notice": "新規掲載は入荷・再入荷を保証しません。公式商品一覧の表示範囲だけを監視しています。",
   "stores": [
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_hiromine/item/",
       "initialBaseline": false,
-      "added": [],
-      "removedCount": 0
+      "added": [
+        {
+          "name": "東野圭吾 『ガリレオ』シリーズ ブックチャーム",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118185099"
+        },
+        {
+          "name": "みいつけた！ カラフルマルチチャーム",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068450"
+        },
+        {
+          "name": "ニャンちゅう カラフルマルチチャーム",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770081565"
+        }
+      ],
+      "removedCount": 3
     },
     {
       "name": "ガシャポンバンダイオフィシャルショップ 未来屋書店加古川店",
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_kakogawa/item/",
       "initialBaseline": false,
-      "added": [],
-      "removedCount": 0
+      "added": [
+        {
+          "name": "Art in Gashapon 昆虫骨格標本",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118105998"
+        },
+        {
+          "name": "きらりん☆レボリューション つまんでつなげてますこっと",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118202550"
+        },
+        {
+          "name": "怒ったおおきいわんぴーすわんちゃあぁぁん2",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118206602"
+        },
+        {
+          "name": "NCT WISH つまんでつなげてますこっと",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769777059"
+        },
+        {
+          "name": "MINECRAFT ミニチュアパッケージチャーム",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769891229"
+        },
+        {
+          "name": "パチンコ魂 SANYO サウンドコレクション",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769910876"
+        },
+        {
+          "name": "HOT WHEELS™ ミニチュアパッケージチャーム",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769979675"
+        },
+        {
+          "name": "【CAP'in GALLERY】クマども FIGURE COLLECTION",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054583"
+        },
+        {
+          "name": "【CAP'in GALLERY】SANRIO CHARACTERS Sugar & Spice",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054699"
+        },
+        {
+          "name": "ドラゴンボール S.H.Figuarts Miniature Collection3",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055436"
+        },
+        {
+          "name": "【CAP'in GALLERY】Mooney the Ghost by Koichi Yairi フィギュアコレクション",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055559"
+        },
+        {
+          "name": "ジョジョの奇妙な冒険 カプセルフィギュアコレクション08",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068917"
+        },
+        {
+          "name": "クローズ＆WORST カプセルフィギュアコレクション",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770071467"
+        },
+        {
+          "name": "のびのび！ぼにゃる ねこちゃあぁぁん",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770076783"
+        },
+        {
+          "name": "ポケットモンスター おっきなお月さまライトマスコット3",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770081763"
+        },
+        {
+          "name": "ポケットモンスター スイングコレクションType:Water",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770081770"
+        }
+      ],
+      "removedCount": 16
     },
     {
       "name": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/akashi/item/",
       "initialBaseline": false,
-      "added": [],
-      "removedCount": 0
+      "added": [
+        {
+          "name": "ソニック ドットフィギュア めじるしアクセサリー",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769888434"
+        }
+      ],
+      "removedCount": 1
     },
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路飾磨店",
@@ -56,8 +139,29 @@
       "name": "ガシャポンバンダイオフィシャルショップ 未来屋書店山崎店",
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_yamazaki/item/",
       "initialBaseline": false,
-      "added": [],
-      "removedCount": 0
+      "added": [
+        {
+          "name": "東野圭吾 『ガリレオ』シリーズ ブックチャーム",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118185099"
+        },
+        {
+          "name": "NCT WISH つまんでつなげてますこっと",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769777059"
+        },
+        {
+          "name": "ソニック ドットフィギュア めじるしアクセサリー",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769888434"
+        },
+        {
+          "name": "ドラゴンボール S.H.Figuarts Miniature Collection3",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055436"
+        },
+        {
+          "name": "みいつけた！ カラフルマルチチャーム",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068450"
+        }
+      ],
+      "removedCount": 5
     }
   ]
 }
