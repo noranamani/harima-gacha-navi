@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-27T09:53:46.607Z",
+  "updatedAt": "2026-11-27T10:38:33.815Z",
   "stores": [
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
@@ -163,12 +163,12 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770139204"
         },
         {
-          "name": "グレムリン ぬいぐるみマスコット",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118181589"
+          "name": "初音ミク めじるしアクセサリー",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769995750"
         },
         {
-          "name": "aespa ぷくっとリング",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118186485"
+          "name": "TOM and JERRY なりきりハンバーガーマスコットチャーム",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770026504"
         }
       ]
     },
@@ -321,10 +321,6 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055559"
         },
         {
-          "name": "みいつけた！ カラフルマルチチャーム",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068450"
-        },
-        {
           "name": "ケアベア™ カラフルマルチチャーム",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770070873"
         },
@@ -339,6 +335,10 @@
         {
           "name": "SIROCARA めじるしアクセサリー",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770081497"
+        },
+        {
+          "name": "ニャンちゅう カラフルマルチチャーム",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770081565"
         }
       ]
     },
@@ -617,10 +617,6 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118206602"
         },
         {
-          "name": "NCT WISH つまんでつなげてますこっと",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769777059"
-        },
-        {
           "name": "ソニック ドットフィギュア めじるしアクセサリー",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769888434"
         },
@@ -635,10 +631,6 @@
         {
           "name": "HOT WHEELS™ ミニチュアパッケージチャーム",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769979675"
-        },
-        {
-          "name": "JRはたらく電車 カラフルマルチチャーム",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770026610"
         },
         {
           "name": "【CAP'in GALLERY】クマども FIGURE COLLECTION",
@@ -679,6 +671,14 @@
         {
           "name": "のびのび！ぼにゃる ねこちゃあぁぁん",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770076783"
+        },
+        {
+          "name": "SIROCARA めじるしアクセサリー",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770081497"
+        },
+        {
+          "name": "ポケットモンスター スイングコレクションType:Water",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770081770"
         }
       ]
     }
