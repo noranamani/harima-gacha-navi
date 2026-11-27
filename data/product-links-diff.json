@@ -1,28 +1,74 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-27T06:23:36.545Z",
+  "updatedAt": "2026-11-27T06:38:45.323Z",
   "notice": "新規掲載は入荷・再入荷を保証しません。公式商品一覧の表示範囲だけを監視しています。",
   "stores": [
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_hiromine/item/",
       "initialBaseline": false,
-      "added": [],
-      "removedCount": 1
+      "added": [
+        {
+          "name": "NCT WISH つまんでつなげてますこっと",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769777059"
+        },
+        {
+          "name": "ソニック ドットフィギュア めじるしアクセサリー",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769888434"
+        },
+        {
+          "name": "機動戦士ガンダム CAPSULE INDEX 04",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769995729"
+        },
+        {
+          "name": "ドラゴンボール S.H.Figuarts Miniature Collection3",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055436"
+        }
+      ],
+      "removedCount": 4
     },
     {
       "name": "ガシャポンバンダイオフィシャルショップ 未来屋書店加古川店",
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_kakogawa/item/",
       "initialBaseline": false,
       "added": [],
-      "removedCount": 12
+      "removedCount": 10
     },
     {
       "name": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/akashi/item/",
       "initialBaseline": false,
-      "added": [],
-      "removedCount": 6
+      "added": [
+        {
+          "name": "東野圭吾 『ガリレオ』シリーズ ブックチャーム",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118185099"
+        },
+        {
+          "name": "NCT WISH つまんでつなげてますこっと",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769777059"
+        },
+        {
+          "name": "機動戦士ガンダム CAPSULE INDEX 04",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769995729"
+        },
+        {
+          "name": "みいつけた！ カラフルマルチチャーム",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068450"
+        },
+        {
+          "name": "ケアベア™ カラフルマルチチャーム",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770070873"
+        },
+        {
+          "name": "ニャンちゅう カラフルマルチチャーム",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770081565"
+        },
+        {
+          "name": "ポケットモンスター おっきなお月さまライトマスコット3",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770081763"
+        }
+      ],
+      "removedCount": 7
     },
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路飾磨店",
@@ -35,8 +81,13 @@
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA太子店",
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_taishi/item/",
       "initialBaseline": false,
-      "added": [],
-      "removedCount": 0
+      "added": [
+        {
+          "name": "機動戦士ガンダム CAPSULE INDEX 04",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769995729"
+        }
+      ],
+      "removedCount": 1
     },
     {
       "name": "ガシャポンバンダイオフィシャルショップ 三木サービスエリア下り線店",
@@ -56,8 +107,21 @@
       "name": "ガシャポンバンダイオフィシャルショップ 未来屋書店山崎店",
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_yamazaki/item/",
       "initialBaseline": false,
-      "added": [],
-      "removedCount": 0
+      "added": [
+        {
+          "name": "MARVEL コレキャラ！めじるしアクセサリー",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770095418"
+        },
+        {
+          "name": "超かぐや姫！ まちぼうけ",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770098730"
+        },
+        {
+          "name": "ポンデクルール ちいかわ マルチカラーパウダー",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770137750"
+        }
+      ],
+      "removedCount": 3
     }
   ]
 }
