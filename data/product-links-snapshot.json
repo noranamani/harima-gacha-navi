@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-27T03:08:34.300Z",
+  "updatedAt": "2026-11-27T03:38:40.431Z",
   "stores": [
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
@@ -390,10 +390,6 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770055559"
         },
         {
-          "name": "ジョジョの奇妙な冒険 カプセルフィギュアコレクション08",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068917"
-        },
-        {
           "name": "ケアベア™ カラフルマルチチャーム",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770070873"
         },
@@ -424,6 +420,10 @@
         {
           "name": "ポンデクルール ちいかわ マルチカラーパウダー",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770137750"
+        },
+        {
+          "name": "仮面ライダーマイス GPライダーエグズ03",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770139204"
         }
       ]
     },
