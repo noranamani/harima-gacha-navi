@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-28T05:08:41.631Z",
+  "updatedAt": "2026-11-28T05:23:33.527Z",
   "notice": "新規掲載は入荷・再入荷を保証しません。公式商品一覧の表示範囲だけを監視しています。",
   "stores": [
     {
@@ -28,24 +28,14 @@
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路飾磨店",
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_shikama/item/",
       "initialBaseline": false,
-      "added": [
-        {
-          "name": "otome to okaka ファッションカラビナマスコットチャーム",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770094824"
-        }
-      ],
+      "added": [],
       "removedCount": 9
     },
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA太子店",
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_taishi/item/",
       "initialBaseline": false,
-      "added": [
-        {
-          "name": "otome to okaka ファッションカラビナマスコットチャーム",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770094824"
-        }
-      ],
+      "added": [],
       "removedCount": 5
     },
     {
