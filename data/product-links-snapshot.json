@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-28T09:08:35.348Z",
+  "updatedAt": "2026-11-28T09:38:37.108Z",
   "stores": [
     {
       "name": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
@@ -28,10 +28,6 @@
         {
           "name": "機動戦士ガンダム MOBILE SUIT ENSEMBLE ガンダムメカⅡ",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769846588"
-        },
-        {
-          "name": "ソニック ドットフィギュア めじるしアクセサリー",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769888434"
         },
         {
           "name": "MINECRAFT ミニチュアパッケージチャーム",
@@ -84,6 +80,10 @@
         {
           "name": "ラブライブ！シリーズ15周年記念企画 ミニCDコレクション3",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068979"
+        },
+        {
+          "name": "ケアベア™ カラフルマルチチャーム",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770070873"
         }
       ]
     },
@@ -301,10 +301,6 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769979675"
         },
         {
-          "name": "しばんばん めじるしアクセサリー2",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769990762"
-        },
-        {
           "name": "じょせまる ミニチュアパッケージチャーム",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770026795"
         },
@@ -339,6 +335,10 @@
         {
           "name": "ケアベア™ カラフルマルチチャーム",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770070873"
+        },
+        {
+          "name": "クローズ＆WORST カプセルフィギュアコレクション",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770071467"
         }
       ]
     },
@@ -601,6 +601,10 @@
       "name": "ガシャポンバンダイオフィシャルショップ 未来屋書店山崎店",
       "items": [
         {
+          "name": "Art in Gashapon 昆虫骨格標本",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118105998"
+        },
+        {
           "name": "東野圭吾 『ガリレオ』シリーズ ブックチャーム",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118185099"
         },
@@ -615,6 +619,10 @@
         {
           "name": "きらりん☆レボリューション つまんでつなげてますこっと",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118202550"
+        },
+        {
+          "name": "機動戦士ガンダム MOBILE SUIT ENSEMBLE ガンダムメカⅡ",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769846588"
         },
         {
           "name": "ソニック ドットフィギュア めじるしアクセサリー",
@@ -635,6 +643,10 @@
         {
           "name": "しばんばん めじるしアクセサリー2",
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769990762"
+        },
+        {
+          "name": "JRはたらく電車 カラフルマルチチャーム",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770026610"
         },
         {
           "name": "じょせまる ミニチュアパッケージチャーム",
@@ -665,20 +677,8 @@
           "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068368"
         },
         {
-          "name": "デジモンアドベンチャー めじるしアクセサリー3",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770069327"
-        },
-        {
-          "name": "ケアベア™ カラフルマルチチャーム",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770070873"
-        },
-        {
-          "name": "クローズ＆WORST カプセルフィギュアコレクション",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770071467"
-        },
-        {
-          "name": "のびのび！ぼにゃる ねこちゃあぁぁん",
-          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770076783"
+          "name": "ラブライブ！シリーズ15周年記念企画 ミニCDコレクション3",
+          "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068979"
         }
       ]
     }
