@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastCheckedAt": "2026-11-28T15:38:01.737Z",
+  "lastCheckedAt": "2026-11-28T15:53:02.302Z",
   "pages": {
     "https://toshin.jpn.com/shop/ピオレ姫路店/": {
       "name": "#C-pla ピオレ姫路店",
@@ -13,8 +13,8 @@
       "publishedUpdate": null,
       "contentHash": "0a4035ed9de328775d00dd4d7113d2b778138bdf48cad16f6b26a57526ec5c58",
       "status": "OBSERVED",
-      "lastAttemptAt": "2026-11-28T15:38:01.737Z",
-      "lastSuccessAt": "2026-11-28T15:38:01.737Z",
+      "lastAttemptAt": "2026-11-28T15:53:02.302Z",
+      "lastSuccessAt": "2026-11-28T15:53:02.302Z",
       "firstUnavailableAt": null,
       "consecutiveUnavailable": 0,
       "lastErrorCode": null
@@ -29,8 +29,8 @@
         "publishedUpdate": "2026-11-29 00:03"
       },
       "publishedUpdate": "2026-11-29 00:03",
-      "lastAttemptAt": "2026-11-28T15:38:01.737Z",
-      "lastSuccessAt": "2026-11-28T15:38:01.737Z",
+      "lastAttemptAt": "2026-11-28T15:53:02.302Z",
+      "lastSuccessAt": "2026-11-28T15:53:02.302Z",
       "firstUnavailableAt": null,
       "consecutiveUnavailable": 0,
       "lastErrorCode": null
@@ -45,8 +45,8 @@
         "publishedUpdate": "2026-11-29 00:03"
       },
       "publishedUpdate": "2026-11-29 00:03",
-      "lastAttemptAt": "2026-11-28T15:38:01.737Z",
-      "lastSuccessAt": "2026-11-28T15:38:01.737Z",
+      "lastAttemptAt": "2026-11-28T15:53:02.302Z",
+      "lastSuccessAt": "2026-11-28T15:53:02.302Z",
       "firstUnavailableAt": null,
       "consecutiveUnavailable": 0,
       "lastErrorCode": null
@@ -62,8 +62,8 @@
       "publishedUpdate": null,
       "contentHash": "9b75e3d00ba02d079e582e09eca78662a99adf9458b26cc1c313c529f699ad40",
       "status": "OBSERVED",
-      "lastAttemptAt": "2026-11-28T15:38:01.737Z",
-      "lastSuccessAt": "2026-11-28T15:38:01.737Z",
+      "lastAttemptAt": "2026-11-28T15:53:02.302Z",
+      "lastSuccessAt": "2026-11-28T15:53:02.302Z",
       "firstUnavailableAt": null,
       "consecutiveUnavailable": 0,
       "lastErrorCode": null
@@ -78,8 +78,8 @@
         "publishedUpdate": "2026-11-29 00:03"
       },
       "publishedUpdate": "2026-11-29 00:03",
-      "lastAttemptAt": "2026-11-28T15:38:01.737Z",
-      "lastSuccessAt": "2026-11-28T15:38:01.737Z",
+      "lastAttemptAt": "2026-11-28T15:53:02.302Z",
+      "lastSuccessAt": "2026-11-28T15:53:02.302Z",
       "firstUnavailableAt": null,
       "consecutiveUnavailable": 0,
       "lastErrorCode": null
@@ -94,8 +94,8 @@
         "publishedUpdate": "2026-11-29 00:03"
       },
       "publishedUpdate": "2026-11-29 00:03",
-      "lastAttemptAt": "2026-11-28T15:38:01.737Z",
-      "lastSuccessAt": "2026-11-28T15:38:01.737Z",
+      "lastAttemptAt": "2026-11-28T15:53:02.302Z",
+      "lastSuccessAt": "2026-11-28T15:53:02.302Z",
       "firstUnavailableAt": null,
       "consecutiveUnavailable": 0,
       "lastErrorCode": null
@@ -110,8 +110,8 @@
         "publishedUpdate": "2026-11-29 00:03"
       },
       "publishedUpdate": "2026-11-29 00:03",
-      "lastAttemptAt": "2026-11-28T15:38:01.737Z",
-      "lastSuccessAt": "2026-11-28T15:38:01.737Z",
+      "lastAttemptAt": "2026-11-28T15:53:02.302Z",
+      "lastSuccessAt": "2026-11-28T15:53:02.302Z",
       "firstUnavailableAt": null,
       "consecutiveUnavailable": 0,
       "lastErrorCode": null
@@ -126,29 +126,29 @@
         "publishedUpdate": "2026-11-29 00:03"
       },
       "publishedUpdate": "2026-11-29 00:03",
-      "lastAttemptAt": "2026-11-28T15:38:01.737Z",
-      "lastSuccessAt": "2026-11-28T15:38:01.737Z",
+      "lastAttemptAt": "2026-11-28T15:53:02.302Z",
+      "lastSuccessAt": "2026-11-28T15:53:02.302Z",
       "firstUnavailableAt": null,
       "consecutiveUnavailable": 0,
       "lastErrorCode": null
     },
     "https://www.fantasy.co.jp/shoplist/page/42/": {
       "name": "TOYS SPOT PALO 高砂店",
-      "checkedAt": "2026-11-26T03:23:07.647Z",
+      "checkedAt": "2026-11-28T15:53:02.302Z",
       "metadata": {
         "etag": null,
         "lastModified": null,
         "publishedUpdate": null
       },
       "publishedUpdate": null,
-      "contentHash": "fe972a9d8cc4af2c9b1a402d57a3c78bc5460c427e2c622a4224679e20593212",
+      "contentHash": "2969137a687ecfcdd711cb49cb0b4635f9c853224edb30ef13ebcd65ec15343a",
       "status": "OBSERVED",
-      "contentChangedAt": "2026-11-26T03:23:07.647Z",
-      "lastAttemptAt": "2026-11-28T15:38:01.737Z",
+      "contentChangedAt": "2026-11-28T15:53:02.302Z",
+      "lastAttemptAt": "2026-11-28T15:53:02.302Z",
       "firstUnavailableAt": null,
       "consecutiveUnavailable": 0,
       "lastErrorCode": null,
-      "lastSuccessAt": "2026-11-28T15:38:01.737Z"
+      "lastSuccessAt": "2026-11-28T15:53:02.302Z"
     },
     "https://bandainamco-am.co.jp/others/capsule-toy-store/store/iyakashi/item/": {
       "name": "ガシャポンのデパート イトーヨーカドー明石店",
@@ -160,8 +160,8 @@
       },
       "publishedUpdate": "2026-11-29 00:03",
       "status": "OBSERVED",
-      "lastAttemptAt": "2026-11-28T15:38:01.737Z",
-      "lastSuccessAt": "2026-11-28T15:38:01.737Z",
+      "lastAttemptAt": "2026-11-28T15:53:02.302Z",
+      "lastSuccessAt": "2026-11-28T15:53:02.302Z",
       "firstUnavailableAt": null,
       "consecutiveUnavailable": 0,
       "lastErrorCode": null
@@ -177,8 +177,8 @@
       "publishedUpdate": null,
       "contentHash": "1e9b1e2ac3c642768fafeac6d8250a0fb484dcc5ee44fd7a96143858d679c6e1",
       "status": "OBSERVED",
-      "lastAttemptAt": "2026-11-28T15:38:01.737Z",
-      "lastSuccessAt": "2026-11-28T15:38:01.737Z",
+      "lastAttemptAt": "2026-11-28T15:53:02.302Z",
+      "lastSuccessAt": "2026-11-28T15:53:02.302Z",
       "firstUnavailableAt": null,
       "consecutiveUnavailable": 0,
       "lastErrorCode": null
@@ -194,8 +194,8 @@
       "publishedUpdate": null,
       "contentHash": "daed3718f293c9cd94d3d7d7cd9eea3801a1e6f5e15db837ddbe75d9bc26adf1",
       "status": "OBSERVED",
-      "lastAttemptAt": "2026-11-28T15:38:01.737Z",
-      "lastSuccessAt": "2026-11-28T15:38:01.737Z",
+      "lastAttemptAt": "2026-11-28T15:53:02.302Z",
+      "lastSuccessAt": "2026-11-28T15:53:02.302Z",
       "firstUnavailableAt": null,
       "consecutiveUnavailable": 0,
       "lastErrorCode": null
@@ -211,8 +211,8 @@
       "publishedUpdate": null,
       "contentHash": "b387293b633edab1121ceddc364f09651e12a8899c5cd1568e6fa4c25b43a097",
       "status": "OBSERVED",
-      "lastAttemptAt": "2026-11-28T15:38:01.737Z",
-      "lastSuccessAt": "2026-11-28T15:38:01.737Z",
+      "lastAttemptAt": "2026-11-28T15:53:02.302Z",
+      "lastSuccessAt": "2026-11-28T15:53:02.302Z",
       "firstUnavailableAt": null,
       "consecutiveUnavailable": 0,
       "lastErrorCode": null
@@ -227,8 +227,8 @@
       },
       "publishedUpdate": "2026-11-29 00:03",
       "status": "OBSERVED",
-      "lastAttemptAt": "2026-11-28T15:38:01.737Z",
-      "lastSuccessAt": "2026-11-28T15:38:01.737Z",
+      "lastAttemptAt": "2026-11-28T15:53:02.302Z",
+      "lastSuccessAt": "2026-11-28T15:53:02.302Z",
       "firstUnavailableAt": null,
       "consecutiveUnavailable": 0,
       "lastErrorCode": null
@@ -245,47 +245,47 @@
       "contentHash": "96ba5702a36938fe38af8acca63d21f49aca6a1fe6b97cc683157d6d4d6cf203",
       "status": "OBSERVED",
       "contentChangedAt": "2026-11-28T15:08:01.850Z",
-      "lastAttemptAt": "2026-11-28T15:38:01.737Z",
-      "lastSuccessAt": "2026-11-28T15:38:01.737Z",
+      "lastAttemptAt": "2026-11-28T15:53:02.302Z",
+      "lastSuccessAt": "2026-11-28T15:53:02.302Z",
       "firstUnavailableAt": null,
       "consecutiveUnavailable": 0,
       "lastErrorCode": null
     },
     "https://www.fantasy.co.jp/shoplist/shop-5052031/": {
       "name": "TOYS SPOT PALO 姫路大津店",
-      "lastAttemptAt": "2026-11-28T15:38:01.737Z",
-      "lastSuccessAt": "2026-11-28T15:38:01.737Z",
+      "lastAttemptAt": "2026-11-28T15:53:02.302Z",
+      "lastSuccessAt": "2026-11-28T15:53:02.302Z",
       "firstUnavailableAt": null,
       "consecutiveUnavailable": 0,
       "lastErrorCode": null,
-      "checkedAt": "2026-11-27T08:38:03.068Z",
+      "checkedAt": "2026-11-28T15:53:02.302Z",
       "metadata": {
         "etag": null,
         "lastModified": null,
         "publishedUpdate": null
       },
       "publishedUpdate": null,
-      "contentHash": "15079d6eda9b0e9e324b1fa5f505ea023eb498d5798b122f881739f0827e4bd6",
+      "contentHash": "f046a778decf75b1e3e343add77e7a0f54a3770c8a972f77a966111aad542e50",
       "status": "OBSERVED",
-      "contentChangedAt": "2026-11-27T08:38:03.068Z"
+      "contentChangedAt": "2026-11-28T15:53:02.302Z"
     },
     "https://www.fantasy.co.jp/shoplist/page/41/": {
       "name": "TOYS SPOT PALO 姫路リバーシティー店",
-      "checkedAt": "2026-11-26T03:23:07.647Z",
+      "checkedAt": "2026-11-28T15:53:02.302Z",
       "metadata": {
         "etag": null,
         "lastModified": null,
         "publishedUpdate": null
       },
       "publishedUpdate": null,
-      "contentHash": "8a326a58155f6a778fc1484f917fa82fc0fb7555c5f818ad4456999e577d82e4",
+      "contentHash": "c7781c01de5e007cfe4941434da40218db8612c7d38e55ae23696926ab341a50",
       "status": "OBSERVED",
-      "contentChangedAt": "2026-11-26T03:23:07.647Z",
-      "lastAttemptAt": "2026-11-28T15:38:01.737Z",
+      "contentChangedAt": "2026-11-28T15:53:02.302Z",
+      "lastAttemptAt": "2026-11-28T15:53:02.302Z",
       "firstUnavailableAt": null,
       "consecutiveUnavailable": 0,
       "lastErrorCode": null,
-      "lastSuccessAt": "2026-11-28T15:38:01.737Z"
+      "lastSuccessAt": "2026-11-28T15:53:02.302Z"
     },
     "https://capil21.com/floorguide/2Ffloorguide/shop113-2": {
       "name": "CAPSULE POP 加古川店",
@@ -298,99 +298,101 @@
       "publishedUpdate": null,
       "contentHash": "fe637a4c5173e5f759571dcf5519f1f46ee2c5f213a8da4ee21c09c73aa483b4",
       "status": "OBSERVED",
-      "lastAttemptAt": "2026-11-28T15:38:01.737Z",
-      "lastSuccessAt": "2026-11-28T15:38:01.737Z",
+      "lastAttemptAt": "2026-11-28T15:53:02.302Z",
+      "lastSuccessAt": "2026-11-28T15:53:02.302Z",
       "firstUnavailableAt": null,
       "consecutiveUnavailable": 0,
       "lastErrorCode": null
     },
     "https://www.himeji-festa.com/shop/detail/34": {
       "name": "CAPSULEPOP mini 1号店",
-      "checkedAt": "2026-11-28T15:38:01.737Z",
+      "checkedAt": "2026-11-28T15:53:02.302Z",
       "metadata": {
         "etag": null,
         "lastModified": null,
         "publishedUpdate": null
       },
       "publishedUpdate": null,
-      "contentHash": "bebc93fa979e27f2775b91c7cce51208bbdd002978b1265045dac00804a47469",
+      "contentHash": "def6bc64793c2fc60a14e848dec37ba6ed3ab770ae59ca48ec3cb6fc3b9c0114",
       "status": "OBSERVED",
-      "contentChangedAt": "2026-11-28T15:38:01.737Z",
-      "lastAttemptAt": "2026-11-28T15:38:01.737Z",
-      "lastSuccessAt": "2026-11-28T15:38:01.737Z",
+      "contentChangedAt": "2026-11-28T15:53:02.302Z",
+      "lastAttemptAt": "2026-11-28T15:53:02.302Z",
+      "lastSuccessAt": "2026-11-28T15:53:02.302Z",
       "firstUnavailableAt": null,
       "consecutiveUnavailable": 0,
       "lastErrorCode": null
     },
     "https://himeji-festa.com/shop/detail/29": {
       "name": "CAPSULEPOP mini 2号店",
-      "checkedAt": "2026-11-28T15:38:01.737Z",
+      "checkedAt": "2026-11-28T15:53:02.302Z",
       "metadata": {
         "etag": null,
         "lastModified": null,
         "publishedUpdate": null
       },
       "publishedUpdate": null,
-      "contentHash": "3a73c974da31b967633e3eb34ed2714aa3f52a1f9e169740f9130f324838a51c",
+      "contentHash": "39c78728a5d7a6ed4e011188725076a227facb686f510435e466989787552ff7",
       "status": "OBSERVED",
-      "contentChangedAt": "2026-11-28T15:38:01.737Z",
-      "lastAttemptAt": "2026-11-28T15:38:01.737Z",
-      "lastSuccessAt": "2026-11-28T15:38:01.737Z",
+      "contentChangedAt": "2026-11-28T15:53:02.302Z",
+      "lastAttemptAt": "2026-11-28T15:53:02.302Z",
+      "lastSuccessAt": "2026-11-28T15:53:02.302Z",
       "firstUnavailableAt": null,
       "consecutiveUnavailable": 0,
       "lastErrorCode": null
     },
     "https://www.fantasy.co.jp/shoplist/shop-5991031/": {
       "name": "TOYS SPOT PALO 明石店",
-      "lastAttemptAt": "2026-11-28T15:38:01.737Z",
-      "lastSuccessAt": "2026-11-28T15:38:01.737Z",
+      "lastAttemptAt": "2026-11-28T15:53:02.302Z",
+      "lastSuccessAt": "2026-11-28T15:53:02.302Z",
       "firstUnavailableAt": null,
       "consecutiveUnavailable": 0,
       "lastErrorCode": null,
-      "checkedAt": "2026-11-23T02:23:02.598Z",
+      "checkedAt": "2026-11-28T15:53:02.302Z",
       "metadata": {
         "etag": null,
         "lastModified": null,
         "publishedUpdate": null
       },
       "publishedUpdate": null,
-      "contentHash": "96d6d397872b19778fda04daad82d018dcd22abe4d49504d8ef691fb7117c526",
-      "status": "OBSERVED"
+      "contentHash": "65a3718ad80e965760f698b2b10ee926edbe395e4d1bd57c3cf968945ee027f4",
+      "status": "OBSERVED",
+      "contentChangedAt": "2026-11-28T15:53:02.302Z"
     },
     "https://www.fantasy.co.jp/shoplist/shop-5052032/": {
       "name": "TOYS SPOT PALO 姫路大津2号店",
-      "lastAttemptAt": "2026-11-28T15:38:01.737Z",
-      "lastSuccessAt": "2026-11-28T15:38:01.737Z",
+      "lastAttemptAt": "2026-11-28T15:53:02.302Z",
+      "lastSuccessAt": "2026-11-28T15:53:02.302Z",
       "firstUnavailableAt": null,
       "consecutiveUnavailable": 0,
       "lastErrorCode": null,
-      "checkedAt": "2026-11-27T08:38:03.068Z",
+      "checkedAt": "2026-11-28T15:53:02.302Z",
       "metadata": {
         "etag": null,
         "lastModified": null,
         "publishedUpdate": null
       },
       "publishedUpdate": null,
-      "contentHash": "2eb5e3c86265fd00c739d6dd084b3f7d4da22b3533d72b8eb442ea7da2f6c1eb",
+      "contentHash": "55da7c47977a07bbfa743e0d7c8db5d461ba3545af1eb37ea07dec0e4b1c1d96",
       "status": "OBSERVED",
-      "contentChangedAt": "2026-11-27T08:38:03.068Z"
+      "contentChangedAt": "2026-11-28T15:53:02.302Z"
     },
     "https://www.fantasy.co.jp/shoplist/shop-5991032/": {
       "name": "TOYS SPOT PALO 明石2号店",
-      "lastAttemptAt": "2026-11-28T15:38:01.737Z",
-      "lastSuccessAt": "2026-11-28T15:38:01.737Z",
+      "lastAttemptAt": "2026-11-28T15:53:02.302Z",
+      "lastSuccessAt": "2026-11-28T15:53:02.302Z",
       "firstUnavailableAt": null,
       "consecutiveUnavailable": 0,
       "lastErrorCode": null,
-      "checkedAt": "2026-11-23T02:23:02.598Z",
+      "checkedAt": "2026-11-28T15:53:02.302Z",
       "metadata": {
         "etag": null,
         "lastModified": null,
         "publishedUpdate": null
       },
       "publishedUpdate": null,
-      "contentHash": "97f6a1a29fa304a680dead8af0d13b0a286b615772b93f9b7eba8706dda1df60",
-      "status": "OBSERVED"
+      "contentHash": "df6c689ba7bea1c54cadc52dd5ba38c7ef9f1b7f690a9aac6d74317290ab3b1a",
+      "status": "OBSERVED",
+      "contentChangedAt": "2026-11-28T15:53:02.302Z"
     },
     "https://www.izumi.jp/tenpo/himeji/shop/life/nexus": {
       "name": "ライズ(旧ネクサス)",
@@ -404,8 +406,8 @@
       "contentHash": "8093751aa6604c3be8e1be19467f59410d28a66d6f6b2447435d6754a5d1fc72",
       "status": "OBSERVED",
       "contentChangedAt": "2026-10-22T05:29:34.124Z",
-      "lastAttemptAt": "2026-11-28T15:38:01.737Z",
-      "lastSuccessAt": "2026-11-28T15:38:01.737Z",
+      "lastAttemptAt": "2026-11-28T15:53:02.302Z",
+      "lastSuccessAt": "2026-11-28T15:53:02.302Z",
       "firstUnavailableAt": null,
       "consecutiveUnavailable": 0,
       "lastErrorCode": null
@@ -421,16 +423,16 @@
       "publishedUpdate": null,
       "contentHash": "b95615d4701c07b9738cef27f2dffc519d51cf6d245195e51b6ecc4dd88ab189",
       "status": "OBSERVED",
-      "lastAttemptAt": "2026-11-28T15:38:01.737Z",
-      "lastSuccessAt": "2026-11-28T15:38:01.737Z",
+      "lastAttemptAt": "2026-11-28T15:53:02.302Z",
+      "lastSuccessAt": "2026-11-28T15:53:02.302Z",
       "firstUnavailableAt": null,
       "consecutiveUnavailable": 0,
       "lastErrorCode": null
     },
     "https://www.gigo.co.jp/shops/a-himeji": {
       "name": "GiGOイオンモール姫路リバーシティー",
-      "lastAttemptAt": "2026-11-28T15:38:01.737Z",
-      "lastSuccessAt": "2026-11-28T15:38:01.737Z",
+      "lastAttemptAt": "2026-11-28T15:53:02.302Z",
+      "lastSuccessAt": "2026-11-28T15:53:02.302Z",
       "firstUnavailableAt": null,
       "consecutiveUnavailable": 0,
       "lastErrorCode": null,
@@ -456,16 +458,16 @@
       "publishedUpdate": null,
       "contentHash": "3b2ef63c882cec946d87612b8e734115ff8ddc2af4ccfee9bc1b1e53297300f4",
       "status": "OBSERVED",
-      "lastAttemptAt": "2026-11-28T15:38:01.737Z",
-      "lastSuccessAt": "2026-11-28T15:38:01.737Z",
+      "lastAttemptAt": "2026-11-28T15:53:02.302Z",
+      "lastSuccessAt": "2026-11-28T15:53:02.302Z",
       "firstUnavailableAt": null,
       "consecutiveUnavailable": 0,
       "lastErrorCode": null
     },
     "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/sc_nishikobe/": {
       "name": "ガシャポンバンダイオフィシャルショップ イズミヤSC西神戸店",
-      "lastAttemptAt": "2026-11-28T15:38:01.737Z",
-      "lastSuccessAt": "2026-11-28T15:38:01.737Z",
+      "lastAttemptAt": "2026-11-28T15:53:02.302Z",
+      "lastSuccessAt": "2026-11-28T15:53:02.302Z",
       "firstUnavailableAt": null,
       "consecutiveUnavailable": 0,
       "lastErrorCode": null,
@@ -482,8 +484,8 @@
     },
     "https://ekisoare.jp/shop/": {
       "name": "ドリームカプセル エキソアレ西神中央",
-      "lastAttemptAt": "2026-11-28T15:38:01.737Z",
-      "lastSuccessAt": "2026-11-28T15:38:01.737Z",
+      "lastAttemptAt": "2026-11-28T15:53:02.302Z",
+      "lastSuccessAt": "2026-11-28T15:53:02.302Z",
       "firstUnavailableAt": null,
       "consecutiveUnavailable": 0,
       "lastErrorCode": null,
@@ -499,14 +501,14 @@
     },
     "https://gashacoco.jp/shop-list/3218": {
       "name": "gashacoco ビッグエコー西神中央プレンティ",
-      "lastAttemptAt": "2026-11-28T15:38:01.737Z",
-      "lastSuccessAt": "2026-11-28T15:38:01.737Z",
+      "lastAttemptAt": "2026-11-28T15:53:02.302Z",
+      "lastSuccessAt": "2026-11-28T15:53:02.302Z",
       "firstUnavailableAt": null,
       "consecutiveUnavailable": 0,
       "lastErrorCode": null,
-      "checkedAt": "2026-11-28T15:38:01.737Z",
+      "checkedAt": "2026-11-28T15:53:02.302Z",
       "metadata": {
-        "etag": "W/\"36620a03b673a96ed3b0f9fac4ce4045\"",
+        "etag": "W/\"6611e612d7c754ce9972ed8c97cd207e\"",
         "lastModified": null,
         "publishedUpdate": null
       },
