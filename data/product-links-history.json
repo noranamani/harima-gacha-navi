@@ -1,8 +1,29 @@
 {
   "schemaVersion": 1,
-  "lastComparedAt": "2026-11-28T03:23:37.767Z",
+  "lastComparedAt": "2026-11-28T03:38:35.037Z",
   "retentionDays": 30,
   "events": [
+    {
+      "detectedAt": "2026-11-28T03:38:35.037Z",
+      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路飾磨店",
+      "name": "しばんばん めじるしアクセサリー2",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769990762",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_shikama/item/"
+    },
+    {
+      "detectedAt": "2026-11-28T03:38:35.037Z",
+      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路飾磨店",
+      "name": "“ディズニーキャラクター” Holidayオーナメントチャーム",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068276",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_shikama/item/"
+    },
+    {
+      "detectedAt": "2026-11-28T03:38:35.037Z",
+      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路飾磨店",
+      "name": "さんりおきゃらくたぁず 和みの抹茶ふぃぎゅあ",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770068368",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_shikama/item/"
+    },
     {
       "detectedAt": "2026-11-27T12:53:36.124Z",
       "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
@@ -1380,27 +1401,6 @@
       "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA太子店",
       "name": "のびのび！ぼにゃる ねこちゃあぁぁん",
       "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770076783",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_taishi/item/"
-    },
-    {
-      "detectedAt": "2026-11-26T05:38:35.334Z",
-      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA太子店",
-      "name": "ポケットモンスター おっきなお月さまライトマスコット3",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770081763",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_taishi/item/"
-    },
-    {
-      "detectedAt": "2026-11-26T05:38:35.334Z",
-      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA太子店",
-      "name": "ポケットモンスター スイングコレクションType:Water",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770081770",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_taishi/item/"
-    },
-    {
-      "detectedAt": "2026-11-26T05:38:35.334Z",
-      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA太子店",
-      "name": "MARVEL コレキャラ！めじるしアクセサリー",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770095418",
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_taishi/item/"
     }
   ]
