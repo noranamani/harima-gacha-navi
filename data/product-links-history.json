@@ -1,8 +1,29 @@
 {
   "schemaVersion": 1,
-  "lastComparedAt": "2026-11-28T10:12:11.787Z",
+  "lastComparedAt": "2026-11-28T10:23:39.981Z",
   "retentionDays": 30,
   "events": [
+    {
+      "detectedAt": "2026-11-28T10:23:39.981Z",
+      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路広峰店",
+      "name": "otome to okaka ファッションカラビナマスコットチャーム",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770094824",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_hiromine/item/"
+    },
+    {
+      "detectedAt": "2026-11-28T10:23:39.981Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店山崎店",
+      "name": "ポケットモンスター おっきなお月さまライトマスコット3",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770081763",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_yamazaki/item/"
+    },
+    {
+      "detectedAt": "2026-11-28T10:23:39.981Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店山崎店",
+      "name": "otome to okaka ファッションカラビナマスコットチャーム",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770094824",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/m_yamazaki/item/"
+    },
     {
       "detectedAt": "2026-11-28T09:38:37.108Z",
       "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店山崎店",
@@ -1381,27 +1402,6 @@
       "name": "MARVEL コレキャラ！めじるしアクセサリー",
       "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770095418",
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_shikama/item/"
-    },
-    {
-      "detectedAt": "2026-11-26T06:38:38.698Z",
-      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路飾磨店",
-      "name": "超かぐや姫！ まちぼうけ",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770098730",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_shikama/item/"
-    },
-    {
-      "detectedAt": "2026-11-26T06:38:38.698Z",
-      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路飾磨店",
-      "name": "ポンデクルール ちいかわ マルチカラーパウダー",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770137750",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_shikama/item/"
-    },
-    {
-      "detectedAt": "2026-11-26T06:38:38.698Z",
-      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA太子店",
-      "name": "ハリー・ポッター ディスプレイコレクション～魔法の杖～",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4570118201843",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_taishi/item/"
     }
   ]
 }
