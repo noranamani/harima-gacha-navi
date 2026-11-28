@@ -1,8 +1,15 @@
 {
   "schemaVersion": 1,
-  "lastComparedAt": "2026-11-28T13:23:38.027Z",
+  "lastComparedAt": "2026-11-28T13:38:39.585Z",
   "retentionDays": 30,
   "events": [
+    {
+      "detectedAt": "2026-11-28T13:38:39.585Z",
+      "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
+      "name": "機動戦士ガンダム MOBILE SUIT ENSEMBLE ガンダムメカⅡ",
+      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582769846588",
+      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/akashi/item/"
+    },
     {
       "detectedAt": "2026-11-28T11:01:04.884Z",
       "store": "ガシャポンバンダイオフィシャルショップ 未来屋書店明石店",
@@ -1395,13 +1402,6 @@
       "name": "ナルミヤキャラクターズ めじるしアクセサリー2",
       "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770094862",
       "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/akashi/item/"
-    },
-    {
-      "detectedAt": "2026-11-26T06:38:38.698Z",
-      "store": "ガシャポンバンダイオフィシャルショップ TSUTAYA姫路飾磨店",
-      "name": "【CAP'in GALLERY】クマども FIGURE COLLECTION",
-      "url": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/item/item_details.html?product_code=4582770054583",
-      "inventory": "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/t_shikama/item/"
     }
   ]
 }
